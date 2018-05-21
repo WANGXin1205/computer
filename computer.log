@@ -1,0 +1,22 @@
+2018-05-19 13:18:11.969  INFO 5924 --- [main] c.g.c.m.c.b.dao.mapper.BookMapperTest    : Starting BookMapperTest on MEW with PID 5924 (started by wangxin in D:\code\java\computer)
+2018-05-19 13:18:11.970  INFO 5924 --- [main] c.g.c.m.c.b.dao.mapper.BookMapperTest    : The following profiles are active: dev
+2018-05-19 13:18:12.005  INFO 5924 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@59aa20b3: startup date [Sat May 19 13:18:12 CST 2018]; root of context hierarchy
+2018-05-19 13:18:14.590  INFO 5924 --- [main] c.g.c.m.c.b.dao.mapper.BookMapperTest    : Started BookMapperTest in 3.671 seconds (JVM running for 6.627)
+2018-05-19 13:18:14.867  INFO 5924 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2018-05-19 13:18:15.510  INFO 5924 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2018-05-19 13:18:15.578  INFO 5924 --- [main] o.s.b.f.xml.XmlBeanDefinitionReader      : Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2018-05-19 13:18:15.643  INFO 5924 --- [main] o.s.jdbc.support.SQLErrorCodesFactory    : SQLErrorCodes loaded: [DB2, Derby, H2, HDB, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+2018-05-19 13:18:15.668  INFO 5924 --- [Thread-1] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@59aa20b3: startup date [Sat May 19 13:18:12 CST 2018]; root of context hierarchy
+2018-05-19 13:18:15.674  INFO 5924 --- [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2018-05-19 13:18:15.684  INFO 5924 --- [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2018-05-19 13:18:42.752  INFO 4032 --- [main] c.g.c.m.c.b.dao.mapper.BookMapperTest    : Starting BookMapperTest on MEW with PID 4032 (started by wangxin in D:\code\java\computer)
+2018-05-19 13:18:42.753  INFO 4032 --- [main] c.g.c.m.c.b.dao.mapper.BookMapperTest    : The following profiles are active: dev
+2018-05-19 13:18:42.789  INFO 4032 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@59aa20b3: startup date [Sat May 19 13:18:42 CST 2018]; root of context hierarchy
+2018-05-19 13:18:45.836  INFO 4032 --- [main] c.g.c.m.c.b.dao.mapper.BookMapperTest    : Started BookMapperTest in 4.051 seconds (JVM running for 6.513)
+2018-05-19 13:18:46.257  INFO 4032 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2018-05-19 13:18:47.382  INFO 4032 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2018-05-19 13:18:47.617  INFO 4032 --- [main] o.s.b.f.xml.XmlBeanDefinitionReader      : Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2018-05-19 13:18:47.772  INFO 4032 --- [main] o.s.jdbc.support.SQLErrorCodesFactory    : SQLErrorCodes loaded: [DB2, Derby, H2, HDB, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+2018-05-19 13:18:47.809  INFO 4032 --- [Thread-1] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@59aa20b3: startup date [Sat May 19 13:18:42 CST 2018]; root of context hierarchy
+2018-05-19 13:18:47.815  INFO 4032 --- [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2018-05-19 13:18:47.853  INFO 4032 --- [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

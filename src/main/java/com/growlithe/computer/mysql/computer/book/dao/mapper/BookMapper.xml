@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.growlithe.computer.mysql.computer.book.dao.mapper.BookMapper">
+
+    <resultMap id="BaseResultMap" type="com.growlithe.computer.mysql.computer.book.dao.domain.BookDO">
+        <id column="id" property="id" jdbcType="BIGINT"/>
+        <result column="book_name" property="bookName" jdbcType="VARCHAR"/>
+        <result column="book_english_name" property="bookEnglishName" jdbcType="VARCHAR"/>
+        <result column="book_author" property="bookAuthor" jdbcType="VARCHAR"/>
+        <result column="book_class" property="bookClass" jdbcType="VARCHAR"/>
+        <result column="book_subordinate_class" property="bookSubordinateClass" jdbcType="VARCHAR"/>
+        <result column="book_format" property="bookFormat" jdbcType="VARCHAR"/>
+        <result column="book_capacity" property="bookCapacity" jdbcType="DECIMAL"/>
+        <result column="capacity_unit" property="capacityUnit" jdbcType="VARCHAR"/>
+        <result column="status" property="status" jdbcType="INTEGER"/>
+        <result column="create_by" property="createBy" jdbcType="VARCHAR"/>
+        <result column="create_time" property="createTime" jdbcType="TIMESTAMP"/>
+        <result column="update_by" property="updateBy" jdbcType="VARCHAR"/>
+        <result column="update_time" property="updateTime" jdbcType="TIMESTAMP"/>
+    </resultMap>
+
+    <sql id="base_property">
+     id, book_name, book_english_name, book_author, book_class, book_subordinate_class,
+     book_format,book_capacity,capacity_unit,status, create_by, create_time, update_by, update_time
+    </sql>
+    <sql id="save_property">
+     book_name, book_english_name, book_author, book_class,book_subordinate_class, book_format,
+     book_capacity,capacity_unit, status, create_by, create_time
+    </sql>
+
+    <select id="listAllBookDO" resultMap="BaseResultMap">
+        select
+        <include refid="base_property"/>
+        from computer.book
+        where status = 1
+    </select>
+
+    <insert id="saveBatch" parameterType="java.util.List"  useGeneratedKeys="true" keyProperty="id">
+        insert into
+        computer.book(<include refid="save_property"/>)
+        VALUES
+        <foreach collection="list" item="item" separator=",">
+            (#{item.bookName},#{item.bookEnglishName},#{item.bookAuthor}, #{item.bookClass},
+            #{item.bookSubordinateClass},#{item.bookFormat}, #{item.bookCapacity},
+            #{item.capacityUnit}, 1, #{item.createBy}, now() )
+        </foreach>
+    </insert>
+
+</mapper>

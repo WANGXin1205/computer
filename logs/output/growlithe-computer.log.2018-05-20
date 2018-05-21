@@ -1,0 +1,200 @@
+2018-05-20 11:27:09,047 INFO  [StartupInfoLogger.java:50] Starting VideoMapperTest on MEW with PID 6856 (started by wangxin in D:\code\java\computer)
+2018-05-20 11:27:09,061 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-05-20 11:27:09,097 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@751e664e: startup date [Sun May 20 11:27:09 CST 2018]; root of context hierarchy
+2018-05-20 11:27:11,677 INFO  [StartupInfoLogger.java:59] Started VideoMapperTest in 3.502 seconds (JVM running for 6.13)
+2018-05-20 11:27:12,059 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-05-20 11:27:12,972 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-05-20 11:27:13,273 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@751e664e: startup date [Sun May 20 11:27:09 CST 2018]; root of context hierarchy
+2018-05-20 11:27:13,285 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-05-20 11:27:13,329 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-05-20 11:28:12,046 INFO  [StartupInfoLogger.java:50] Starting VideoMapperTest on MEW with PID 6136 (started by wangxin in D:\code\java\computer)
+2018-05-20 11:28:12,048 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-05-20 11:28:12,071 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@751e664e: startup date [Sun May 20 11:28:12 CST 2018]; root of context hierarchy
+2018-05-20 11:28:14,399 INFO  [StartupInfoLogger.java:59] Started VideoMapperTest in 3.308 seconds (JVM running for 5.334)
+2018-05-20 11:28:14,685 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-05-20 11:28:15,708 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-05-20 11:28:16,003 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@751e664e: startup date [Sun May 20 11:28:12 CST 2018]; root of context hierarchy
+2018-05-20 11:28:16,048 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-05-20 11:28:16,069 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-05-20 13:21:08,247 INFO  [StartupInfoLogger.java:50] Starting VideoMapperTest on MEW with PID 6304 (started by wangxin in D:\code\java\computer)
+2018-05-20 13:21:08,249 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-05-20 13:21:08,269 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@751e664e: startup date [Sun May 20 13:21:08 CST 2018]; root of context hierarchy
+2018-05-20 13:21:09,950 INFO  [StartupInfoLogger.java:59] Started VideoMapperTest in 2.704 seconds (JVM running for 4.823)
+2018-05-20 13:21:10,129 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-05-20 13:21:10,588 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-05-20 13:21:10,897 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@751e664e: startup date [Sun May 20 13:21:08 CST 2018]; root of context hierarchy
+2018-05-20 13:21:10,925 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-05-20 13:21:11,006 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-05-20 13:22:09,762 INFO  [StartupInfoLogger.java:50] Starting VideoMapperTest on MEW with PID 5696 (started by wangxin in D:\code\java\computer)
+2018-05-20 13:22:09,764 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-05-20 13:22:09,786 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@751e664e: startup date [Sun May 20 13:22:09 CST 2018]; root of context hierarchy
+2018-05-20 13:22:11,419 INFO  [StartupInfoLogger.java:59] Started VideoMapperTest in 2.817 seconds (JVM running for 4.745)
+2018-05-20 13:22:11,592 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-05-20 13:22:12,178 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-05-20 13:22:12,360 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@751e664e: startup date [Sun May 20 13:22:09 CST 2018]; root of context hierarchy
+2018-05-20 13:22:12,366 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-05-20 13:22:12,410 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-05-20 13:22:50,973 INFO  [StartupInfoLogger.java:50] Starting VideoMapperTest on MEW with PID 1604 (started by wangxin in D:\code\java\computer)
+2018-05-20 13:22:50,975 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-05-20 13:22:50,998 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@751e664e: startup date [Sun May 20 13:22:50 CST 2018]; root of context hierarchy
+2018-05-20 13:22:52,692 INFO  [StartupInfoLogger.java:59] Started VideoMapperTest in 2.853 seconds (JVM running for 4.789)
+2018-05-20 13:22:52,896 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-05-20 13:22:53,845 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-05-20 13:22:54,059 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@751e664e: startup date [Sun May 20 13:22:50 CST 2018]; root of context hierarchy
+2018-05-20 13:22:54,068 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-05-20 13:22:54,106 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-05-20 13:30:06,101 INFO  [StartupInfoLogger.java:50] Starting VideoMapperTest on MEW with PID 4852 (started by wangxin in D:\code\java\computer)
+2018-05-20 13:30:06,102 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-05-20 13:30:06,126 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@751e664e: startup date [Sun May 20 13:30:06 CST 2018]; root of context hierarchy
+2018-05-20 13:30:07,779 INFO  [StartupInfoLogger.java:59] Started VideoMapperTest in 2.709 seconds (JVM running for 4.93)
+2018-05-20 13:30:07,954 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-05-20 13:30:08,412 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-05-20 13:30:08,533 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@751e664e: startup date [Sun May 20 13:30:06 CST 2018]; root of context hierarchy
+2018-05-20 13:30:08,548 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-05-20 13:30:08,558 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-05-20 21:55:59,769 INFO  [StartupInfoLogger.java:50] Starting VideoMapperTest on MEW with PID 2928 (started by wangxin in D:\code\java\computer)
+2018-05-20 21:55:59,787 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-05-20 21:55:59,829 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@751e664e: startup date [Sun May 20 21:55:59 CST 2018]; root of context hierarchy
+2018-05-20 21:56:03,134 INFO  [StartupInfoLogger.java:59] Started VideoMapperTest in 4.267 seconds (JVM running for 6.526)
+2018-05-20 21:56:03,468 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-05-20 21:56:04,398 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-05-20 21:56:04,644 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@751e664e: startup date [Sun May 20 21:55:59 CST 2018]; root of context hierarchy
+2018-05-20 21:56:04,651 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-05-20 21:56:04,704 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-05-20 22:03:20,392 INFO  [StartupInfoLogger.java:50] Starting VideoMapperTest on MEW with PID 4716 (started by wangxin in D:\code\java\computer)
+2018-05-20 22:03:20,394 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-05-20 22:03:20,418 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@751e664e: startup date [Sun May 20 22:03:20 CST 2018]; root of context hierarchy
+2018-05-20 22:03:22,082 INFO  [StartupInfoLogger.java:59] Started VideoMapperTest in 2.77 seconds (JVM running for 5.378)
+2018-05-20 22:03:22,254 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-05-20 22:03:22,734 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-05-20 22:03:23,047 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@751e664e: startup date [Sun May 20 22:03:20 CST 2018]; root of context hierarchy
+2018-05-20 22:03:23,059 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-05-20 22:03:23,109 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-05-20 22:08:52,778 INFO  [StartupInfoLogger.java:50] Starting BookMapperTest on MEW with PID 6532 (started by wangxin in D:\code\java\computer)
+2018-05-20 22:08:52,779 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-05-20 22:08:52,799 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3cc20577: startup date [Sun May 20 22:08:52 CST 2018]; root of context hierarchy
+2018-05-20 22:08:54,769 INFO  [StartupInfoLogger.java:59] Started BookMapperTest in 2.826 seconds (JVM running for 5.709)
+2018-05-20 22:08:54,905 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-05-20 22:08:55,427 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-05-20 22:08:55,545 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@3cc20577: startup date [Sun May 20 22:08:52 CST 2018]; root of context hierarchy
+2018-05-20 22:08:55,550 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-05-20 22:08:55,580 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-05-20 22:09:46,628 INFO  [StartupInfoLogger.java:50] Starting BookMapperTest on MEW with PID 7108 (started by wangxin in D:\code\java\computer)
+2018-05-20 22:09:46,629 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-05-20 22:09:46,652 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@33a630fa: startup date [Sun May 20 22:09:46 CST 2018]; root of context hierarchy
+2018-05-20 22:09:48,615 INFO  [StartupInfoLogger.java:59] Started BookMapperTest in 3.037 seconds (JVM running for 5.737)
+2018-05-20 22:09:48,755 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-05-20 22:09:49,760 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-05-20 22:10:12,470 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@33a630fa: startup date [Sun May 20 22:09:46 CST 2018]; root of context hierarchy
+2018-05-20 22:10:12,480 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-05-20 22:10:12,518 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-05-20 22:10:42,637 INFO  [StartupInfoLogger.java:50] Starting VideoMapperTest on MEW with PID 6960 (started by wangxin in D:\code\java\computer)
+2018-05-20 22:10:42,639 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-05-20 22:10:42,660 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@751e664e: startup date [Sun May 20 22:10:42 CST 2018]; root of context hierarchy
+2018-05-20 22:10:44,272 INFO  [StartupInfoLogger.java:59] Started VideoMapperTest in 2.833 seconds (JVM running for 4.481)
+2018-05-20 22:10:44,395 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-05-20 22:10:44,953 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-05-20 22:10:45,037 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@751e664e: startup date [Sun May 20 22:10:42 CST 2018]; root of context hierarchy
+2018-05-20 22:10:45,041 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-05-20 22:10:45,048 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-05-20 22:21:59,617 INFO  [StartupInfoLogger.java:50] Starting VideoMapperTest on MEW with PID 6644 (started by wangxin in D:\code\java\computer)
+2018-05-20 22:21:59,618 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-05-20 22:21:59,642 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3cc20577: startup date [Sun May 20 22:21:59 CST 2018]; root of context hierarchy
+2018-05-20 22:22:02,006 INFO  [StartupInfoLogger.java:59] Started VideoMapperTest in 3.656 seconds (JVM running for 6.395)
+2018-05-20 22:22:02,157 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-05-20 22:22:02,970 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-05-20 22:26:08,828 WARN  [HikariPool.java:758] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m5s756ms582µs52ns).
+2018-05-20 22:26:08,851 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@3cc20577: startup date [Sun May 20 22:21:59 CST 2018]; root of context hierarchy
+2018-05-20 22:26:08,860 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-05-20 22:44:55,315 INFO  [StartupInfoLogger.java:50] Starting VideoMapperTest on MEW with PID 7060 (started by wangxin in D:\code\java\computer)
+2018-05-20 22:44:55,317 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-05-20 22:44:55,342 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3cc20577: startup date [Sun May 20 22:44:55 CST 2018]; root of context hierarchy
+2018-05-20 22:44:57,952 INFO  [StartupInfoLogger.java:59] Started VideoMapperTest in 3.98 seconds (JVM running for 7.025)
+2018-05-20 22:45:07,278 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@3cc20577: startup date [Sun May 20 22:44:55 CST 2018]; root of context hierarchy
+2018-05-20 22:45:40,566 INFO  [StartupInfoLogger.java:50] Starting VideoMapperTest on MEW with PID 752 (started by wangxin in D:\code\java\computer)
+2018-05-20 22:45:40,567 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-05-20 22:45:40,592 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3cc20577: startup date [Sun May 20 22:45:40 CST 2018]; root of context hierarchy
+2018-05-20 22:45:42,585 INFO  [StartupInfoLogger.java:59] Started VideoMapperTest in 3.212 seconds (JVM running for 5.852)
+2018-05-20 22:45:47,973 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@3cc20577: startup date [Sun May 20 22:45:40 CST 2018]; root of context hierarchy
+2018-05-20 22:46:00,958 INFO  [StartupInfoLogger.java:50] Starting VideoMapperTest on MEW with PID 3288 (started by wangxin in D:\code\java\computer)
+2018-05-20 22:46:00,960 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-05-20 22:46:00,985 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3cc20577: startup date [Sun May 20 22:46:00 CST 2018]; root of context hierarchy
+2018-05-20 22:46:03,177 INFO  [StartupInfoLogger.java:59] Started VideoMapperTest in 3.432 seconds (JVM running for 5.745)
+2018-05-20 22:46:22,668 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@3cc20577: startup date [Sun May 20 22:46:00 CST 2018]; root of context hierarchy
+2018-05-20 22:47:55,614 INFO  [StartupInfoLogger.java:50] Starting VideoMapperTest on MEW with PID 728 (started by wangxin in D:\code\java\computer)
+2018-05-20 22:47:55,616 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-05-20 22:47:55,639 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@751e664e: startup date [Sun May 20 22:47:55 CST 2018]; root of context hierarchy
+2018-05-20 22:47:57,463 INFO  [StartupInfoLogger.java:59] Started VideoMapperTest in 3.022 seconds (JVM running for 5.471)
+2018-05-20 22:47:57,696 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-05-20 22:47:58,162 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-05-20 22:47:58,308 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@751e664e: startup date [Sun May 20 22:47:55 CST 2018]; root of context hierarchy
+2018-05-20 22:47:58,316 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-05-20 22:47:58,328 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-05-20 22:49:36,649 INFO  [StartupInfoLogger.java:50] Starting VideoMapperTest on MEW with PID 2916 (started by wangxin in D:\code\java\computer)
+2018-05-20 22:49:36,651 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-05-20 22:49:36,679 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@751e664e: startup date [Sun May 20 22:49:36 CST 2018]; root of context hierarchy
+2018-05-20 22:49:38,390 INFO  [StartupInfoLogger.java:59] Started VideoMapperTest in 2.806 seconds (JVM running for 4.771)
+2018-05-20 22:49:38,573 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-05-20 22:49:39,055 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-05-20 22:49:39,248 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@751e664e: startup date [Sun May 20 22:49:36 CST 2018]; root of context hierarchy
+2018-05-20 22:49:39,258 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-05-20 22:49:39,339 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-05-20 22:51:25,168 INFO  [StartupInfoLogger.java:50] Starting VideoMapperTest on MEW with PID 7024 (started by wangxin in D:\code\java\computer)
+2018-05-20 22:51:25,171 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-05-20 22:51:25,197 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@76304b46: startup date [Sun May 20 22:51:25 CST 2018]; root of context hierarchy
+2018-05-20 22:51:27,180 INFO  [StartupInfoLogger.java:59] Started VideoMapperTest in 3.262 seconds (JVM running for 5.642)
+2018-05-20 22:53:12,060 INFO  [StartupInfoLogger.java:50] Starting VideoMapperTest on MEW with PID 6588 (started by wangxin in D:\code\java\computer)
+2018-05-20 22:53:12,061 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-05-20 22:53:12,081 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3cc20577: startup date [Sun May 20 22:53:12 CST 2018]; root of context hierarchy
+2018-05-20 22:53:13,906 INFO  [StartupInfoLogger.java:59] Started VideoMapperTest in 3.006 seconds (JVM running for 5.872)
+2018-05-20 22:53:26,336 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@3cc20577: startup date [Sun May 20 22:53:12 CST 2018]; root of context hierarchy
+2018-05-20 23:11:17,693 INFO  [StartupInfoLogger.java:50] Starting VideoMapperTest on MEW with PID 5564 (started by wangxin in D:\code\java\computer)
+2018-05-20 23:11:17,695 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-05-20 23:11:17,720 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@751e664e: startup date [Sun May 20 23:11:17 CST 2018]; root of context hierarchy
+2018-05-20 23:11:19,571 INFO  [StartupInfoLogger.java:59] Started VideoMapperTest in 3.113 seconds (JVM running for 5.296)
+2018-05-20 23:11:19,713 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@751e664e: startup date [Sun May 20 23:11:17 CST 2018]; root of context hierarchy
+2018-05-20 23:11:32,860 INFO  [StartupInfoLogger.java:50] Starting VideoMapperTest on MEW with PID 3200 (started by wangxin in D:\code\java\computer)
+2018-05-20 23:11:32,861 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-05-20 23:11:32,885 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@751e664e: startup date [Sun May 20 23:11:32 CST 2018]; root of context hierarchy
+2018-05-20 23:11:34,485 INFO  [StartupInfoLogger.java:59] Started VideoMapperTest in 2.555 seconds (JVM running for 4.484)
+2018-05-20 23:11:34,694 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-05-20 23:11:35,669 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-05-20 23:11:35,988 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@751e664e: startup date [Sun May 20 23:11:32 CST 2018]; root of context hierarchy
+2018-05-20 23:11:35,998 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-05-20 23:11:36,065 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-05-20 23:30:35,834 INFO  [StartupInfoLogger.java:50] Starting VideoMapperTest on MEW with PID 6328 (started by wangxin in D:\code\java\computer)
+2018-05-20 23:30:35,836 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-05-20 23:30:35,859 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@751e664e: startup date [Sun May 20 23:30:35 CST 2018]; root of context hierarchy
+2018-05-20 23:30:37,563 INFO  [StartupInfoLogger.java:59] Started VideoMapperTest in 2.771 seconds (JVM running for 4.4)
+2018-05-20 23:30:37,747 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-05-20 23:30:38,372 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-05-20 23:30:38,649 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@751e664e: startup date [Sun May 20 23:30:35 CST 2018]; root of context hierarchy
+2018-05-20 23:30:38,664 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-05-20 23:30:38,713 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-05-20 23:44:27,619 INFO  [StartupInfoLogger.java:50] Starting VideoMapperTest on MEW with PID 1800 (started by wangxin in D:\code\java\computer)
+2018-05-20 23:44:27,621 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-05-20 23:44:27,644 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@751e664e: startup date [Sun May 20 23:44:27 CST 2018]; root of context hierarchy
+2018-05-20 23:44:29,500 INFO  [StartupInfoLogger.java:59] Started VideoMapperTest in 3.015 seconds (JVM running for 5.086)
+2018-05-20 23:44:30,003 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-05-20 23:44:30,880 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-05-20 23:44:31,080 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@751e664e: startup date [Sun May 20 23:44:27 CST 2018]; root of context hierarchy
+2018-05-20 23:44:31,087 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-05-20 23:44:31,113 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-05-20 23:50:17,714 INFO  [StartupInfoLogger.java:50] Starting VideoMapperTest on MEW with PID 6920 (started by wangxin in D:\code\java\computer)
+2018-05-20 23:50:17,716 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-05-20 23:50:17,744 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@751e664e: startup date [Sun May 20 23:50:17 CST 2018]; root of context hierarchy
+2018-05-20 23:50:19,487 INFO  [StartupInfoLogger.java:59] Started VideoMapperTest in 2.957 seconds (JVM running for 5.603)
+2018-05-20 23:50:19,988 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-05-20 23:50:21,189 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-05-20 23:50:21,496 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@751e664e: startup date [Sun May 20 23:50:17 CST 2018]; root of context hierarchy
+2018-05-20 23:50:21,507 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-05-20 23:50:21,577 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-05-20 23:56:04,277 INFO  [StartupInfoLogger.java:50] Starting VideoMapperTest on MEW with PID 5612 (started by wangxin in D:\code\java\computer)
+2018-05-20 23:56:04,279 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-05-20 23:56:04,305 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@751e664e: startup date [Sun May 20 23:56:04 CST 2018]; root of context hierarchy
+2018-05-20 23:56:06,200 INFO  [StartupInfoLogger.java:59] Started VideoMapperTest in 3.069 seconds (JVM running for 5.212)
+2018-05-20 23:56:06,710 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-05-20 23:56:07,686 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-05-20 23:56:07,936 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@751e664e: startup date [Sun May 20 23:56:04 CST 2018]; root of context hierarchy
+2018-05-20 23:56:07,954 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-05-20 23:56:08,052 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.

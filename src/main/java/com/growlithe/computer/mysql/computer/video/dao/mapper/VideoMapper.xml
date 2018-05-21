@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.growlithe.computer.mysql.computer.video.dao.mapper.VideoMapper">
+
+    <resultMap id="BaseResultMap" type="com.growlithe.computer.mysql.computer.video.dao.domain.VideoDO">
+        <id column="id" property="id" jdbcType="BIGINT"/>
+        <result column="name" property="name" jdbcType="VARCHAR"/>
+        <result column="english_name" property="englishName" jdbcType="VARCHAR"/>
+        <result column="author" property="author" jdbcType="VARCHAR"/>
+        <result column="capacity" property="capacity" jdbcType="DECIMAL"/>
+        <result column="capacity_unit" property="capacityUnit" jdbcType="VARCHAR"/>
+        <result column="format" property="format" jdbcType="VARCHAR"/>
+        <result column="language" property="language" jdbcType="VARCHAR"/>
+        <result column="series" property="series" jdbcType="VARCHAR"/>
+        <result column="quality" property="quality" jdbcType="VARCHAR"/>
+        <result column="video_class" property="videoClass" jdbcType="VARCHAR"/>
+        <result column="status" property="status" jdbcType="INTEGER"/>
+        <result column="create_by" property="createBy" jdbcType="VARCHAR"/>
+        <result column="create_time" property="createTime" jdbcType="TIMESTAMP"/>
+        <result column="update_by" property="updateBy" jdbcType="VARCHAR"/>
+        <result column="update_time" property="updateTime" jdbcType="TIMESTAMP"/>
+    </resultMap>
+
+    <sql id="base_property">
+     id, name, english_name, author, capacity, capacity_unit, format, language, series, quality,
+    video_class, status, create_by, create_time, update_by, update_time
+    </sql>
+    <sql id="save_property">
+    name, english_name, author, capacity, capacity_unit, format, language, series, quality,
+    video_class, status, create_by, create_time
+    </sql>
+
+    <select id="listAllVideoDO" resultMap="BaseResultMap">
+        select
+        <include refid="base_property"/>
+        from computer.video
+        where status = 1
+    </select>
+
+    <insert id="saveBatch" parameterType="java.util.List"  useGeneratedKeys="true" keyProperty="id">
+        insert into
+        computer.video(<include refid="save_property"/>)
+        VALUES
+        <foreach collection="list" item="item" separator=",">
+            (#{item.name},#{item.englishName},#{item.author}, #{item.capacity}, #{item.capacityUnit},
+            #{item.format}, #{item.language},  #{item.series},  #{item.quality},#{item.videoClass},
+            1, #{item.createBy}, now())
+        </foreach>
+    </insert>
+
+</mapper>
