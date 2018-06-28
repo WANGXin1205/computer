@@ -31,7 +31,7 @@ public class MysqlDataSourceConfig {
     @ConfigurationProperties(prefix = "spring.datasource.mysql")
     public DataSource mysqlDataSource() {
         return DataSourceBuilder.create().build();
-    }(
+    }
 
     @Bean(name = {"mysqlTransactionManager"})
     public DataSourceTransactionManager mysqlTransactionManager(@Qualifier("mysqlDataSource") DataSource dataSource) {
