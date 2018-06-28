@@ -6,7 +6,9 @@ package com.growlithe.computer.mysql.computer.video.service.emuns;
  * @Description
  */
 public enum VideoClassEnum {
-
+    /**
+     * 视频分类
+     */
     CARTOON("cartoon", "卡通"),
     DOC("documentary", "纪录片"),
     TV("tv", "电视剧"),
@@ -14,7 +16,7 @@ public enum VideoClassEnum {
     OPEN_CLASS("open_class", "公开课"),
     MV("mv","mv"),
     CELEBRATION("celebration","庆典"),
-    CONCERT("concert","音乐会"),
+    MUSICALE("musicale","音乐会"),
     OTHER("other","其他");
 
 

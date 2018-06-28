@@ -11,8 +11,16 @@ import java.util.List;
  */
 public interface BookMapper {
 
-
+    /**
+     * 查询所有的图书
+     * @return List<BookDO>
+     */
     List<BookDO> listAllBookDO();
 
+    /**
+     * 保存图书
+     * @param bookDOList
+     * @return
+     */
     Integer saveBatch(List<BookDO> bookDOList);
 }

@@ -6,6 +6,9 @@ package com.growlithe.computer.mysql.computer.book.service.enums;
  * @Description
  */
 public enum BookFormatEnum {
+    /**
+     * 图书格式
+     */
     TXT("txt"),
     PDF("pdf"),
     CAJ("caj"),

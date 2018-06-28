@@ -6,6 +6,9 @@ package com.growlithe.computer.mysql.computer.book.service.enums;
  * @Description
  */
 public enum BookSubordinateClassEnum {
+    /**
+     * 图书二级分类
+     */
     ACADEMIC_MATHS("a_m", "学术-数学"),
     LITERATURE_CHINESE_ANCIENT("l_c_a", "中国古代文学"),
     LITERATURE_CHINESE_MODERN("l_c_m", "中国现代文学"),

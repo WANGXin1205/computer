@@ -6,10 +6,14 @@ package com.growlithe.computer.mysql.enums;
  * @Description
  */
 public enum LanguageEnum {
+    /**
+     * 语言
+     */
     CHINESE("chinese", "中文"),
     JAPANESE("japanese", "日语"),
     ENGLISH("english", "英语"),
-    GERMAN("german","德语");
+    GERMAN("german","德语"),
+    RUSSIAN("russian","俄语");
 
     private String code;
     private String desc;

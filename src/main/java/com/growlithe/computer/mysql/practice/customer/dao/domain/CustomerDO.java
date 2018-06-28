@@ -9,10 +9,17 @@ import java.io.Serializable;
  */
 public class CustomerDO implements Serializable {
 
+    /**
+     * 主键
+     */
     private Long id;
-
+    /**
+     * 姓
+     */
     private String firstName;
-
+    /**
+     * 名
+     */
     private String lastName;
 
     public Long getId() {

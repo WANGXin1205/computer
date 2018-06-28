@@ -1,6 +1,9 @@
 package com.growlithe.computer.mysql.practice.customer.dao.mapper;
 
 import com.growlithe.computer.mysql.practice.customer.dao.domain.CustomerDO;
+import org.apache.spark.SparkContext;
+import org.apache.spark.sql.Dataset;
+import org.apache.spark.sql.SparkSession;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -9,7 +12,10 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.annotation.Rollback;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.transaction.annotation.Transactional;
+import scala.reflect.internal.util.ScalaClassLoader;
+import scala.tools.ant.Scalac;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import static org.junit.Assert.*;

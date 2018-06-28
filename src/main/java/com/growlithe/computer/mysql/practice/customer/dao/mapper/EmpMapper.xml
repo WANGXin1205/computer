@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.growlithe.computer.mysql.practice.customer.dao.mapper.EmpMapper">
+
+    <resultMap id="BaseResultMap" type="com.growlithe.computer.mysql.practice.customer.dao.domain.EmpDO">
+        <id column="id" property="id" jdbcType="BIGINT"/>
+        <result column="emp_id" property="empId" jdbcType="BIGINT"/>
+        <result column="age" property="age" jdbcType="INTEGER"/>
+    </resultMap>
+
+    <sql id="save_property">
+    emp_id,age
+    </sql>
+
+    <select id="listAllEmp" resultMap="BaseResultMap">
+        select id, emp_id,age from emp
+    </select>
+
+    <insert id="saveBatch" parameterType="java.util.List" useGeneratedKeys="true" keyProperty="id">
+        insert into
+        practice.emp(<include refid="save_property"/>)
+        VALUES
+        <foreach collection="list" item="item" separator=",">
+            (#{item.empId},#{item.age})
+        </foreach>
+    </insert>
+
+    <update id="updateAgeByIdList" parameterType="java.util.List">
+        <foreach collection="list" separator=";" item="item">
+            update practice.emp
+            set age = #{item.age}
+            where id = #{item.id}
+        </foreach>
+    </update>
+</mapper>

@@ -19,7 +19,7 @@ import java.util.Properties;
 /**
  * @Author : Growlithe
  * @Date : 2018/5/18 21:31
- * @Description
+ * @Description 配置文件
  */
 @Configuration
 @MapperScan(basePackages = {"com.growlithe.computer.mysql.**.**.dao.mapper"},
@@ -31,7 +31,7 @@ public class MysqlDataSourceConfig {
     @ConfigurationProperties(prefix = "spring.datasource.mysql")
     public DataSource mysqlDataSource() {
         return DataSourceBuilder.create().build();
-    }
+    }(
 
     @Bean(name = {"mysqlTransactionManager"})
     public DataSourceTransactionManager mysqlTransactionManager(@Qualifier("mysqlDataSource") DataSource dataSource) {

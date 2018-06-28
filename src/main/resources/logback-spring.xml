@@ -72,7 +72,7 @@
         <appender-ref ref="mybatisAppender"/>
     </logger>
 
-    <logger name="com.growlithe.computer.mysql.**.**.dao.mapper">
+    <logger name="com.growlithe.computer.**.**.**.dao.mapper">
         <level value="${logging.level.sql}"/>
         <appender-ref ref="STDOUT"/>
     </logger>

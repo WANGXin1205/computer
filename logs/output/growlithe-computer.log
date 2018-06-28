@@ -1,90 +1,97 @@
-2018-05-21 00:01:16,508 INFO  [StartupInfoLogger.java:50] Starting VideoMapperTest on MEW with PID 8016 (started by wangxin in D:\code\java\computer)
-2018-05-21 00:01:16,514 INFO  [SpringApplication.java:663] The following profiles are active: dev
-2018-05-21 00:01:16,540 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@751e664e: startup date [Mon May 21 00:01:16 CST 2018]; root of context hierarchy
-2018-05-21 00:01:18,606 INFO  [StartupInfoLogger.java:59] Started VideoMapperTest in 3.316 seconds (JVM running for 5.881)
-2018-05-21 00:01:18,839 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
-2018-05-21 00:01:19,600 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
-2018-05-21 00:01:19,908 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@751e664e: startup date [Mon May 21 00:01:16 CST 2018]; root of context hierarchy
-2018-05-21 00:01:19,917 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
-2018-05-21 00:01:19,935 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
-2018-05-21 00:03:53,557 INFO  [StartupInfoLogger.java:50] Starting VideoMapperTest on MEW with PID 1308 (started by wangxin in D:\code\java\computer)
-2018-05-21 00:03:53,560 INFO  [SpringApplication.java:663] The following profiles are active: dev
-2018-05-21 00:03:53,584 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@751e664e: startup date [Mon May 21 00:03:53 CST 2018]; root of context hierarchy
-2018-05-21 00:03:56,280 INFO  [StartupInfoLogger.java:59] Started VideoMapperTest in 4.061 seconds (JVM running for 7.113)
-2018-05-21 00:03:56,710 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
-2018-05-21 00:03:57,742 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
-2018-05-21 00:03:58,030 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@751e664e: startup date [Mon May 21 00:03:53 CST 2018]; root of context hierarchy
-2018-05-21 00:03:58,046 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
-2018-05-21 00:03:58,071 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
-2018-05-21 00:09:25,043 INFO  [StartupInfoLogger.java:50] Starting VideoMapperTest on MEW with PID 7032 (started by wangxin in D:\code\java\computer)
-2018-05-21 00:09:25,047 INFO  [SpringApplication.java:663] The following profiles are active: dev
-2018-05-21 00:09:25,068 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@751e664e: startup date [Mon May 21 00:09:25 CST 2018]; root of context hierarchy
-2018-05-21 00:09:26,824 INFO  [StartupInfoLogger.java:59] Started VideoMapperTest in 2.904 seconds (JVM running for 5.269)
-2018-05-21 00:09:27,013 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
-2018-05-21 00:09:27,501 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
-2018-05-21 00:09:27,706 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@751e664e: startup date [Mon May 21 00:09:25 CST 2018]; root of context hierarchy
-2018-05-21 00:09:27,730 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
-2018-05-21 00:09:27,773 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
-2018-05-21 00:15:14,129 INFO  [StartupInfoLogger.java:50] Starting VideoMapperTest on MEW with PID 7308 (started by wangxin in D:\code\java\computer)
-2018-05-21 00:15:14,131 INFO  [SpringApplication.java:663] The following profiles are active: dev
-2018-05-21 00:15:14,157 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@751e664e: startup date [Mon May 21 00:15:14 CST 2018]; root of context hierarchy
-2018-05-21 00:15:16,265 INFO  [StartupInfoLogger.java:59] Started VideoMapperTest in 3.273 seconds (JVM running for 5.561)
-2018-05-21 00:15:16,488 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
-2018-05-21 00:15:17,228 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
-2018-05-21 00:15:17,538 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@751e664e: startup date [Mon May 21 00:15:14 CST 2018]; root of context hierarchy
-2018-05-21 00:15:17,556 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
-2018-05-21 00:15:17,574 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
-2018-05-21 00:25:46,734 INFO  [StartupInfoLogger.java:50] Starting VideoMapperTest on MEW with PID 876 (started by wangxin in D:\code\java\computer)
-2018-05-21 00:25:46,736 INFO  [SpringApplication.java:663] The following profiles are active: dev
-2018-05-21 00:25:46,761 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@751e664e: startup date [Mon May 21 00:25:46 CST 2018]; root of context hierarchy
-2018-05-21 00:25:48,526 INFO  [StartupInfoLogger.java:59] Started VideoMapperTest in 3.069 seconds (JVM running for 5.789)
-2018-05-21 00:25:48,737 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
-2018-05-21 00:25:49,843 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
-2018-05-21 00:25:50,141 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@751e664e: startup date [Mon May 21 00:25:46 CST 2018]; root of context hierarchy
-2018-05-21 00:25:50,150 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
-2018-05-21 00:25:50,199 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
-2018-05-21 00:32:40,053 INFO  [StartupInfoLogger.java:50] Starting VideoMapperTest on MEW with PID 7188 (started by wangxin in D:\code\java\computer)
-2018-05-21 00:32:40,055 INFO  [SpringApplication.java:663] The following profiles are active: dev
-2018-05-21 00:32:40,081 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@751e664e: startup date [Mon May 21 00:32:40 CST 2018]; root of context hierarchy
-2018-05-21 00:32:41,837 INFO  [StartupInfoLogger.java:59] Started VideoMapperTest in 2.847 seconds (JVM running for 4.942)
-2018-05-21 00:32:42,293 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
-2018-05-21 00:32:43,336 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
-2018-05-21 00:32:43,609 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@751e664e: startup date [Mon May 21 00:32:40 CST 2018]; root of context hierarchy
-2018-05-21 00:32:43,621 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
-2018-05-21 00:32:43,682 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
-2018-05-21 00:36:01,804 INFO  [StartupInfoLogger.java:50] Starting VideoMapperTest on MEW with PID 7960 (started by wangxin in D:\code\java\computer)
-2018-05-21 00:36:01,805 INFO  [SpringApplication.java:663] The following profiles are active: dev
-2018-05-21 00:36:01,831 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@751e664e: startup date [Mon May 21 00:36:01 CST 2018]; root of context hierarchy
-2018-05-21 00:36:03,528 INFO  [StartupInfoLogger.java:59] Started VideoMapperTest in 2.891 seconds (JVM running for 5.438)
-2018-05-21 00:36:03,728 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
-2018-05-21 00:36:04,558 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
-2018-05-21 00:36:04,823 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@751e664e: startup date [Mon May 21 00:36:01 CST 2018]; root of context hierarchy
-2018-05-21 00:36:04,847 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
-2018-05-21 00:36:04,891 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
-2018-05-21 00:38:44,553 INFO  [StartupInfoLogger.java:50] Starting VideoMapperTest on MEW with PID 5376 (started by wangxin in D:\code\java\computer)
-2018-05-21 00:38:44,555 INFO  [SpringApplication.java:663] The following profiles are active: dev
-2018-05-21 00:38:44,584 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@160c3ec1: startup date [Mon May 21 00:38:44 CST 2018]; root of context hierarchy
-2018-05-21 00:38:46,854 INFO  [StartupInfoLogger.java:59] Started VideoMapperTest in 3.716 seconds (JVM running for 6.61)
-2018-05-21 00:38:47,318 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
-2018-05-21 00:38:48,412 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
-2018-05-21 00:38:48,643 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@160c3ec1: startup date [Mon May 21 00:38:44 CST 2018]; root of context hierarchy
-2018-05-21 00:38:48,651 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
-2018-05-21 00:38:48,680 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
-2018-05-21 00:43:01,835 INFO  [StartupInfoLogger.java:50] Starting VideoMapperTest on MEW with PID 4836 (started by wangxin in D:\code\java\computer)
-2018-05-21 00:43:01,838 INFO  [SpringApplication.java:663] The following profiles are active: dev
-2018-05-21 00:43:01,869 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@751e664e: startup date [Mon May 21 00:43:01 CST 2018]; root of context hierarchy
-2018-05-21 00:43:03,861 INFO  [StartupInfoLogger.java:59] Started VideoMapperTest in 3.36 seconds (JVM running for 6.138)
-2018-05-21 00:43:04,133 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
-2018-05-21 00:43:04,831 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
-2018-05-21 00:43:05,185 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@751e664e: startup date [Mon May 21 00:43:01 CST 2018]; root of context hierarchy
-2018-05-21 00:43:05,226 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
-2018-05-21 00:43:05,270 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
-2018-05-21 11:48:41,284 INFO  [StartupInfoLogger.java:50] Starting VideoMapperTest on MEW with PID 7428 (started by wangxin in D:\code\java\computer)
-2018-05-21 11:48:41,286 INFO  [SpringApplication.java:663] The following profiles are active: dev
-2018-05-21 11:48:41,307 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@76304b46: startup date [Mon May 21 11:48:41 CST 2018]; root of context hierarchy
-2018-05-21 11:48:43,317 INFO  [StartupInfoLogger.java:59] Started VideoMapperTest in 2.968 seconds (JVM running for 5.737)
-2018-05-21 11:48:43,659 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
-2018-05-21 11:48:45,042 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
-2018-05-21 11:48:54,937 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@76304b46: startup date [Mon May 21 11:48:41 CST 2018]; root of context hierarchy
-2018-05-21 11:48:54,963 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
-2018-05-21 11:48:55,030 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-06-29 00:04:00,978 INFO  [StartupInfoLogger.java:50] Starting ThreadServiceTest on MEW with PID 7220 (started by wangxin in D:\code\java\computer)
+2018-06-29 00:04:01,004 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-06-29 00:04:01,056 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4aeaadc1: startup date [Fri Jun 29 00:04:01 CST 2018]; root of context hierarchy
+2018-06-29 00:04:04,378 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-06-29 00:04:08,448 INFO  [StartupInfoLogger.java:59] Started ThreadServiceTest in 10.142 seconds (JVM running for 15.051)
+2018-06-29 00:04:08,579 ERROR [TestContextManager.java:250] Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@31dadd46] to prepare test instance [com.growlithe.computer.mysql.practice.customer.service.ThreadUtilsTest@149dd36b]
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'com.growlithe.computer.mysql.practice.customer.service.ThreadUtilsTest': Unsatisfied dependency expressed through field 'threadService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.growlithe.computer.mysql.practice.customer.service.ThreadService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:587)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:91)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:373)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1348)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:399)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:118)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:44)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.growlithe.computer.mysql.practice.customer.service.ThreadService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1509)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1104)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1065)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:584)
+	... 28 common frames omitted
+2018-06-29 00:04:08,656 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@4aeaadc1: startup date [Fri Jun 29 00:04:01 CST 2018]; root of context hierarchy
+2018-06-29 00:04:49,984 INFO  [StartupInfoLogger.java:50] Starting ThreadServiceTest on MEW with PID 1128 (started by wangxin in D:\code\java\computer)
+2018-06-29 00:04:49,986 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-06-29 00:04:50,006 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@107e5441: startup date [Fri Jun 29 00:04:50 CST 2018]; root of context hierarchy
+2018-06-29 00:04:51,475 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-06-29 00:04:54,109 INFO  [StartupInfoLogger.java:59] Started ThreadServiceTest in 5.228 seconds (JVM running for 7.999)
+2018-06-29 00:04:54,829 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@107e5441: startup date [Fri Jun 29 00:04:50 CST 2018]; root of context hierarchy
+2018-06-29 00:05:34,486 INFO  [StartupInfoLogger.java:50] Starting ThreadServiceTest on MEW with PID 7948 (started by wangxin in D:\code\java\computer)
+2018-06-29 00:05:34,487 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-06-29 00:05:34,508 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4aeaadc1: startup date [Fri Jun 29 00:05:34 CST 2018]; root of context hierarchy
+2018-06-29 00:05:35,368 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-06-29 00:05:37,351 INFO  [StartupInfoLogger.java:59] Started ThreadServiceTest in 3.947 seconds (JVM running for 7.374)
+2018-06-29 00:05:37,609 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@4aeaadc1: startup date [Fri Jun 29 00:05:34 CST 2018]; root of context hierarchy
+2018-06-29 00:05:53,010 INFO  [StartupInfoLogger.java:50] Starting ThreadServiceTest on MEW with PID 3480 (started by wangxin in D:\code\java\computer)
+2018-06-29 00:05:53,012 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-06-29 00:05:53,040 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5dc3fcb7: startup date [Fri Jun 29 00:05:53 CST 2018]; root of context hierarchy
+2018-06-29 00:05:54,742 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-06-29 00:05:57,990 INFO  [StartupInfoLogger.java:59] Started ThreadServiceTest in 5.747 seconds (JVM running for 9.585)
+2018-06-29 00:06:08,759 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@5dc3fcb7: startup date [Fri Jun 29 00:05:53 CST 2018]; root of context hierarchy
+2018-06-29 00:06:43,439 INFO  [StartupInfoLogger.java:50] Starting ThreadServiceTest on MEW with PID 7628 (started by wangxin in D:\code\java\computer)
+2018-06-29 00:06:43,440 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-06-29 00:06:43,459 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5dc3fcb7: startup date [Fri Jun 29 00:06:43 CST 2018]; root of context hierarchy
+2018-06-29 00:06:45,501 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-06-29 00:06:47,698 INFO  [StartupInfoLogger.java:59] Started ThreadServiceTest in 5.12 seconds (JVM running for 8.208)
+2018-06-29 00:06:47,904 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@5dc3fcb7: startup date [Fri Jun 29 00:06:43 CST 2018]; root of context hierarchy
+2018-06-29 00:15:17,030 INFO  [StartupInfoLogger.java:50] Starting ThreadUtilsTest on MEW with PID 3504 (started by wangxin in D:\code\java\computer)
+2018-06-29 00:15:17,031 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-06-29 00:15:17,052 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@435ce306: startup date [Fri Jun 29 00:15:17 CST 2018]; root of context hierarchy
+2018-06-29 00:15:17,911 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-06-29 00:15:20,066 INFO  [StartupInfoLogger.java:59] Started ThreadUtilsTest in 4.105 seconds (JVM running for 7.118)
+2018-06-29 00:15:20,319 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@435ce306: startup date [Fri Jun 29 00:15:17 CST 2018]; root of context hierarchy
+2018-06-29 00:44:03,753 INFO  [StartupInfoLogger.java:50] Starting ThreadUtilsTest on MEW with PID 7668 (started by wangxin in D:\code\java\computer)
+2018-06-29 00:44:03,755 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-06-29 00:44:03,776 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4aeaadc1: startup date [Fri Jun 29 00:44:03 CST 2018]; root of context hierarchy
+2018-06-29 00:44:04,596 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-06-29 00:44:05,946 INFO  [StartupInfoLogger.java:59] Started ThreadUtilsTest in 3.25 seconds (JVM running for 6.501)
+2018-06-29 00:44:06,061 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@4aeaadc1: startup date [Fri Jun 29 00:44:03 CST 2018]; root of context hierarchy
+2018-06-29 00:45:06,256 INFO  [StartupInfoLogger.java:50] Starting ThreadUtilsTest on MEW with PID 1332 (started by wangxin in D:\code\java\computer)
+2018-06-29 00:45:06,258 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-06-29 00:45:06,278 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@435ce306: startup date [Fri Jun 29 00:45:06 CST 2018]; root of context hierarchy
+2018-06-29 00:45:07,710 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-06-29 00:45:10,548 INFO  [StartupInfoLogger.java:59] Started ThreadUtilsTest in 5.405 seconds (JVM running for 8.727)
+2018-06-29 00:45:10,799 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@435ce306: startup date [Fri Jun 29 00:45:06 CST 2018]; root of context hierarchy
+2018-06-29 00:45:42,273 INFO  [StartupInfoLogger.java:50] Starting ThreadUtilsTest on MEW with PID 7684 (started by wangxin in D:\code\java\computer)
+2018-06-29 00:45:42,274 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-06-29 00:45:42,293 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@263558c9: startup date [Fri Jun 29 00:45:42 CST 2018]; root of context hierarchy
+2018-06-29 00:45:43,124 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-06-29 00:45:45,305 INFO  [StartupInfoLogger.java:59] Started ThreadUtilsTest in 4.037 seconds (JVM running for 6.062)
+2018-06-29 00:45:45,500 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@263558c9: startup date [Fri Jun 29 00:45:42 CST 2018]; root of context hierarchy
+2018-06-29 00:46:50,526 INFO  [StartupInfoLogger.java:50] Starting ThreadUtilsTest on MEW with PID 6664 (started by wangxin in D:\code\java\computer)
+2018-06-29 00:46:50,527 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-06-29 00:46:50,545 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4aeaadc1: startup date [Fri Jun 29 00:46:50 CST 2018]; root of context hierarchy
+2018-06-29 00:46:52,050 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-06-29 00:46:54,793 INFO  [StartupInfoLogger.java:59] Started ThreadUtilsTest in 5.152 seconds (JVM running for 6.74)
+2018-06-29 00:46:54,984 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@4aeaadc1: startup date [Fri Jun 29 00:46:50 CST 2018]; root of context hierarchy

@@ -4,13 +4,6 @@ package com.growlithe.computer.mysql.computer.video.dao.mapper;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import com.growlithe.computer.mysql.computer.video.dao.domain.VideoDO;
-import com.growlithe.computer.mysql.computer.video.service.emuns.VideoQualityEnum;
-import com.growlithe.computer.mysql.computer.video.service.emuns.VideoSeriesEnum;
-import com.growlithe.computer.mysql.computer.video.service.emuns.VideoClassEnum;
-import com.growlithe.computer.mysql.computer.video.service.emuns.VideoFormatEnum;
-import com.growlithe.computer.mysql.enums.CapacityUnitEnum;
-import com.growlithe.computer.mysql.enums.LanguageEnum;
-import org.assertj.core.util.Lists;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -18,10 +11,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import java.math.BigDecimal;
 import java.util.List;
-
-import static org.apache.logging.log4j.message.MapMessage.MapFormat.JSON;
 
 /**
  * @Author : Growlithe
@@ -79,28 +69,29 @@ public class VideoMapperTest {
 
          String jsonArray = "[" +
                  "        {\n" +
-                 "            \"name\":\"Princess Principal\"," +
-//                 "            \"englishName\":\"The Killer\"," +
-                 "            \"capacity\":17.9," +
+                 "            \"name\":\"雪拉比 穿梭时空的相遇\"," +
+//                 "            \"englishName\":\" Zero no Tsukaima Princess no Rondo\"," +
+                 "            \"capacity\":21.6," +
                  "            \"capacityUnit\":\"G\"," +
-                 "            \"format\":\"mkv\"," +
+                 "            \"format\":\"iso\"," +
                  "            \"language\":\"japanese\"," +
                  "            \"quality\":\"1080P\"," +
                  "            \"videoClass\":\"cartoon\"," +
-//                 "            \"series\":\"sherlock\"," +
+                 "            \"series\":\"pokemon\"," +
                  "            \"status\":1, " +
                  "            \"createBy\":WANGXin," +
                  "            \"createTime\":\"May 19, 2018, 8:45:04 PM\"\n" +
                  "        },{\n" +
-                "            \"name\":\"代号D机关\"," +
-//                 "            \"englishName\":\"Downfall\"," +
-                "            \"capacity\":11.5," +
+                "            \"name\":\"天空之城\"," +
+                 "            \"englishName\":\"Laputa Castle In The Sky\"," +
+                "            \"capacity\":32.4," +
                 "            \"capacityUnit\":\"G\"," +
-                "            \"format\":\"mkv\"," +
+//                 "            \"author\":\"吴培元\"," +
+                "            \"format\":\"ts\"," +
                 "            \"language\":\"japanese\"," +
                 "            \"quality\":\"1080P\"," +
                 "            \"videoClass\":\"cartoon\"," +
-//                "            \"series\":\"sherlock\"," +
+//                "            \"series\":\"zero_no_tsukaima\"," +
                 "            \"status\":1, " +
                 "            \"createBy\":WANGXin," +
                 "            \"createTime\":\"May 19, 2018, 8:45:04 PM\"\n" +

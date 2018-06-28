@@ -8,9 +8,13 @@ import java.util.List;
 /**
  * @Author : Growlithe
  * @Date : 2018/5/18 21:30
- * @Description
+ * @Description CustomerMapper.xml 为什么是文件夹，我一直很懵逼
  */
 public interface CustomerMapper {
 
+    /**
+     * 查询所有用户
+     * @return
+     */
     List<CustomerDO> listAllCustomerDO();
 }

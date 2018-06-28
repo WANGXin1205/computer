@@ -7,6 +7,9 @@ package com.growlithe.computer.mysql.enums;
  * @Description
  */
 public enum CapacityUnitEnum {
+    /**
+     * 容量单位
+     */
     KB("K", "KB"),
     MB("M", "MB"),
     GB("G", "GB"),

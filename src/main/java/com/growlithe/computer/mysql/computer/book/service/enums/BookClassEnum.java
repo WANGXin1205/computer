@@ -6,6 +6,9 @@ package com.growlithe.computer.mysql.computer.book.service.enums;
  * @Description
  */
 public enum BookClassEnum {
+    /**
+     * 图书分类
+     */
     ACADEMIC("academic", "学术"),
     CARTOON("cartoon", "卡通"),
     LITERATURE("literature", "文学"),

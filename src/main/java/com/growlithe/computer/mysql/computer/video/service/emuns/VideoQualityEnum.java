@@ -6,6 +6,9 @@ package com.growlithe.computer.mysql.computer.video.service.emuns;
  * @Description
  */
 public enum VideoQualityEnum {
+    /**
+     * 视频质量
+     */
     LOW("480P"),
     MIDDLE("720P"),
     HIGH("1080P");
