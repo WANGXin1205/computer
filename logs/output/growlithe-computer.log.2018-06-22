@@ -1,0 +1,346 @@
+2018-06-22 14:03:46,550 INFO  [StartupInfoLogger.java:50] Starting EmpMapperTest on MEW with PID 8476 (started by wangxin in D:\code\java\computer)
+2018-06-22 14:03:46,554 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-06-22 14:03:46,580 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3a43d133: startup date [Fri Jun 22 14:03:46 CST 2018]; root of context hierarchy
+2018-06-22 14:03:48,493 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-06-22 14:03:51,187 INFO  [StartupInfoLogger.java:59] Started EmpMapperTest in 5.53 seconds (JVM running for 8.74)
+2018-06-22 14:03:51,770 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-06-22 14:03:52,932 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-06-22 14:03:53,290 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@3a43d133: startup date [Fri Jun 22 14:03:46 CST 2018]; root of context hierarchy
+2018-06-22 14:03:53,305 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-06-22 14:03:53,342 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-06-22 14:04:03,811 INFO  [StartupInfoLogger.java:50] Starting EmpMapperTest on MEW with PID 3512 (started by wangxin in D:\code\java\computer)
+2018-06-22 14:04:03,813 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-06-22 14:04:03,830 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@39ce27f2: startup date [Fri Jun 22 14:04:03 CST 2018]; root of context hierarchy
+2018-06-22 14:04:04,648 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-06-22 14:04:06,283 INFO  [StartupInfoLogger.java:59] Started EmpMapperTest in 3.421 seconds (JVM running for 6.391)
+2018-06-22 14:04:06,723 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-06-22 14:04:07,789 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-06-22 14:04:07,853 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@39ce27f2: startup date [Fri Jun 22 14:04:03 CST 2018]; root of context hierarchy
+2018-06-22 14:04:07,858 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-06-22 14:04:07,867 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-06-22 14:04:23,082 INFO  [StartupInfoLogger.java:50] Starting EmpMapperTest on MEW with PID 5700 (started by wangxin in D:\code\java\computer)
+2018-06-22 14:04:23,084 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-06-22 14:04:23,105 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3a43d133: startup date [Fri Jun 22 14:04:23 CST 2018]; root of context hierarchy
+2018-06-22 14:04:24,155 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-06-22 14:04:26,802 INFO  [StartupInfoLogger.java:59] Started EmpMapperTest in 4.762 seconds (JVM running for 8.311)
+2018-06-22 14:04:27,139 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-06-22 14:04:28,159 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-06-22 14:04:28,256 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@3a43d133: startup date [Fri Jun 22 14:04:23 CST 2018]; root of context hierarchy
+2018-06-22 14:04:28,265 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-06-22 14:04:28,353 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-06-22 20:21:22,652 INFO  [StartupInfoLogger.java:50] Starting EmpMapperTest on MEW with PID 8660 (started by wangxin in D:\code\java\computer)
+2018-06-22 20:21:22,665 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-06-22 20:21:22,721 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3a43d133: startup date [Fri Jun 22 20:21:22 CST 2018]; root of context hierarchy
+2018-06-22 20:21:24,984 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-06-22 20:21:27,745 INFO  [StartupInfoLogger.java:59] Started EmpMapperTest in 7.025 seconds (JVM running for 15.549)
+2018-06-22 20:21:28,187 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-06-22 20:21:29,754 ERROR [HikariPool.java:567] HikariPool-1 - Exception during pool initialization.
+java.sql.SQLException: The connection property 'allowMultiQueries' only accepts values of the form: 'true', 'false', 'yes' or 'no'. The value 'true?useAffectedRows=true' is not in this set.
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:965)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861)
+	at com.mysql.jdbc.ConnectionPropertiesImpl$ConnectionProperty.validateStringValues(ConnectionPropertiesImpl.java:314)
+	at com.mysql.jdbc.ConnectionPropertiesImpl$BooleanConnectionProperty.initializeFrom(ConnectionPropertiesImpl.java:91)
+	at com.mysql.jdbc.ConnectionPropertiesImpl$ConnectionProperty.initializeFrom(ConnectionPropertiesImpl.java:216)
+	at com.mysql.jdbc.ConnectionPropertiesImpl.initializeProperties(ConnectionPropertiesImpl.java:2538)
+	at com.mysql.jdbc.ConnectionImpl.initializeDriverProperties(ConnectionImpl.java:3134)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:760)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:117)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:123)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:365)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:194)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:460)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:534)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:151)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:115)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:78)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:82)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:68)
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:338)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:84)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:49)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:63)
+	at com.sun.proxy.$Proxy71.update(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:198)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	at com.sun.proxy.$Proxy62.update(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.update(SqlSessionTemplate.java:294)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:63)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59)
+	at com.sun.proxy.$Proxy70.updateAgeByIdList(Unknown Source)
+	at com.growlithe.computer.mysql.practice.customer.dao.mapper.EmpMapperTest.updateAgeByIdListTest(EmpMapperTest.java:53)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestExecutionCallbacks.evaluate(RunBeforeTestExecutionCallbacks.java:73)
+	at org.springframework.test.context.junit4.statements.RunAfterTestExecutionCallbacks.evaluate(RunAfterTestExecutionCallbacks.java:83)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:251)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+2018-06-22 20:21:29,813 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@3a43d133: startup date [Fri Jun 22 20:21:22 CST 2018]; root of context hierarchy
+2018-06-22 20:22:07,333 INFO  [StartupInfoLogger.java:50] Starting EmpMapperTest on MEW with PID 1516 (started by wangxin in D:\code\java\computer)
+2018-06-22 20:22:07,335 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-06-22 20:22:07,352 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3a43d133: startup date [Fri Jun 22 20:22:07 CST 2018]; root of context hierarchy
+2018-06-22 20:22:09,033 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-06-22 20:22:11,408 INFO  [StartupInfoLogger.java:59] Started EmpMapperTest in 5.146 seconds (JVM running for 7.702)
+2018-06-22 20:22:11,928 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-06-22 20:22:13,205 ERROR [HikariPool.java:567] HikariPool-1 - Exception during pool initialization.
+java.sql.SQLException: The connection property 'allowMultiQueries' only accepts values of the form: 'true', 'false', 'yes' or 'no'. The value 'true;useAffectedRows=true' is not in this set.
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:965)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861)
+	at com.mysql.jdbc.ConnectionPropertiesImpl$ConnectionProperty.validateStringValues(ConnectionPropertiesImpl.java:314)
+	at com.mysql.jdbc.ConnectionPropertiesImpl$BooleanConnectionProperty.initializeFrom(ConnectionPropertiesImpl.java:91)
+	at com.mysql.jdbc.ConnectionPropertiesImpl$ConnectionProperty.initializeFrom(ConnectionPropertiesImpl.java:216)
+	at com.mysql.jdbc.ConnectionPropertiesImpl.initializeProperties(ConnectionPropertiesImpl.java:2538)
+	at com.mysql.jdbc.ConnectionImpl.initializeDriverProperties(ConnectionImpl.java:3134)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:760)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:117)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:123)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:365)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:194)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:460)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:534)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:151)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:115)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:78)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:82)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:68)
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:338)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:84)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:49)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:63)
+	at com.sun.proxy.$Proxy71.update(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:198)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	at com.sun.proxy.$Proxy62.update(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.update(SqlSessionTemplate.java:294)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:63)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59)
+	at com.sun.proxy.$Proxy70.updateAgeByIdList(Unknown Source)
+	at com.growlithe.computer.mysql.practice.customer.dao.mapper.EmpMapperTest.updateAgeByIdListTest(EmpMapperTest.java:53)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestExecutionCallbacks.evaluate(RunBeforeTestExecutionCallbacks.java:73)
+	at org.springframework.test.context.junit4.statements.RunAfterTestExecutionCallbacks.evaluate(RunAfterTestExecutionCallbacks.java:83)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:251)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+2018-06-22 20:22:13,260 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@3a43d133: startup date [Fri Jun 22 20:22:07 CST 2018]; root of context hierarchy
+2018-06-22 20:22:37,494 INFO  [StartupInfoLogger.java:50] Starting EmpMapperTest on MEW with PID 7596 (started by wangxin in D:\code\java\computer)
+2018-06-22 20:22:37,495 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-06-22 20:22:37,518 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3a43d133: startup date [Fri Jun 22 20:22:37 CST 2018]; root of context hierarchy
+2018-06-22 20:22:38,847 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-06-22 20:22:40,846 INFO  [StartupInfoLogger.java:59] Started EmpMapperTest in 4.446 seconds (JVM running for 7.273)
+2018-06-22 20:22:41,252 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-06-22 20:22:42,434 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-06-22 20:22:42,594 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@3a43d133: startup date [Fri Jun 22 20:22:37 CST 2018]; root of context hierarchy
+2018-06-22 20:22:42,608 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-06-22 20:22:42,631 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-06-22 20:23:14,331 INFO  [StartupInfoLogger.java:50] Starting EmpMapperTest on MEW with PID 2860 (started by wangxin in D:\code\java\computer)
+2018-06-22 20:23:14,332 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-06-22 20:23:14,353 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3a43d133: startup date [Fri Jun 22 20:23:14 CST 2018]; root of context hierarchy
+2018-06-22 20:23:15,123 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-06-22 20:23:17,141 INFO  [StartupInfoLogger.java:59] Started EmpMapperTest in 4.007 seconds (JVM running for 7.418)
+2018-06-22 20:23:17,607 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-06-22 20:23:18,587 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-06-22 20:23:18,857 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@3a43d133: startup date [Fri Jun 22 20:23:14 CST 2018]; root of context hierarchy
+2018-06-22 20:23:18,873 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-06-22 20:23:18,908 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-06-22 20:23:40,002 INFO  [StartupInfoLogger.java:50] Starting EmpMapperTest on MEW with PID 6720 (started by wangxin in D:\code\java\computer)
+2018-06-22 20:23:40,004 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-06-22 20:23:40,026 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3a43d133: startup date [Fri Jun 22 20:23:40 CST 2018]; root of context hierarchy
+2018-06-22 20:23:40,855 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-06-22 20:23:42,217 INFO  [StartupInfoLogger.java:59] Started EmpMapperTest in 3.361 seconds (JVM running for 6.552)
+2018-06-22 20:23:42,410 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-06-22 20:23:43,044 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-06-22 20:23:43,461 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@3a43d133: startup date [Fri Jun 22 20:23:40 CST 2018]; root of context hierarchy
+2018-06-22 20:23:43,471 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-06-22 20:23:43,491 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-06-22 20:24:05,505 INFO  [StartupInfoLogger.java:50] Starting EmpMapperTest on MEW with PID 7052 (started by wangxin in D:\code\java\computer)
+2018-06-22 20:24:05,506 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-06-22 20:24:05,529 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3a43d133: startup date [Fri Jun 22 20:24:05 CST 2018]; root of context hierarchy
+2018-06-22 20:24:06,397 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-06-22 20:24:08,513 INFO  [StartupInfoLogger.java:59] Started EmpMapperTest in 3.956 seconds (JVM running for 7.182)
+2018-06-22 20:24:08,901 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-06-22 20:24:10,036 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-06-22 20:24:10,406 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@3a43d133: startup date [Fri Jun 22 20:24:05 CST 2018]; root of context hierarchy
+2018-06-22 20:24:10,417 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-06-22 20:24:10,464 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-06-22 23:21:51,594 INFO  [StartupInfoLogger.java:50] Starting MusicMapperTest on MEW with PID 8964 (started by wangxin in D:\code\java\computer)
+2018-06-22 23:21:51,596 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-06-22 23:21:51,618 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1f14f20c: startup date [Fri Jun 22 23:21:51 CST 2018]; root of context hierarchy
+2018-06-22 23:21:52,924 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-06-22 23:21:55,120 INFO  [StartupInfoLogger.java:59] Started MusicMapperTest in 4.582 seconds (JVM running for 7.802)
+2018-06-22 23:21:55,373 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-06-22 23:21:56,448 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-06-22 23:21:56,616 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@1f14f20c: startup date [Fri Jun 22 23:21:51 CST 2018]; root of context hierarchy
+2018-06-22 23:21:56,625 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-06-22 23:21:56,637 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-06-22 23:22:10,302 INFO  [StartupInfoLogger.java:50] Starting MusicMapperTest on MEW with PID 4508 (started by wangxin in D:\code\java\computer)
+2018-06-22 23:22:10,304 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-06-22 23:22:10,330 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5467eea4: startup date [Fri Jun 22 23:22:10 CST 2018]; root of context hierarchy
+2018-06-22 23:22:11,550 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-06-22 23:22:14,219 INFO  [StartupInfoLogger.java:59] Started MusicMapperTest in 4.692 seconds (JVM running for 8.691)
+2018-06-22 23:22:14,533 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-06-22 23:22:15,730 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-06-22 23:23:26,645 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@5467eea4: startup date [Fri Jun 22 23:22:10 CST 2018]; root of context hierarchy
+2018-06-22 23:23:26,665 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-06-22 23:23:26,699 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-06-22 23:23:31,500 INFO  [StartupInfoLogger.java:50] Starting MusicMapperTest on MEW with PID 9112 (started by wangxin in D:\code\java\computer)
+2018-06-22 23:23:31,502 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-06-22 23:23:31,523 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@76911385: startup date [Fri Jun 22 23:23:31 CST 2018]; root of context hierarchy
+2018-06-22 23:23:32,873 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-06-22 23:23:35,718 INFO  [StartupInfoLogger.java:59] Started MusicMapperTest in 5.131 seconds (JVM running for 8.008)
+2018-06-22 23:23:36,039 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-06-22 23:23:37,131 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-06-22 23:23:37,269 INFO  [XmlBeanDefinitionReader.java:316] Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2018-06-22 23:23:37,479 INFO  [SQLErrorCodesFactory.java:128] SQLErrorCodes loaded: [DB2, Derby, H2, HDB, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+2018-06-22 23:23:37,543 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@76911385: startup date [Fri Jun 22 23:23:31 CST 2018]; root of context hierarchy
+2018-06-22 23:23:37,553 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-06-22 23:23:37,584 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-06-22 23:34:23,578 INFO  [StartupInfoLogger.java:50] Starting MusicMapperTest on MEW with PID 1312 (started by wangxin in D:\code\java\computer)
+2018-06-22 23:34:23,580 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-06-22 23:34:23,602 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@76911385: startup date [Fri Jun 22 23:34:23 CST 2018]; root of context hierarchy
+2018-06-22 23:34:25,338 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-06-22 23:34:27,383 INFO  [StartupInfoLogger.java:59] Started MusicMapperTest in 4.84 seconds (JVM running for 8.061)
+2018-06-22 23:34:27,784 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-06-22 23:34:28,925 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-06-22 23:34:29,140 INFO  [XmlBeanDefinitionReader.java:316] Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2018-06-22 23:34:29,337 INFO  [SQLErrorCodesFactory.java:128] SQLErrorCodes loaded: [DB2, Derby, H2, HDB, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+2018-06-22 23:34:29,396 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@76911385: startup date [Fri Jun 22 23:34:23 CST 2018]; root of context hierarchy
+2018-06-22 23:34:29,407 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-06-22 23:34:29,438 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-06-22 23:35:14,849 INFO  [StartupInfoLogger.java:50] Starting MusicMapperTest on MEW with PID 8536 (started by wangxin in D:\code\java\computer)
+2018-06-22 23:35:14,851 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-06-22 23:35:14,870 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@76911385: startup date [Fri Jun 22 23:35:14 CST 2018]; root of context hierarchy
+2018-06-22 23:35:16,557 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-06-22 23:35:18,922 INFO  [StartupInfoLogger.java:59] Started MusicMapperTest in 4.988 seconds (JVM running for 7.555)
+2018-06-22 23:35:19,219 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-06-22 23:35:20,113 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-06-22 23:36:35,392 INFO  [StartupInfoLogger.java:50] Starting MusicMapperTest on MEW with PID 3304 (started by wangxin in D:\code\java\computer)
+2018-06-22 23:36:35,394 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-06-22 23:36:35,416 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7b60c3e: startup date [Fri Jun 22 23:36:35 CST 2018]; root of context hierarchy
+2018-06-22 23:36:36,196 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-06-22 23:36:37,509 INFO  [StartupInfoLogger.java:59] Started MusicMapperTest in 3.345 seconds (JVM running for 6.977)
+2018-06-22 23:36:37,694 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-06-22 23:36:39,049 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-06-22 23:49:13,768 INFO  [StartupInfoLogger.java:50] Starting MusicServiceTest on MEW with PID 8776 (started by wangxin in D:\code\java\computer)
+2018-06-22 23:49:13,770 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-06-22 23:49:13,791 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@27494e46: startup date [Fri Jun 22 23:49:13 CST 2018]; root of context hierarchy
+2018-06-22 23:49:14,710 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-06-22 23:49:16,845 INFO  [StartupInfoLogger.java:59] Started MusicServiceTest in 4.113 seconds (JVM running for 7.259)
+2018-06-22 23:49:16,914 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-06-22 23:49:18,138 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-06-22 23:49:18,159 INFO  [TransactionContext.java:107] Began transaction (1) for test context [DefaultTestContext@691939c9 testClass = MusicServiceTest, testInstance = com.growlithe.computer.mysql.computer.video.service.MusicServiceTest@487db668, testMethod = getAllCapacity@MusicServiceTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@4f1bfe23 testClass = MusicServiceTest, locations = '{}', classes = '{class com.growlithe.computer.ComputerApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@618425b5, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@f5acb9d, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@593aaf41, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@67f639d3], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]]; transaction manager [org.springframework.jdbc.datasource.DataSourceTransactionManager@5a08b084]; rollback [true]
+2018-06-22 23:49:19,161 INFO  [TransactionContext.java:139] Rolled back transaction for test: [DefaultTestContext@691939c9 testClass = MusicServiceTest, testInstance = com.growlithe.computer.mysql.computer.video.service.MusicServiceTest@487db668, testMethod = getAllCapacity@MusicServiceTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@4f1bfe23 testClass = MusicServiceTest, locations = '{}', classes = '{class com.growlithe.computer.ComputerApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@618425b5, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@f5acb9d, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@593aaf41, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@67f639d3], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]]
+2018-06-22 23:49:19,167 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@27494e46: startup date [Fri Jun 22 23:49:13 CST 2018]; root of context hierarchy
+2018-06-22 23:49:19,177 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-06-22 23:49:19,211 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-06-22 23:51:04,164 INFO  [StartupInfoLogger.java:50] Starting MusicServiceTest on MEW with PID 8968 (started by wangxin in D:\code\java\computer)
+2018-06-22 23:51:04,165 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-06-22 23:51:04,187 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@28782602: startup date [Fri Jun 22 23:51:04 CST 2018]; root of context hierarchy
+2018-06-22 23:51:05,276 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-06-22 23:51:07,891 INFO  [StartupInfoLogger.java:59] Started MusicServiceTest in 4.791 seconds (JVM running for 8.08)
+2018-06-22 23:51:08,114 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-06-22 23:51:08,809 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-06-22 23:51:09,585 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@28782602: startup date [Fri Jun 22 23:51:04 CST 2018]; root of context hierarchy
+2018-06-22 23:51:09,589 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-06-22 23:51:09,604 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-06-22 23:53:53,217 INFO  [StartupInfoLogger.java:50] Starting MusicMapperTest on MEW with PID 7640 (started by wangxin in D:\code\java\computer)
+2018-06-22 23:53:53,218 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-06-22 23:53:53,238 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3fbfa96: startup date [Fri Jun 22 23:53:53 CST 2018]; root of context hierarchy
+2018-06-22 23:53:54,873 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-06-22 23:53:57,799 INFO  [StartupInfoLogger.java:59] Started MusicMapperTest in 5.461 seconds (JVM running for 8.497)
+2018-06-22 23:53:58,108 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-06-22 23:53:58,987 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-06-22 23:53:59,370 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@3fbfa96: startup date [Fri Jun 22 23:53:53 CST 2018]; root of context hierarchy
+2018-06-22 23:53:59,379 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-06-22 23:53:59,412 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.

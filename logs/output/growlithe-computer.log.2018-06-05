@@ -1,0 +1,12 @@
+2018-06-05 12:30:36,729 INFO  [StartupInfoLogger.java:50] Starting EmpMapperTest on MEW with PID 5188 (started by wangxin in D:\code\java\computer)
+2018-06-05 12:30:36,740 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-06-05 12:30:36,794 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1ad926d3: startup date [Tue Jun 05 12:30:36 CST 2018]; root of context hierarchy
+2018-06-05 12:30:39,884 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-06-05 12:30:43,970 INFO  [StartupInfoLogger.java:59] Started EmpMapperTest in 10.287 seconds (JVM running for 19.106)
+2018-06-05 12:30:44,295 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@1ad926d3: startup date [Tue Jun 05 12:30:36 CST 2018]; root of context hierarchy
+2018-06-05 12:31:48,286 INFO  [StartupInfoLogger.java:50] Starting EmpMapperTest on MEW with PID 1516 (started by wangxin in D:\code\java\computer)
+2018-06-05 12:31:48,288 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-06-05 12:31:48,307 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1ad926d3: startup date [Tue Jun 05 12:31:48 CST 2018]; root of context hierarchy
+2018-06-05 12:31:49,103 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-06-05 12:31:51,380 INFO  [StartupInfoLogger.java:59] Started EmpMapperTest in 4.213 seconds (JVM running for 7.547)
+2018-06-05 12:31:51,622 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@1ad926d3: startup date [Tue Jun 05 12:31:48 CST 2018]; root of context hierarchy

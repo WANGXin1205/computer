@@ -1,0 +1,1 @@
+2018-06-28 00:34:46,385 DEBUG [LogFactory.java:135] Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.

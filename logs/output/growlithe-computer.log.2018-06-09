@@ -1,0 +1,10 @@
+2018-06-09 00:22:08,747 INFO  [StartupInfoLogger.java:50] Starting VideoMapperTest on MEW with PID 10728 (started by wangxin in D:\code\java\computer)
+2018-06-09 00:22:08,753 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-06-09 00:22:08,777 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@263558c9: startup date [Sat Jun 09 00:22:08 CST 2018]; root of context hierarchy
+2018-06-09 00:22:10,147 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-06-09 00:22:12,451 INFO  [StartupInfoLogger.java:59] Started VideoMapperTest in 4.435 seconds (JVM running for 7.302)
+2018-06-09 00:22:12,832 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-06-09 00:22:13,511 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-06-09 00:22:13,684 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@263558c9: startup date [Sat Jun 09 00:22:08 CST 2018]; root of context hierarchy
+2018-06-09 00:22:13,693 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-06-09 00:22:13,714 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.

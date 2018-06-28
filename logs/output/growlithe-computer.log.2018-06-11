@@ -1,0 +1,30 @@
+2018-06-11 20:04:25,832 INFO  [StartupInfoLogger.java:50] Starting VideoMapperTest on MEW with PID 5480 (started by wangxin in D:\code\java\computer)
+2018-06-11 20:04:25,845 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-06-11 20:04:25,916 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1f14f20c: startup date [Mon Jun 11 20:04:25 CST 2018]; root of context hierarchy
+2018-06-11 20:04:28,489 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-06-11 20:04:32,260 INFO  [StartupInfoLogger.java:59] Started VideoMapperTest in 8.506 seconds (JVM running for 12.132)
+2018-06-11 20:04:33,055 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-06-11 20:04:34,442 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-06-11 20:04:35,008 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@1f14f20c: startup date [Mon Jun 11 20:04:25 CST 2018]; root of context hierarchy
+2018-06-11 20:04:35,014 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-06-11 20:04:35,048 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-06-11 20:06:15,804 INFO  [StartupInfoLogger.java:50] Starting VideoMapperTest on MEW with PID 6980 (started by wangxin in D:\code\java\computer)
+2018-06-11 20:06:15,806 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-06-11 20:06:15,827 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@263558c9: startup date [Mon Jun 11 20:06:15 CST 2018]; root of context hierarchy
+2018-06-11 20:06:17,409 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-06-11 20:06:19,202 INFO  [StartupInfoLogger.java:59] Started VideoMapperTest in 4.587 seconds (JVM running for 8.1)
+2018-06-11 20:06:19,454 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-06-11 20:06:20,266 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-06-11 20:06:20,580 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@263558c9: startup date [Mon Jun 11 20:06:15 CST 2018]; root of context hierarchy
+2018-06-11 20:06:20,598 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-06-11 20:06:20,635 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-06-11 20:07:25,370 INFO  [StartupInfoLogger.java:50] Starting VideoMapperTest on MEW with PID 2648 (started by wangxin in D:\code\java\computer)
+2018-06-11 20:07:25,373 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-06-11 20:07:25,391 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@263558c9: startup date [Mon Jun 11 20:07:25 CST 2018]; root of context hierarchy
+2018-06-11 20:07:26,161 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-06-11 20:07:28,414 INFO  [StartupInfoLogger.java:59] Started VideoMapperTest in 4.079 seconds (JVM running for 7.234)
+2018-06-11 20:07:28,944 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-06-11 20:07:29,976 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-06-11 20:07:30,191 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@263558c9: startup date [Mon Jun 11 20:07:25 CST 2018]; root of context hierarchy
+2018-06-11 20:07:30,201 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-06-11 20:07:30,235 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.

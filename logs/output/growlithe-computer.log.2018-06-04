@@ -1,0 +1,284 @@
+2018-06-04 16:31:14,600 INFO  [StartupInfoLogger.java:50] Starting EmpMapperTest on MEW with PID 5996 (started by wangxin in D:\code\java\computer)
+2018-06-04 16:31:14,614 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-06-04 16:31:14,687 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2ca6546f: startup date [Mon Jun 04 16:31:14 CST 2018]; root of context hierarchy
+2018-06-04 16:31:16,605 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-06-04 16:31:19,728 INFO  [StartupInfoLogger.java:59] Started EmpMapperTest in 7.017 seconds (JVM running for 11.253)
+2018-06-04 16:38:58,351 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@2ca6546f: startup date [Mon Jun 04 16:31:14 CST 2018]; root of context hierarchy
+2018-06-04 19:36:56,744 INFO  [StartupInfoLogger.java:50] Starting EmpMapperTest on MEW with PID 1884 (started by wangxin in D:\code\java\computer)
+2018-06-04 19:36:56,745 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-06-04 19:36:56,762 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1ad926d3: startup date [Mon Jun 04 19:36:56 CST 2018]; root of context hierarchy
+2018-06-04 19:36:58,214 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-06-04 19:37:00,476 INFO  [StartupInfoLogger.java:59] Started EmpMapperTest in 4.786 seconds (JVM running for 8.231)
+2018-06-04 19:37:00,880 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@1ad926d3: startup date [Mon Jun 04 19:36:56 CST 2018]; root of context hierarchy
+2018-06-04 19:37:26,347 INFO  [StartupInfoLogger.java:50] Starting EmpMapperTest on MEW with PID 892 (started by wangxin in D:\code\java\computer)
+2018-06-04 19:37:26,349 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-06-04 19:37:26,368 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1ad926d3: startup date [Mon Jun 04 19:37:26 CST 2018]; root of context hierarchy
+2018-06-04 19:37:27,787 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-06-04 19:37:30,121 INFO  [StartupInfoLogger.java:59] Started EmpMapperTest in 4.58 seconds (JVM running for 8.79)
+2018-06-04 19:37:30,378 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@1ad926d3: startup date [Mon Jun 04 19:37:26 CST 2018]; root of context hierarchy
+2018-06-04 19:38:17,366 INFO  [StartupInfoLogger.java:50] Starting EmpMapperTest on MEW with PID 1760 (started by wangxin in D:\code\java\computer)
+2018-06-04 19:38:19,099 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-06-04 19:38:19,154 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1ad926d3: startup date [Mon Jun 04 19:38:19 CST 2018]; root of context hierarchy
+2018-06-04 19:38:21,156 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-06-04 19:38:23,457 INFO  [StartupInfoLogger.java:59] Started EmpMapperTest in 7.241 seconds (JVM running for 12.338)
+2018-06-04 19:38:23,739 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@1ad926d3: startup date [Mon Jun 04 19:38:19 CST 2018]; root of context hierarchy
+2018-06-04 19:38:57,343 INFO  [StartupInfoLogger.java:50] Starting EmpMapperTest on MEW with PID 308 (started by wangxin in D:\code\java\computer)
+2018-06-04 19:38:57,345 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-06-04 19:38:57,367 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5f2afe62: startup date [Mon Jun 04 19:38:57 CST 2018]; root of context hierarchy
+2018-06-04 19:38:58,260 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-06-04 19:38:59,598 INFO  [StartupInfoLogger.java:59] Started EmpMapperTest in 3.366 seconds (JVM running for 6.97)
+2018-06-04 19:38:59,703 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@5f2afe62: startup date [Mon Jun 04 19:38:57 CST 2018]; root of context hierarchy
+2018-06-04 19:39:33,638 INFO  [StartupInfoLogger.java:50] Starting EmpMapperTest on MEW with PID 5756 (started by wangxin in D:\code\java\computer)
+2018-06-04 19:39:33,640 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-06-04 19:39:33,660 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5f2afe62: startup date [Mon Jun 04 19:39:33 CST 2018]; root of context hierarchy
+2018-06-04 19:39:34,739 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-06-04 19:39:37,366 INFO  [StartupInfoLogger.java:59] Started EmpMapperTest in 4.818 seconds (JVM running for 8.653)
+2018-06-04 19:39:37,658 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@5f2afe62: startup date [Mon Jun 04 19:39:33 CST 2018]; root of context hierarchy
+2018-06-04 19:39:55,520 INFO  [StartupInfoLogger.java:50] Starting EmpMapperTest on MEW with PID 7500 (started by wangxin in D:\code\java\computer)
+2018-06-04 19:39:55,522 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-06-04 19:39:55,538 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5f2afe62: startup date [Mon Jun 04 19:39:55 CST 2018]; root of context hierarchy
+2018-06-04 19:39:56,442 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-06-04 19:39:58,675 INFO  [StartupInfoLogger.java:59] Started EmpMapperTest in 4.102 seconds (JVM running for 6.577)
+2018-06-04 19:39:58,923 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@5f2afe62: startup date [Mon Jun 04 19:39:55 CST 2018]; root of context hierarchy
+2018-06-04 19:40:46,842 INFO  [StartupInfoLogger.java:50] Starting EmpMapperTest on MEW with PID 9880 (started by wangxin in D:\code\java\computer)
+2018-06-04 19:40:46,844 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-06-04 19:40:46,870 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5f2afe62: startup date [Mon Jun 04 19:40:46 CST 2018]; root of context hierarchy
+2018-06-04 19:40:47,735 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-06-04 19:40:49,027 INFO  [StartupInfoLogger.java:59] Started EmpMapperTest in 3.332 seconds (JVM running for 7.322)
+2018-06-04 19:40:49,295 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@5f2afe62: startup date [Mon Jun 04 19:40:46 CST 2018]; root of context hierarchy
+2018-06-04 19:41:13,109 INFO  [StartupInfoLogger.java:50] Starting EmpMapperTest on MEW with PID 6864 (started by wangxin in D:\code\java\computer)
+2018-06-04 19:41:13,114 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-06-04 19:41:13,164 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5f2afe62: startup date [Mon Jun 04 19:41:13 CST 2018]; root of context hierarchy
+2018-06-04 19:41:14,779 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-06-04 19:41:17,243 INFO  [StartupInfoLogger.java:59] Started EmpMapperTest in 5.828 seconds (JVM running for 10.674)
+2018-06-04 19:41:17,548 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@5f2afe62: startup date [Mon Jun 04 19:41:13 CST 2018]; root of context hierarchy
+2018-06-04 22:49:00,205 INFO  [StartupInfoLogger.java:50] Starting EmpMapperTest on MEW with PID 7364 (started by wangxin in D:\code\java\computer)
+2018-06-04 22:49:00,206 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-06-04 22:49:00,224 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2ca6546f: startup date [Mon Jun 04 22:49:00 CST 2018]; root of context hierarchy
+2018-06-04 22:49:02,199 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-06-04 22:49:04,624 INFO  [StartupInfoLogger.java:59] Started EmpMapperTest in 5.424 seconds (JVM running for 8.475)
+2018-06-04 22:49:26,417 INFO  [Logging.scala:54] Running Spark version 2.3.0
+2018-06-04 22:49:29,393 WARN  [NativeCodeLoader.java:62] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2018-06-04 22:49:30,516 ERROR [Shell.java:396] Failed to locate the winutils binary in the hadoop binary path
+java.io.IOException: Could not locate executable null\bin\winutils.exe in the Hadoop binaries.
+	at org.apache.hadoop.util.Shell.getQualifiedBinPath(Shell.java:378)
+	at org.apache.hadoop.util.Shell.getWinUtilsPath(Shell.java:393)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:386)
+	at org.apache.hadoop.util.StringUtils.<clinit>(StringUtils.java:79)
+	at org.apache.hadoop.security.Groups.parseStaticMapping(Groups.java:116)
+	at org.apache.hadoop.security.Groups.<init>(Groups.java:93)
+	at org.apache.hadoop.security.Groups.<init>(Groups.java:73)
+	at org.apache.hadoop.security.Groups.getUserToGroupsMappingService(Groups.java:293)
+	at org.apache.hadoop.security.UserGroupInformation.initialize(UserGroupInformation.java:283)
+	at org.apache.hadoop.security.UserGroupInformation.ensureInitialized(UserGroupInformation.java:260)
+	at org.apache.hadoop.security.UserGroupInformation.loginUserFromSubject(UserGroupInformation.java:789)
+	at org.apache.hadoop.security.UserGroupInformation.getLoginUser(UserGroupInformation.java:774)
+	at org.apache.hadoop.security.UserGroupInformation.getCurrentUser(UserGroupInformation.java:647)
+	at org.apache.spark.util.Utils$$anonfun$getCurrentUserName$1.apply(Utils.scala:2464)
+	at org.apache.spark.util.Utils$$anonfun$getCurrentUserName$1.apply(Utils.scala:2464)
+	at scala.Option.getOrElse(Option.scala:121)
+	at org.apache.spark.util.Utils$.getCurrentUserName(Utils.scala:2464)
+	at org.apache.spark.SparkContext.<init>(SparkContext.scala:292)
+	at org.apache.spark.api.java.JavaSparkContext.<init>(JavaSparkContext.scala:58)
+	at org.apache.spark.api.java.JavaSparkContext.<init>(JavaSparkContext.scala:72)
+	at com.growlithe.computer.mysql.practice.customer.dao.mapper.EmpMapperTest.sparkDemoTest(EmpMapperTest.java:50)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestExecutionCallbacks.evaluate(RunBeforeTestExecutionCallbacks.java:73)
+	at org.springframework.test.context.junit4.statements.RunAfterTestExecutionCallbacks.evaluate(RunAfterTestExecutionCallbacks.java:83)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:251)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+2018-06-04 22:49:31,503 INFO  [Logging.scala:54] Submitted application: First Spark App
+2018-06-04 22:49:31,828 INFO  [Logging.scala:54] Changing view acls to: wangxin
+2018-06-04 22:49:31,834 INFO  [Logging.scala:54] Changing modify acls to: wangxin
+2018-06-04 22:49:31,836 INFO  [Logging.scala:54] Changing view acls groups to: 
+2018-06-04 22:49:31,839 INFO  [Logging.scala:54] Changing modify acls groups to: 
+2018-06-04 22:49:31,841 INFO  [Logging.scala:54] SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(wangxin); groups with view permissions: Set(); users  with modify permissions: Set(wangxin); groups with modify permissions: Set()
+2018-06-04 22:49:33,905 INFO  [Logging.scala:54] Successfully started service 'sparkDriver' on port 63577.
+2018-06-04 22:49:34,058 INFO  [Logging.scala:54] Registering MapOutputTracker
+2018-06-04 22:49:34,721 INFO  [Logging.scala:54] Registering BlockManagerMaster
+2018-06-04 22:49:34,815 INFO  [Logging.scala:54] Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+2018-06-04 22:49:34,851 INFO  [Logging.scala:54] BlockManagerMasterEndpoint up
+2018-06-04 22:49:34,913 INFO  [Logging.scala:54] Created local directory at C:\Users\wangxin\AppData\Local\Temp\blockmgr-e42eb830-7ac6-41c6-9bdc-e0f2b7c73f8d
+2018-06-04 22:49:35,063 INFO  [Logging.scala:54] MemoryStore started with capacity 1048.8 MB
+2018-06-04 22:49:35,629 INFO  [Logging.scala:54] Registering OutputCommitCoordinator
+2018-06-04 22:49:37,496 INFO  [Log.java:192] Logging initialized @41347ms
+2018-06-04 22:49:38,569 INFO  [Server.java:346] jetty-9.3.z-SNAPSHOT
+2018-06-04 22:49:38,623 INFO  [Server.java:414] Started @42474ms
+2018-06-04 22:49:38,705 INFO  [AbstractConnector.java:278] Started ServerConnector@2270f58d{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+2018-06-04 22:49:38,707 INFO  [Logging.scala:54] Successfully started service 'SparkUI' on port 4040.
+2018-06-04 22:49:38,782 INFO  [ContextHandler.java:781] Started o.s.j.s.ServletContextHandler@3cf70afa{/jobs,null,AVAILABLE,@Spark}
+2018-06-04 22:49:38,785 INFO  [ContextHandler.java:781] Started o.s.j.s.ServletContextHandler@bea5941{/jobs/json,null,AVAILABLE,@Spark}
+2018-06-04 22:49:38,790 INFO  [ContextHandler.java:781] Started o.s.j.s.ServletContextHandler@df6f19b{/jobs/job,null,AVAILABLE,@Spark}
+2018-06-04 22:49:38,795 INFO  [ContextHandler.java:781] Started o.s.j.s.ServletContextHandler@614cbec4{/jobs/job/json,null,AVAILABLE,@Spark}
+2018-06-04 22:49:38,799 INFO  [ContextHandler.java:781] Started o.s.j.s.ServletContextHandler@3835d3fd{/stages,null,AVAILABLE,@Spark}
+2018-06-04 22:49:38,801 INFO  [ContextHandler.java:781] Started o.s.j.s.ServletContextHandler@2759749{/stages/json,null,AVAILABLE,@Spark}
+2018-06-04 22:49:38,803 INFO  [ContextHandler.java:781] Started o.s.j.s.ServletContextHandler@4efed0e0{/stages/stage,null,AVAILABLE,@Spark}
+2018-06-04 22:49:38,807 INFO  [ContextHandler.java:781] Started o.s.j.s.ServletContextHandler@729d6ee2{/stages/stage/json,null,AVAILABLE,@Spark}
+2018-06-04 22:49:38,810 INFO  [ContextHandler.java:781] Started o.s.j.s.ServletContextHandler@4adcc981{/stages/pool,null,AVAILABLE,@Spark}
+2018-06-04 22:49:38,812 INFO  [ContextHandler.java:781] Started o.s.j.s.ServletContextHandler@73aae7a{/stages/pool/json,null,AVAILABLE,@Spark}
+2018-06-04 22:49:38,814 INFO  [ContextHandler.java:781] Started o.s.j.s.ServletContextHandler@3856d0cb{/storage,null,AVAILABLE,@Spark}
+2018-06-04 22:49:38,817 INFO  [ContextHandler.java:781] Started o.s.j.s.ServletContextHandler@2125535d{/storage/json,null,AVAILABLE,@Spark}
+2018-06-04 22:49:38,820 INFO  [ContextHandler.java:781] Started o.s.j.s.ServletContextHandler@d190639{/storage/rdd,null,AVAILABLE,@Spark}
+2018-06-04 22:49:38,823 INFO  [ContextHandler.java:781] Started o.s.j.s.ServletContextHandler@5f82209e{/storage/rdd/json,null,AVAILABLE,@Spark}
+2018-06-04 22:49:38,826 INFO  [ContextHandler.java:781] Started o.s.j.s.ServletContextHandler@515c732d{/environment,null,AVAILABLE,@Spark}
+2018-06-04 22:49:38,829 INFO  [ContextHandler.java:781] Started o.s.j.s.ServletContextHandler@5ae87de0{/environment/json,null,AVAILABLE,@Spark}
+2018-06-04 22:49:38,832 INFO  [ContextHandler.java:781] Started o.s.j.s.ServletContextHandler@1f85904a{/executors,null,AVAILABLE,@Spark}
+2018-06-04 22:49:38,835 INFO  [ContextHandler.java:781] Started o.s.j.s.ServletContextHandler@514dc5f4{/executors/json,null,AVAILABLE,@Spark}
+2018-06-04 22:49:38,837 INFO  [ContextHandler.java:781] Started o.s.j.s.ServletContextHandler@633a11eb{/executors/threadDump,null,AVAILABLE,@Spark}
+2018-06-04 22:49:38,841 INFO  [ContextHandler.java:781] Started o.s.j.s.ServletContextHandler@7a247711{/executors/threadDump/json,null,AVAILABLE,@Spark}
+2018-06-04 22:49:38,864 INFO  [ContextHandler.java:781] Started o.s.j.s.ServletContextHandler@4910afdf{/static,null,AVAILABLE,@Spark}
+2018-06-04 22:49:38,866 INFO  [ContextHandler.java:781] Started o.s.j.s.ServletContextHandler@311a09b2{/,null,AVAILABLE,@Spark}
+2018-06-04 22:49:38,869 INFO  [ContextHandler.java:781] Started o.s.j.s.ServletContextHandler@4cacccbf{/api,null,AVAILABLE,@Spark}
+2018-06-04 22:49:38,871 INFO  [ContextHandler.java:781] Started o.s.j.s.ServletContextHandler@4dad2363{/jobs/job/kill,null,AVAILABLE,@Spark}
+2018-06-04 22:49:38,872 INFO  [ContextHandler.java:781] Started o.s.j.s.ServletContextHandler@114b2414{/stages/stage/kill,null,AVAILABLE,@Spark}
+2018-06-04 22:49:38,877 INFO  [Logging.scala:54] Bound SparkUI to 0.0.0.0, and started at http://192.168.0.103:4040
+2018-06-04 22:49:41,505 INFO  [Logging.scala:54] Starting executor ID driver on host localhost
+2018-06-04 22:49:42,028 INFO  [Logging.scala:54] Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 63603.
+2018-06-04 22:49:42,032 INFO  [Logging.scala:54] Server created on 192.168.0.103:63603
+2018-06-04 22:49:42,037 INFO  [Logging.scala:54] Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+2018-06-04 22:49:42,045 INFO  [Logging.scala:54] Registering BlockManager BlockManagerId(driver, 192.168.0.103, 63603, None)
+2018-06-04 22:49:42,058 INFO  [Logging.scala:54] Registering block manager 192.168.0.103:63603 with 1048.8 MB RAM, BlockManagerId(driver, 192.168.0.103, 63603, None)
+2018-06-04 22:49:42,170 INFO  [Logging.scala:54] Registered BlockManager BlockManagerId(driver, 192.168.0.103, 63603, None)
+2018-06-04 22:49:42,201 INFO  [Logging.scala:54] Initialized BlockManager: BlockManagerId(driver, 192.168.0.103, 63603, None)
+2018-06-04 22:49:44,597 INFO  [ContextHandler.java:781] Started o.s.j.s.ServletContextHandler@64af5454{/metrics/json,null,AVAILABLE,@Spark}
+2018-06-04 23:03:30,011 WARN  [Logging.scala:66] Removing executor driver with no recent heartbeats: 824983 ms exceeds timeout 120000 ms
+2018-06-04 23:04:15,139 INFO  [StartupInfoLogger.java:50] Starting EmpMapperTest on MEW with PID 11020 (started by wangxin in D:\code\java\computer)
+2018-06-04 23:04:15,141 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-06-04 23:04:15,163 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@37095ded: startup date [Mon Jun 04 23:04:15 CST 2018]; root of context hierarchy
+2018-06-04 23:04:16,744 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-06-04 23:04:18,670 INFO  [StartupInfoLogger.java:59] Started EmpMapperTest in 4.692 seconds (JVM running for 8.826)
+2018-06-04 23:04:30,747 INFO  [Logging.scala:54] Running Spark version 2.3.0
+2018-06-04 23:04:31,280 WARN  [NativeCodeLoader.java:62] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2018-06-04 23:04:31,407 ERROR [Shell.java:396] Failed to locate the winutils binary in the hadoop binary path
+java.io.IOException: Could not locate executable null\bin\winutils.exe in the Hadoop binaries.
+	at org.apache.hadoop.util.Shell.getQualifiedBinPath(Shell.java:378)
+	at org.apache.hadoop.util.Shell.getWinUtilsPath(Shell.java:393)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:386)
+	at org.apache.hadoop.util.StringUtils.<clinit>(StringUtils.java:79)
+	at org.apache.hadoop.security.Groups.parseStaticMapping(Groups.java:116)
+	at org.apache.hadoop.security.Groups.<init>(Groups.java:93)
+	at org.apache.hadoop.security.Groups.<init>(Groups.java:73)
+	at org.apache.hadoop.security.Groups.getUserToGroupsMappingService(Groups.java:293)
+	at org.apache.hadoop.security.UserGroupInformation.initialize(UserGroupInformation.java:283)
+	at org.apache.hadoop.security.UserGroupInformation.ensureInitialized(UserGroupInformation.java:260)
+	at org.apache.hadoop.security.UserGroupInformation.loginUserFromSubject(UserGroupInformation.java:789)
+	at org.apache.hadoop.security.UserGroupInformation.getLoginUser(UserGroupInformation.java:774)
+	at org.apache.hadoop.security.UserGroupInformation.getCurrentUser(UserGroupInformation.java:647)
+	at org.apache.spark.util.Utils$$anonfun$getCurrentUserName$1.apply(Utils.scala:2464)
+	at org.apache.spark.util.Utils$$anonfun$getCurrentUserName$1.apply(Utils.scala:2464)
+	at scala.Option.getOrElse(Option.scala:121)
+	at org.apache.spark.util.Utils$.getCurrentUserName(Utils.scala:2464)
+	at org.apache.spark.SparkContext.<init>(SparkContext.scala:292)
+	at org.apache.spark.api.java.JavaSparkContext.<init>(JavaSparkContext.scala:58)
+	at com.growlithe.computer.mysql.practice.customer.dao.mapper.EmpMapperTest.sparkDemoTest(EmpMapperTest.java:53)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestExecutionCallbacks.evaluate(RunBeforeTestExecutionCallbacks.java:73)
+	at org.springframework.test.context.junit4.statements.RunAfterTestExecutionCallbacks.evaluate(RunAfterTestExecutionCallbacks.java:83)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:251)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+2018-06-04 23:04:31,548 INFO  [Logging.scala:54] Submitted application: mySpark
+2018-06-04 23:04:31,695 INFO  [Logging.scala:54] Changing view acls to: wangxin
+2018-06-04 23:04:31,701 INFO  [Logging.scala:54] Changing modify acls to: wangxin
+2018-06-04 23:04:31,703 INFO  [Logging.scala:54] Changing view acls groups to: 
+2018-06-04 23:04:31,705 INFO  [Logging.scala:54] Changing modify acls groups to: 
+2018-06-04 23:04:31,706 INFO  [Logging.scala:54] SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(wangxin); groups with view permissions: Set(); users  with modify permissions: Set(wangxin); groups with modify permissions: Set()
+2018-06-04 23:04:33,001 INFO  [Logging.scala:54] Successfully started service 'sparkDriver' on port 49533.
+2018-06-04 23:04:33,045 INFO  [Logging.scala:54] Registering MapOutputTracker
+2018-06-04 23:04:33,083 INFO  [Logging.scala:54] Registering BlockManagerMaster
+2018-06-04 23:04:33,090 INFO  [Logging.scala:54] Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+2018-06-04 23:04:33,091 INFO  [Logging.scala:54] BlockManagerMasterEndpoint up
+2018-06-04 23:04:33,115 INFO  [Logging.scala:54] Created local directory at C:\Users\wangxin\AppData\Local\Temp\blockmgr-501c21b6-35c6-4e9f-a9aa-70fa714f4399
+2018-06-04 23:04:33,172 INFO  [Logging.scala:54] MemoryStore started with capacity 1048.8 MB
+2018-06-04 23:04:33,199 INFO  [Logging.scala:54] Registering OutputCommitCoordinator
+2018-06-04 23:04:33,366 INFO  [Log.java:192] Logging initialized @23523ms
+2018-06-04 23:04:33,477 INFO  [Server.java:346] jetty-9.3.z-SNAPSHOT
+2018-06-04 23:04:33,521 INFO  [Server.java:414] Started @23678ms
+2018-06-04 23:04:33,585 INFO  [AbstractConnector.java:278] Started ServerConnector@7086c05b{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+2018-06-04 23:04:33,587 INFO  [Logging.scala:54] Successfully started service 'SparkUI' on port 4040.
+2018-06-04 23:04:33,644 INFO  [ContextHandler.java:781] Started o.s.j.s.ServletContextHandler@5dba3fdc{/jobs,null,AVAILABLE,@Spark}
+2018-06-04 23:04:33,646 INFO  [ContextHandler.java:781] Started o.s.j.s.ServletContextHandler@4a5fab78{/jobs/json,null,AVAILABLE,@Spark}
+2018-06-04 23:04:33,647 INFO  [ContextHandler.java:781] Started o.s.j.s.ServletContextHandler@77a85e76{/jobs/job,null,AVAILABLE,@Spark}
+2018-06-04 23:04:33,650 INFO  [ContextHandler.java:781] Started o.s.j.s.ServletContextHandler@34fc315d{/jobs/job/json,null,AVAILABLE,@Spark}
+2018-06-04 23:04:33,652 INFO  [ContextHandler.java:781] Started o.s.j.s.ServletContextHandler@34f48d1{/stages,null,AVAILABLE,@Spark}
+2018-06-04 23:04:33,654 INFO  [ContextHandler.java:781] Started o.s.j.s.ServletContextHandler@36a1fd20{/stages/json,null,AVAILABLE,@Spark}
+2018-06-04 23:04:33,656 INFO  [ContextHandler.java:781] Started o.s.j.s.ServletContextHandler@45f8415b{/stages/stage,null,AVAILABLE,@Spark}
+2018-06-04 23:04:33,660 INFO  [ContextHandler.java:781] Started o.s.j.s.ServletContextHandler@505a8582{/stages/stage/json,null,AVAILABLE,@Spark}
+2018-06-04 23:04:33,662 INFO  [ContextHandler.java:781] Started o.s.j.s.ServletContextHandler@57afe44b{/stages/pool,null,AVAILABLE,@Spark}
+2018-06-04 23:04:33,664 INFO  [ContextHandler.java:781] Started o.s.j.s.ServletContextHandler@18887028{/stages/pool/json,null,AVAILABLE,@Spark}
+2018-06-04 23:04:33,667 INFO  [ContextHandler.java:781] Started o.s.j.s.ServletContextHandler@28f8ce2e{/storage,null,AVAILABLE,@Spark}
+2018-06-04 23:04:33,668 INFO  [ContextHandler.java:781] Started o.s.j.s.ServletContextHandler@2c0a3826{/storage/json,null,AVAILABLE,@Spark}
+2018-06-04 23:04:33,671 INFO  [ContextHandler.java:781] Started o.s.j.s.ServletContextHandler@4af0c50{/storage/rdd,null,AVAILABLE,@Spark}
+2018-06-04 23:04:33,673 INFO  [ContextHandler.java:781] Started o.s.j.s.ServletContextHandler@5ffd35dd{/storage/rdd/json,null,AVAILABLE,@Spark}
+2018-06-04 23:04:33,676 INFO  [ContextHandler.java:781] Started o.s.j.s.ServletContextHandler@311a09b2{/environment,null,AVAILABLE,@Spark}
+2018-06-04 23:04:33,679 INFO  [ContextHandler.java:781] Started o.s.j.s.ServletContextHandler@4cacccbf{/environment/json,null,AVAILABLE,@Spark}
+2018-06-04 23:04:33,681 INFO  [ContextHandler.java:781] Started o.s.j.s.ServletContextHandler@301d84f6{/executors,null,AVAILABLE,@Spark}
+2018-06-04 23:04:33,683 INFO  [ContextHandler.java:781] Started o.s.j.s.ServletContextHandler@6f80cf5{/executors/json,null,AVAILABLE,@Spark}
+2018-06-04 23:04:33,685 INFO  [ContextHandler.java:781] Started o.s.j.s.ServletContextHandler@674ed201{/executors/threadDump,null,AVAILABLE,@Spark}
+2018-06-04 23:04:33,687 INFO  [ContextHandler.java:781] Started o.s.j.s.ServletContextHandler@4dad2363{/executors/threadDump/json,null,AVAILABLE,@Spark}
+2018-06-04 23:04:33,704 INFO  [ContextHandler.java:781] Started o.s.j.s.ServletContextHandler@114b2414{/static,null,AVAILABLE,@Spark}
+2018-06-04 23:04:33,707 INFO  [ContextHandler.java:781] Started o.s.j.s.ServletContextHandler@69d021c1{/,null,AVAILABLE,@Spark}
+2018-06-04 23:04:33,710 INFO  [ContextHandler.java:781] Started o.s.j.s.ServletContextHandler@6d5508a5{/api,null,AVAILABLE,@Spark}
+2018-06-04 23:04:33,712 INFO  [ContextHandler.java:781] Started o.s.j.s.ServletContextHandler@3d8bd881{/jobs/job/kill,null,AVAILABLE,@Spark}
+2018-06-04 23:04:33,714 INFO  [ContextHandler.java:781] Started o.s.j.s.ServletContextHandler@731ab49b{/stages/stage/kill,null,AVAILABLE,@Spark}
+2018-06-04 23:04:33,720 INFO  [Logging.scala:54] Bound SparkUI to 0.0.0.0, and started at http://192.168.0.103:4040
+2018-06-04 23:04:34,110 INFO  [Logging.scala:54] Starting executor ID driver on host localhost
+2018-06-04 23:04:34,185 INFO  [Logging.scala:54] Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 49547.
+2018-06-04 23:04:34,188 INFO  [Logging.scala:54] Server created on 192.168.0.103:49547
+2018-06-04 23:04:34,192 INFO  [Logging.scala:54] Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+2018-06-04 23:04:34,198 INFO  [Logging.scala:54] Registering BlockManager BlockManagerId(driver, 192.168.0.103, 49547, None)
+2018-06-04 23:04:34,209 INFO  [Logging.scala:54] Registering block manager 192.168.0.103:49547 with 1048.8 MB RAM, BlockManagerId(driver, 192.168.0.103, 49547, None)
+2018-06-04 23:04:34,220 INFO  [Logging.scala:54] Registered BlockManager BlockManagerId(driver, 192.168.0.103, 49547, None)
+2018-06-04 23:04:34,222 INFO  [Logging.scala:54] Initialized BlockManager: BlockManagerId(driver, 192.168.0.103, 49547, None)
+2018-06-04 23:04:34,742 INFO  [ContextHandler.java:781] Started o.s.j.s.ServletContextHandler@699bb304{/metrics/json,null,AVAILABLE,@Spark}
+2018-06-04 23:04:38,787 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-06-04 23:04:57,471 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
