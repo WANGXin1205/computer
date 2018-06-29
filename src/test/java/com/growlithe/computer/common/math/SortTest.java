@@ -20,6 +20,7 @@ public class SortTest {
         var list = new Integer[]{7,4,9,2,4,1,3};
         Sort.bubbleSort(list);
         Stream.of(list).forEach(System.out::println);
+        Assert.assertArrayEquals(new Integer[]{1,2,3,4,4,7,9},list);
     }
 
     @Test
@@ -27,5 +28,6 @@ public class SortTest {
         var list = new Integer[]{7,4,9,2,4,1,3};
         Sort.selectionSort(list);
         Stream.of(list).forEach(System.out::println);
+        Assert.assertArrayEquals(new Integer[]{1,2,3,4,4,7,9},list);
     }
 }
