@@ -1,7 +1,10 @@
 package com.growlithe.computer.mysql.practice.customer.thread;
 
+import org.springframework.scheduling.concurrent.ThreadPoolExecutorFactoryBean;
+
 import java.util.concurrent.Callable;
 import java.util.concurrent.FutureTask;
+import java.util.concurrent.ThreadFactory;
 
 /**
  * @Author : Growlithe
@@ -10,34 +13,45 @@ import java.util.concurrent.FutureTask;
  */
 public class MyCallable implements Callable<Integer> {
 
-    private String name;
 
-    public String getName() {
-        return name;
+    private static final Integer MAX_TIME = 50;
+
+    private String threadName;
+
+    private Integer tickets;
+
+    public String getThreadName() {
+        return threadName;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setThreadName(String threadName) {
+        this.threadName = threadName;
+    }
+
+    public Integer getTickets() {
+        return tickets;
+    }
+
+    public void setTickets(Integer tickets) {
+        this.tickets = tickets;
     }
 
     @Override
     public Integer call() {
-        Integer integer = 0;
+        Integer i = 0;
 
-        for (int i = integer; i <= 100; i++) {
-            System.out.println(name+ "    " +i);
+        if (tickets == null) {
+            for (i = 1; i < MAX_TIME + 1; i++) {
+                System.out.println("this is " + threadName + " " + i);
+            }
+        }
+        if (tickets != null) {
+            for (i = tickets; i > 0; i--) {
+                System.out.println("this is " + threadName + " " + i);
+            }
         }
 
-        return integer;
+        return i;
     }
 
-
-    public void start(){
-        MyCallable td = new MyCallable();
-        td.setName(this.name);
-        //1.执行 Callable 方式，需要 FutureTask 实现类的支持，用于接收运算结果。
-        FutureTask<Integer> futureTask = new FutureTask<>(td);
-
-        new Thread(futureTask).start();
-    }
 }
