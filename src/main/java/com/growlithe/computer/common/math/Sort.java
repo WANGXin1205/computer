@@ -64,13 +64,35 @@ public class Sort {
         for (Integer i = DEFAULT_ARRAY_START; i < array.length; i++) {
             Integer minIndex = i;
             for (Integer j = i + ONE; j < array.length; j++) {
-                if (array[minIndex] > array[j]){
+                if (array[minIndex] > array[j]) {
                     minIndex = j;
                 }
             }
             Integer temp = array[i];
             array[i] = array[minIndex];
             array[minIndex] = temp;
+        }
+    }
+
+    /**
+     * 插入排序 时间复杂度O(n^2)
+     *
+     * @param array
+     */
+    public static void insertionSort(Integer[] array) {
+        MathUtils.checkIntegerArray(array);
+        if (Sort.checkSigle(array)) {
+            return;
+        }
+
+        for (Integer i = ONE; i < array.length; i++) {
+            Integer j = i - ONE;
+            Integer currentValue = array[i];
+            while (j >= DEFAULT_ARRAY_START && currentValue < array[j]) {
+                array[j + ONE] = array[j];
+                j--;
+            }
+            array[j + ONE] = currentValue;
         }
     }
 
