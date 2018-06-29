@@ -6,14 +6,15 @@
         <id column="id" property="id" jdbcType="BIGINT"/>
         <result column="emp_id" property="empId" jdbcType="BIGINT"/>
         <result column="age" property="age" jdbcType="INTEGER"/>
+        <result column="parent_emp_id" property="parentEmpId" jdbcType="BIGINT"/>
     </resultMap>
 
     <sql id="save_property">
-    emp_id,age
+    emp_id, age, parent_emp_id
     </sql>
 
     <select id="listAllEmp" resultMap="BaseResultMap">
-        select id, emp_id,age from emp
+        select id, emp_id, age, parent_emp_id from emp
     </select>
 
     <insert id="saveBatch" parameterType="java.util.List" useGeneratedKeys="true" keyProperty="id">
@@ -21,7 +22,7 @@
         practice.emp(<include refid="save_property"/>)
         VALUES
         <foreach collection="list" item="item" separator=",">
-            (#{item.empId},#{item.age})
+            (#{item.empId},#{item.age},#{item.parentEmpId})
         </foreach>
     </insert>
 

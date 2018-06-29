@@ -19,16 +19,24 @@ public class EmpDO {
      */
     private Integer age;
     /**
-     * todo 上级id，这个字段临时凑数
+     * 上级empId
      */
-    private Long parentId;
+    private Long parentEmpId;
 
     public EmpDO() {
     }
 
-    public EmpDO(Long id, Long parentId) {
+    public EmpDO(Long id, Long parentEmpId) {
         this.id = id;
-        this.parentId = parentId;
+        this.parentEmpId = parentEmpId;
+    }
+
+    public Long getParentEmpId() {
+        return parentEmpId;
+    }
+
+    public void setParentEmpId(Long parentEmpId) {
+        this.parentEmpId = parentEmpId;
     }
 
     public Long getId() {
@@ -55,21 +63,13 @@ public class EmpDO {
         this.age = age;
     }
 
-    public Long getParentId() {
-        return parentId;
-    }
-
-    public void setParentId(Long parentId) {
-        this.parentId = parentId;
-    }
-
     @Override
     public String toString() {
         return "EmpDO{" +
                 "id=" + id +
                 ", empId=" + empId +
                 ", age=" + age +
-                ", parentId=" + parentId +
+                ", parentEmpId=" + parentEmpId +
                 '}';
     }
 }

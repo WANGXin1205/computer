@@ -37,7 +37,7 @@ public class EmpMapperTest {
     @Test
     public void saveBatchTest() {
         List<EmpDO> empDOList = new ArrayList<>();
-        for (int i = 0; i<1000000 ; i++){
+        for (int i = 0; i<10 ; i++){
             var empDO = new EmpDO();
             Random random = new Random();
             empDO.setAge(random.nextInt(105));
@@ -114,7 +114,7 @@ public class EmpMapperTest {
         List<EmpDO> empDOList = Lists.newArrayList(empDO,empDO1,empDO2,empDO3,empDO4,empDO5,empDO6);
 
         HashMap<Long,Long> empHashMap = new HashMap<>();
-        empDOList.forEach(x->empHashMap.put(x.getId(),x.getParentId()));
+        empDOList.forEach(x->empHashMap.put(x.getId(),x.getParentEmpId()));
 
         for (EmpDO x:empDOList){
             Long id = x.getId();

@@ -95,3 +95,13 @@ Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No q
 2018-06-29 00:46:52,050 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
 2018-06-29 00:46:54,793 INFO  [StartupInfoLogger.java:59] Started ThreadUtilsTest in 5.152 seconds (JVM running for 6.74)
 2018-06-29 00:46:54,984 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@4aeaadc1: startup date [Fri Jun 29 00:46:50 CST 2018]; root of context hierarchy
+2018-06-29 18:06:00,231 INFO  [StartupInfoLogger.java:50] Starting EmpMapperTest on MEW with PID 1296 (started by wangxin in D:\code\java\computer)
+2018-06-29 18:06:00,254 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-06-29 18:06:00,318 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@28782602: startup date [Fri Jun 29 18:06:00 CST 2018]; root of context hierarchy
+2018-06-29 18:06:03,792 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-06-29 18:06:07,479 INFO  [StartupInfoLogger.java:59] Started EmpMapperTest in 10.002 seconds (JVM running for 14.737)
+2018-06-29 18:06:08,263 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-06-29 18:06:09,730 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-06-29 18:06:10,137 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@28782602: startup date [Fri Jun 29 18:06:00 CST 2018]; root of context hierarchy
+2018-06-29 18:06:10,144 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-06-29 18:06:10,171 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
