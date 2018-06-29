@@ -30,7 +30,7 @@ public class Sort {
     }
 
     /**
-     * 冒泡排序
+     * 冒泡排序 时间复杂度O(n^2)
      *
      * @param array
      */
@@ -51,7 +51,7 @@ public class Sort {
     }
 
     /**
-     * 选择排序
+     * 选择排序 时间复杂度O(n^2)
      *
      * @param array
      */
@@ -62,7 +62,15 @@ public class Sort {
         }
 
         for (Integer i = DEFAULT_ARRAY_START; i < array.length; i++) {
-
+            Integer minIndex = i;
+            for (Integer j = i + ONE; j < array.length; j++) {
+                if (array[minIndex] > array[j]){
+                    minIndex = j;
+                }
+            }
+            Integer temp = array[i];
+            array[i] = array[minIndex];
+            array[minIndex] = temp;
         }
     }
 

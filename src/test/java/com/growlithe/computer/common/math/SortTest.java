@@ -1,6 +1,7 @@
 package com.growlithe.computer.common.math;
 
 import org.assertj.core.util.Lists;
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.stream.Stream;
@@ -15,10 +16,16 @@ import static org.junit.Assert.*;
 public class SortTest {
 
     @Test
-    public void bubbleSort() {
+    public void bubbleSortTest() {
         var list = new Integer[]{7,4,9,2,4,1,3};
         Sort.bubbleSort(list);
         Stream.of(list).forEach(System.out::println);
+    }
 
+    @Test
+    public void selectionSortTest(){
+        var list = new Integer[]{7,4,9,2,4,1,3};
+        Sort.selectionSort(list);
+        Stream.of(list).forEach(System.out::println);
     }
 }
