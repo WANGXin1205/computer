@@ -36,6 +36,13 @@ public class MyCallable implements Callable<Integer> {
         this.tickets = tickets;
     }
 
+    public MyCallable() {
+    }
+
+    public MyCallable(String threadName) {
+        this.threadName = threadName;
+    }
+
     @Override
     public Integer call() {
         Integer i = 0;

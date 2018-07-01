@@ -13,6 +13,22 @@ import java.util.stream.Stream;
 public class MathUtils {
 
     /**
+     * 一般判断素数的方法 为了消耗时间也是醉了
+     * @param num
+     * @return
+     */
+    public static Boolean isOriginPrimeNumber(Integer num){
+
+        for (long i = 2; i < num; i++) {
+            if (num % i == 0) {
+                return false;
+            }
+        }
+
+        return true;
+    }
+
+    /**
      * 检查Integer数组是否为空
      *
      * @param array
