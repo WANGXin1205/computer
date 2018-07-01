@@ -17,7 +17,7 @@ public class MathUtils {
      * @param num
      * @return
      */
-    public static Boolean isOriginPrimeNumber(Integer num){
+    public static Boolean isOriginPrimeNumber(Long num){
 
         for (long i = 2; i < num; i++) {
             if (num % i == 0) {

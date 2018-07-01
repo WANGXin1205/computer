@@ -1,8 +1,6 @@
 package com.growlithe.computer.mysql.practice.customer.utils;
 
-import com.growlithe.computer.mysql.practice.customer.thread.MyCallable;
-import com.growlithe.computer.mysql.practice.customer.thread.MyRunnable;
-import com.growlithe.computer.mysql.practice.customer.thread.MyThread;
+import com.growlithe.computer.mysql.practice.customer.thread.*;
 import com.mysql.jdbc.StringUtils;
 import org.apache.commons.lang3.concurrent.ConcurrentException;
 import org.assertj.core.util.Lists;
@@ -182,10 +180,10 @@ public class ThreadUtilsTest {
         executorService.execute(myThread);
         executorService.execute(myThread1);
 
-              /*
+        /*
             isTerminated() 方法，如果线程池已经调用 shutdown 并且线程池中所有的任务已经执行完毕，
             或者线程池调用了 shutdownNow，则返回 true，否则返回 false。
-             */
+        */
         Boolean terminatedFlag = executorService.isTerminated();
         System.out.println("thread shutdown status is " + terminatedFlag);
         Boolean shutdownFlag = ThreadUtilsTest.getThreadShutdownFlag(executorService);
@@ -205,7 +203,7 @@ public class ThreadUtilsTest {
     }
 
     /**
-     * 取消线程任务 这个方法执行速度太快，效果不明显啊
+     * 取消线程任务 即使抛出异常，还是会执行完
      */
     private static void cancelTask() {
         MyThread myThread = ThreadUtils.getThreadByMyThread(threadName);
@@ -257,10 +255,133 @@ public class ThreadUtilsTest {
         System.out.println("future2 isDone result is" + future2.isDone());
     }
 
+    /**
+     * 取消任务
+     *
+     * @param future
+     * @param delayTime
+     */
+    private static void cancelTask(final Future<?> future, final Integer delayTime) {
+        Runnable cancellation = new Runnable() {
+            @Override
+            public void run() {
+                try {
+                    Thread.sleep(delayTime);
+                    future.cancel(true); // 取消与 future 关联的正在运行的任务
+                } catch (InterruptedException ex) {
+                    ex.printStackTrace(System.err);
+                }
+            }
+        };
+
+        new Thread(cancellation).start();
+    }
+
+    /**
+     * 取消任务的例子
+     */
+    public static void cancelTaskDemo() {
+        ExecutorService threadPool = Executors.newSingleThreadExecutor();
+
+        SimpleTask task = new SimpleTask(3_000); // task 需要运行 3 秒
+        Future<Double> future = threadPool.submit(task);
+        threadPool.shutdown(); // 发送关闭线程池的指令
+
+        cancelTask(future, 2_000);
+
+        double time = Double.NaN;
+        try {
+            time = future.get();
+        } catch (CancellationException e) {
+            System.err.println("任务被取消");
+        } catch (InterruptedException e) {
+            System.err.println("当前线程被中断");
+        } catch (ExecutionException e) {
+            System.err.println("任务执行出错");
+        }
+
+        System.out.format("任务运行时间: %.3f s\n", time);
+    }
+
+    /**
+     * 定时任务线程
+     */
+    public static void scheduledThreadPoolExecutorDemo(){
+        Long delayTime = 10000L;
+        ScheduledThreadPoolExecutor scheduledThreadPoolExecutor = ThreadUtils.getScheduledThreadPoolExecutor();
+        // 一个Runnable ，一个Callable<V> 假设 Callable 调用该方法后的时间点为 0，
+        scheduledThreadPoolExecutor.schedule(ThreadUtilsTest::myRunnableStart,delayTime,TimeUnit.MILLISECONDS);
+        System.out.println("schedule finish");
+
+        /*
+            那么第一次执行任务的时间点为 initialDelay，第二次为 initialDelay + period，
+            第三次为 initialDelay + period + period，以此类推。
+        */
+        scheduledThreadPoolExecutor.scheduleAtFixedRate(ThreadUtilsTest::myRunnableStart,delayTime,delayTime,TimeUnit.MILLISECONDS);
+        System.out.println("scheduleAtFixedRate finish");
+        /*
+            假设调用该方法后的时间点为 0，每次任务需要耗时 T(i)（i 为第几次执行任务），
+            那么第一次执行任务的时间点为 initialDelay，第一次完成任务的时间点为 initialDelay + T(1)，
+            则第二次执行任务的时间点为 initialDelay + T(1) + delay；第二次完成任务的时间点为 initialDelay + (T(1) + delay) + T(2)，
+            所以第三次执行任务的时间点为 initialDelay + T(1) + delay + T(2) + delay，以此类推。
+         */
+
+        try {
+            Thread.sleep(delayTime);
+        }catch (Exception e){
+
+        }
+        scheduledThreadPoolExecutor.scheduleWithFixedDelay(ThreadUtilsTest::myRunnableStart,delayTime,delayTime,TimeUnit.MILLISECONDS);
+        System.out.println("scheduleWithFixedDelay finish");
+    }
+
+    /**
+     * 计算pi的例子
+     */
+    public static void piInvokeDemo(){
+        Integer maxCpuNum = Runtime.getRuntime().availableProcessors();
+        ForkJoinPool forkJoinPool = new ForkJoinPool(maxCpuNum);
+
+        // 计算 10 亿项，分割任务的临界值为 1 千万
+        PiEstimateTask task = new PiEstimateTask(0, 1_000_000_000, 10_000_000);
+
+        // 阻塞，直到任务执行完毕返回结果
+        double pi = forkJoinPool.invoke(task);
+
+        System.out.println("π 的值：" + pi);
+
+        // 向线程池发送关闭的指令
+        forkJoinPool.shutdown();
+    }
+
+    /**
+     * 计算pi的例子
+     */
+    public static void piSubmitDemo(){
+        ForkJoinPool forkJoinPool = new ForkJoinPool(4);
+
+        PiEstimateTask task = new PiEstimateTask(0, 1_000_000_000, 10_000_000);
+        // 不阻塞
+        Future<Double> future = forkJoinPool.submit(task);
+
+        double pi =Double.NaN;
+        try {
+            pi = future.get();
+        }catch (Exception e){
+            System.out.println(e);
+        }
+
+        System.out.println("π 的值：" + pi);
+        System.out.println("future 指向的对象是 task 吗：" + (future == task));
+
+        // 向线程池发送关闭的指令
+        forkJoinPool.shutdown();
+    }
+
 
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("thread test, please enter int num range 1 to 11:\n");
+        System.out.println("thread test, please enter int num range 1 to 20:\n");
         Integer runNo = 0;
         try {
             runNo = sc.nextInt();
@@ -269,7 +390,7 @@ public class ThreadUtilsTest {
             ThreadUtilsTest.main(args);
         }
         // 其实不应该出现魔数
-        if (runNo < 1 || runNo > 11) {
+        if (runNo < 1 || runNo > 20) {
             System.out.println("wrong num");
             ThreadUtilsTest.main(args);
         }
@@ -306,8 +427,17 @@ public class ThreadUtilsTest {
         if (11 == runNo) {
             ThreadUtilsTest.cancelTask();
         }
-        if (12 == runNo){
-
+        if (12 == runNo) {
+            ThreadUtilsTest.cancelTaskDemo();
+        }
+        if (13 == runNo) {
+            ThreadUtilsTest.scheduledThreadPoolExecutorDemo();
+        }
+        if (14 == runNo){
+            ThreadUtilsTest.piInvokeDemo();
+        }
+        if (15 == runNo){
+            ThreadUtilsTest.piSubmitDemo();
         }
 
     }
