@@ -2,6 +2,10 @@ package com.growlithe.computer.common.math;
 
 import com.growlithe.computer.excepetion.TransactionException;
 
+import java.math.BigDecimal;
+import java.math.RoundingMode;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -14,10 +18,11 @@ public class MathUtils {
 
     /**
      * 一般判断素数的方法 为了消耗时间也是醉了
+     *
      * @param num
      * @return
      */
-    public static Boolean isOriginPrimeNumber(Long num){
+    public static Boolean isOriginPrimeNumber(Integer num) {
 
         for (long i = 2; i < num; i++) {
             if (num % i == 0) {
@@ -27,6 +32,27 @@ public class MathUtils {
 
         return true;
     }
+
+    /**
+     * 判断素数的方法
+     *
+     * @param num
+     * @return
+     */
+    public static Boolean isPrimeNumber(Integer num) {
+
+        Double infEDouble = Math.sqrt(Double.valueOf(num));
+        Integer infEInteger = new BigDecimal(infEDouble).setScale(0, RoundingMode.UP).intValue();
+
+        for (Integer x = 2; x < infEInteger; x++) {
+            if (num % x == 0) {
+                return false;
+            }
+        }
+
+        return true;
+    }
+
 
     /**
      * 检查Integer数组是否为空
@@ -41,6 +67,7 @@ public class MathUtils {
 
     /**
      * todo 我忘了我写啥了
+     *
      * @param array
      * @return
      */
