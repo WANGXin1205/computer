@@ -14,6 +14,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.tukaani.xz.CorruptedInputException;
 
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.InputMismatchException;
 import java.util.List;
 import java.util.Scanner;
@@ -378,6 +380,8 @@ public class ThreadUtilsTest {
         forkJoinPool.shutdown();
     }
 
+    private static final ThreadLocal<SimpleDateFormat> SDF
+            = ThreadLocal.withInitial(() -> new SimpleDateFormat("yyyy-MM-dd HH:mm:ss"));
 
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
@@ -438,8 +442,11 @@ public class ThreadUtilsTest {
         }
         if (15 == runNo){
             ThreadUtilsTest.piSubmitDemo();
+        }if (16 == runNo) {
+
         }
 
     }
+
 }
 

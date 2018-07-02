@@ -35,7 +35,8 @@ public class TicketSynchronizedRunnable implements Runnable {
      * 也可以这么写 public synchronized void run(){}
      */
     @Override
-    public  void run() {
+    public void run() {
+        // 如果资源共享 要加static关键字
         synchronized (this.tickets){
             /*
             tickets 一定要有this才可以加锁 然后线程1执行完毕，才会释放锁，开始执行线程2
@@ -60,6 +61,5 @@ public class TicketSynchronizedRunnable implements Runnable {
         ThreadFactory threadFactory = new ThreadPoolExecutorFactoryBean();
         threadFactory.newThread(ticketSynchronizedRunnable).start();
         threadFactory.newThread(ticketSynchronizedRunnable1).start();
-
     }
 }
