@@ -2,6 +2,8 @@ package com.growlithe.computer.mysql.practice.customer.dao.mapper;
 
 
 import com.growlithe.computer.mysql.practice.customer.dao.domain.CustomerDO;
+import com.growlithe.computer.mysql.practice.customer.dao.domain.EmpDO;
+import org.springframework.stereotype.Component;
 
 import java.util.List;
 
@@ -17,4 +19,11 @@ public interface CustomerMapper {
      * @return
      */
     List<CustomerDO> listAllCustomerDO();
+
+    /**
+     * 保存用户信息
+     * @param customerDOList
+     * @return
+     */
+    Integer saveBatch(List<CustomerDO> customerDOList);
 }

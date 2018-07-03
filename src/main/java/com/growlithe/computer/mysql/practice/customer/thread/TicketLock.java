@@ -32,6 +32,12 @@ public class TicketLock implements Runnable {
      *     从而使得多个线程可以同时进行读操作。
      *     下面的ReentrantReadWriteLock实现了ReadWriteLock接口。
      *     ReentrantReadWriteLock 主要的有两个方法：readLock()和writeLock()用来获取读锁和写锁。
+     *     ReadLock是共享的，而WriteLock是独占的。于是Sync类覆盖了AQS中独占和共享模式的抽象方法(tryAcquire/tryAcquireShared等)，
+     *     用同一个等待队列来维护读/写排队线程，而用一个32位int state标示和记录读/写锁重入次数--Doug Lea把状态的高16位用作读锁，
+     *     记录所有读锁重入次数之和，低16位用作写锁，记录写锁重入次数。所以无论是读锁还是写锁最多只能被持有65535次。
+     *
+     *     StampedLock控制锁有三种模式（排它写，悲观读，乐观读），
+     *     一个StampedLock状态是由版本和模式两个部分组成，锁获取方法返回一个数字作为票据stamp
      */
     private Lock lock = new ReentrantLock();
 
@@ -56,10 +62,10 @@ public class TicketLock implements Runnable {
                 // 加锁
 //                lock.lock();
                 // 为了演示 加个读锁
-                reentrantReadWriteLock.readLock().lock();
+                reentrantReadWriteLock.writeLock().lock();
                 if (tickets > 0) {
                     try {
-                        Thread.sleep(100);
+                        Thread.sleep(10);
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
@@ -70,7 +76,7 @@ public class TicketLock implements Runnable {
                 // 释放锁
 //                lock.unlock();
                 // 为了演示
-                reentrantReadWriteLock.readLock().unlock();
+                reentrantReadWriteLock.writeLock().unlock();
             }
         }
     }

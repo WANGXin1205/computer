@@ -22,7 +22,7 @@ public class Sort {
      */
     private static final Integer ONE = 1;
 
-    public static Boolean checkSigle(Integer[] array) {
+    public static Boolean checkSingle(Integer[] array) {
         if (array.length == ONE) {
             return Boolean.TRUE;
         }
@@ -36,7 +36,7 @@ public class Sort {
      */
     public static void bubbleSort(Integer[] array) {
         MathUtils.checkIntegerArray(array);
-        if (Sort.checkSigle(array)) {
+        if (Sort.checkSingle(array)) {
             return;
         }
         for (int i = DEFAULT_ARRAY_START; i < array.length - ONE; i++) {
@@ -57,7 +57,7 @@ public class Sort {
      */
     public static void selectionSort(Integer[] array) {
         MathUtils.checkIntegerArray(array);
-        if (Sort.checkSigle(array)) {
+        if (Sort.checkSingle(array)) {
             return;
         }
 
@@ -81,7 +81,7 @@ public class Sort {
      */
     public static void insertionSort(Integer[] array) {
         MathUtils.checkIntegerArray(array);
-        if (Sort.checkSigle(array)) {
+        if (Sort.checkSingle(array)) {
             return;
         }
 
@@ -96,4 +96,15 @@ public class Sort {
         }
     }
 
+    /**
+     * 快速排序 时间复杂度O(n log2(N))
+     * @param array
+     */
+    public static void quickSort(Integer[] array){
+        MathUtils.checkIntegerArray(array);
+        if (Sort.checkSingle(array)) {
+            return;
+        }
+
+    }
 }

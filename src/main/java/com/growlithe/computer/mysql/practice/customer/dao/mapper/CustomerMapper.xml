@@ -8,10 +8,22 @@
     <result column="last_name" property="lastName" jdbcType="VARCHAR" />
   </resultMap>
 
+    <sql id="save_property">
+    first_name, last_name
+    </sql>
+
   <select id="listAllCustomerDO" resultMap="BaseResultMap" >
     select
     id,first_name,last_name
     from practice.customer
   </select>
 
+    <insert id="saveBatch" parameterType="java.util.List" useGeneratedKeys="true" keyProperty="id">
+        insert into
+        practice.customer(<include refid="save_property"/>)
+        VALUES
+        <foreach collection="list" item="item" separator=",">
+            (#{item.firstName},#{item.lastName})
+        </foreach>
+    </insert>
 </mapper>

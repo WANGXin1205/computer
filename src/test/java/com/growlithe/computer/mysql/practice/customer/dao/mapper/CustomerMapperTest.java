@@ -41,4 +41,16 @@ public class CustomerMapperTest {
         Assert.assertNotNull(customerList);
     }
 
+    @Test
+    public void saveBatch(){
+        CustomerDO customerDO = new CustomerDO();
+        customerDO.setFirstName("candy");
+        customerDO.setLastName("candy");
+        List<CustomerDO> customerList = new ArrayList<>();
+        customerList.add(customerDO);
+
+        Integer count = customerMapper.saveBatch(customerList);
+        Assert.assertNotNull(count);
+    }
+
 }
