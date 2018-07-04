@@ -16,12 +16,14 @@ public interface CustomerMapper {
 
     /**
      * 查询所有用户
+     *
      * @return
      */
     List<CustomerDO> listAllCustomerDO();
 
     /**
      * 保存用户信息
+     *
      * @param customerDOList
      * @return
      */

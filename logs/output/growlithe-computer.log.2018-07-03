@@ -1,0 +1,413 @@
+2018-07-03 00:05:05,844 INFO  [StartupInfoLogger.java:50] Starting CustomerMapperTest on MEW with PID 7632 (started by wangxin in D:\code\java\computer)
+2018-07-03 00:05:05,856 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-03 00:05:05,918 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@d59970a: startup date [Tue Jul 03 00:05:05 CST 2018]; root of context hierarchy
+2018-07-03 00:05:08,311 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-03 00:05:10,820 INFO  [StartupInfoLogger.java:59] Started CustomerMapperTest in 6.007 seconds (JVM running for 9.196)
+2018-07-03 00:05:10,895 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-07-03 00:05:12,067 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-07-03 00:05:12,089 INFO  [TransactionContext.java:107] Began transaction (1) for test context [DefaultTestContext@4f1bfe23 testClass = CustomerMapperTest, testInstance = com.growlithe.computer.mysql.practice.customer.dao.mapper.CustomerMapperTest@46944ca9, testMethod = saveBatch@CustomerMapperTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@e19bb76 testClass = CustomerMapperTest, locations = '{}', classes = '{class com.growlithe.computer.ComputerApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@618425b5, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@f5acb9d, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@593aaf41, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@67f639d3], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]]; transaction manager [org.springframework.jdbc.datasource.DataSourceTransactionManager@7a2fce12]; rollback [true]
+2018-07-03 00:05:12,614 INFO  [TransactionContext.java:139] Rolled back transaction for test: [DefaultTestContext@4f1bfe23 testClass = CustomerMapperTest, testInstance = com.growlithe.computer.mysql.practice.customer.dao.mapper.CustomerMapperTest@46944ca9, testMethod = saveBatch@CustomerMapperTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@e19bb76 testClass = CustomerMapperTest, locations = '{}', classes = '{class com.growlithe.computer.ComputerApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@618425b5, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@f5acb9d, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@593aaf41, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@67f639d3], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]]
+2018-07-03 00:05:12,620 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@d59970a: startup date [Tue Jul 03 00:05:05 CST 2018]; root of context hierarchy
+2018-07-03 00:05:12,634 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-07-03 00:05:12,662 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-07-03 21:24:25,624 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 8112 (started by wangxin in D:\code\java\computer)
+2018-07-03 21:24:25,644 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-03 21:24:25,710 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@263558c9: startup date [Tue Jul 03 21:24:25 CST 2018]; root of context hierarchy
+2018-07-03 21:24:28,150 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-03 21:24:30,787 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 7.972 seconds (JVM running for 12.782)
+2018-07-03 21:24:31,220 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-07-03 21:24:32,700 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-07-03 21:24:33,039 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@263558c9: startup date [Tue Jul 03 21:24:25 CST 2018]; root of context hierarchy
+2018-07-03 21:24:33,050 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-07-03 21:24:33,092 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-07-03 21:30:54,785 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 5448 (started by wangxin in D:\code\java\computer)
+2018-07-03 21:30:54,787 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-03 21:30:54,820 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6f89f665: startup date [Tue Jul 03 21:30:54 CST 2018]; root of context hierarchy
+2018-07-03 21:30:55,752 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-03 21:30:57,219 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 3.425 seconds (JVM running for 6.39)
+2018-07-03 21:30:57,351 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-07-03 21:30:58,291 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-07-03 21:30:58,821 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@6f89f665: startup date [Tue Jul 03 21:30:54 CST 2018]; root of context hierarchy
+2018-07-03 21:30:58,829 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-07-03 21:30:58,865 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-07-03 21:32:01,763 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 8500 (started by wangxin in D:\code\java\computer)
+2018-07-03 21:32:01,765 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-03 21:32:01,787 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6f89f665: startup date [Tue Jul 03 21:32:01 CST 2018]; root of context hierarchy
+2018-07-03 21:32:02,638 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-03 21:32:04,801 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 4.143 seconds (JVM running for 7.229)
+2018-07-03 21:32:05,082 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-07-03 21:32:06,078 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-07-03 21:32:06,337 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@6f89f665: startup date [Tue Jul 03 21:32:01 CST 2018]; root of context hierarchy
+2018-07-03 21:32:06,384 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-07-03 21:32:06,400 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-07-03 21:55:30,720 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 3592 (started by wangxin in D:\code\java\computer)
+2018-07-03 21:55:30,723 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-03 21:55:30,744 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3a43d133: startup date [Tue Jul 03 21:55:30 CST 2018]; root of context hierarchy
+2018-07-03 21:55:32,144 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-03 21:55:34,486 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 5.04 seconds (JVM running for 8.739)
+2018-07-03 21:55:34,796 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-07-03 21:55:35,702 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-07-03 21:55:35,784 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@3a43d133: startup date [Tue Jul 03 21:55:30 CST 2018]; root of context hierarchy
+2018-07-03 21:55:35,790 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-07-03 21:55:35,797 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-07-03 21:56:10,648 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 1084 (started by wangxin in D:\code\java\computer)
+2018-07-03 21:56:10,651 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-03 21:56:10,710 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2ca6546f: startup date [Tue Jul 03 21:56:10 CST 2018]; root of context hierarchy
+2018-07-03 21:56:12,285 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-03 21:56:14,922 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 5.474 seconds (JVM running for 9.703)
+2018-07-03 21:56:15,198 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-07-03 21:56:16,083 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-07-03 21:56:36,082 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@2ca6546f: startup date [Tue Jul 03 21:56:10 CST 2018]; root of context hierarchy
+2018-07-03 21:56:36,092 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-07-03 21:56:36,110 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-07-03 21:56:47,520 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 8688 (started by wangxin in D:\code\java\computer)
+2018-07-03 21:56:47,522 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-03 21:56:47,540 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@37095ded: startup date [Tue Jul 03 21:56:47 CST 2018]; root of context hierarchy
+2018-07-03 21:56:48,771 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-03 21:56:51,352 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 4.805 seconds (JVM running for 7.676)
+2018-07-03 21:56:51,723 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-07-03 21:56:52,847 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-07-03 21:56:56,022 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@37095ded: startup date [Tue Jul 03 21:56:47 CST 2018]; root of context hierarchy
+2018-07-03 21:56:56,071 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-07-03 21:56:56,108 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-07-03 21:58:38,869 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 4488 (started by wangxin in D:\code\java\computer)
+2018-07-03 21:58:38,871 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-03 21:58:38,892 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1ad926d3: startup date [Tue Jul 03 21:58:38 CST 2018]; root of context hierarchy
+2018-07-03 21:58:39,792 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-03 21:58:42,049 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 4.215 seconds (JVM running for 7.029)
+2018-07-03 21:58:42,370 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-07-03 21:58:43,519 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-07-03 21:58:43,617 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@1ad926d3: startup date [Tue Jul 03 21:58:38 CST 2018]; root of context hierarchy
+2018-07-03 21:58:43,625 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-07-03 21:58:43,714 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-07-03 22:00:57,542 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 6432 (started by wangxin in D:\code\java\computer)
+2018-07-03 22:00:57,544 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-03 22:00:57,564 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3a43d133: startup date [Tue Jul 03 22:00:57 CST 2018]; root of context hierarchy
+2018-07-03 22:00:58,281 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-03 22:01:00,707 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 4.07 seconds (JVM running for 6.165)
+2018-07-03 22:01:00,855 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-07-03 22:01:01,482 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-07-03 22:01:01,532 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@3a43d133: startup date [Tue Jul 03 22:00:57 CST 2018]; root of context hierarchy
+2018-07-03 22:01:01,537 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-07-03 22:01:01,548 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-07-03 22:01:34,548 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 2332 (started by wangxin in D:\code\java\computer)
+2018-07-03 22:01:34,550 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-03 22:01:34,572 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3a43d133: startup date [Tue Jul 03 22:01:34 CST 2018]; root of context hierarchy
+2018-07-03 22:01:35,577 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-03 22:01:38,064 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 4.564 seconds (JVM running for 7.822)
+2018-07-03 22:01:38,373 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-07-03 22:01:39,224 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-07-03 22:01:39,287 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@3a43d133: startup date [Tue Jul 03 22:01:34 CST 2018]; root of context hierarchy
+2018-07-03 22:01:39,292 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-07-03 22:01:39,299 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-07-03 22:02:24,323 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 3004 (started by wangxin in D:\code\java\computer)
+2018-07-03 22:02:24,325 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-03 22:02:24,351 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2ca6546f: startup date [Tue Jul 03 22:02:24 CST 2018]; root of context hierarchy
+2018-07-03 22:02:25,934 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-03 22:02:28,271 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 5.008 seconds (JVM running for 8.523)
+2018-07-03 22:02:28,467 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-07-03 22:02:29,208 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-07-03 22:02:54,196 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@2ca6546f: startup date [Tue Jul 03 22:02:24 CST 2018]; root of context hierarchy
+2018-07-03 22:02:54,223 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-07-03 22:02:54,424 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-07-03 22:20:03,522 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 8880 (started by wangxin in D:\code\java\computer)
+2018-07-03 22:20:03,524 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-03 22:20:03,543 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2ca6546f: startup date [Tue Jul 03 22:20:03 CST 2018]; root of context hierarchy
+2018-07-03 22:20:04,574 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-03 22:20:06,377 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 3.949 seconds (JVM running for 7.69)
+2018-07-03 22:20:06,553 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-07-03 22:20:07,129 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-07-03 22:20:07,185 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@2ca6546f: startup date [Tue Jul 03 22:20:03 CST 2018]; root of context hierarchy
+2018-07-03 22:20:07,189 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-07-03 22:20:07,198 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-07-03 22:20:50,126 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 4468 (started by wangxin in D:\code\java\computer)
+2018-07-03 22:20:50,130 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-03 22:20:50,180 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2ca6546f: startup date [Tue Jul 03 22:20:50 CST 2018]; root of context hierarchy
+2018-07-03 22:20:51,866 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-03 22:20:54,363 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 5.321 seconds (JVM running for 9.042)
+2018-07-03 22:20:54,730 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-07-03 22:20:55,792 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-07-03 22:21:29,967 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 1968 (started by wangxin in D:\code\java\computer)
+2018-07-03 22:21:29,968 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-03 22:21:29,986 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@37095ded: startup date [Tue Jul 03 22:21:29 CST 2018]; root of context hierarchy
+2018-07-03 22:21:30,850 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-03 22:21:32,617 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 3.669 seconds (JVM running for 6.772)
+2018-07-03 22:21:32,815 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-07-03 22:21:33,741 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-07-03 22:21:49,568 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@37095ded: startup date [Tue Jul 03 22:21:29 CST 2018]; root of context hierarchy
+2018-07-03 22:21:49,596 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-07-03 22:21:49,645 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-07-03 22:23:34,432 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 7084 (started by wangxin in D:\code\java\computer)
+2018-07-03 22:23:34,434 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-03 22:23:34,452 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3a43d133: startup date [Tue Jul 03 22:23:34 CST 2018]; root of context hierarchy
+2018-07-03 22:23:35,386 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-03 22:23:37,254 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 4.05 seconds (JVM running for 7.147)
+2018-07-03 22:23:37,530 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-07-03 22:23:38,452 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-07-03 22:23:38,560 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@3a43d133: startup date [Tue Jul 03 22:23:34 CST 2018]; root of context hierarchy
+2018-07-03 22:23:38,567 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-07-03 22:23:38,630 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-07-03 22:25:30,808 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 8364 (started by wangxin in D:\code\java\computer)
+2018-07-03 22:25:30,809 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-03 22:25:30,834 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3a43d133: startup date [Tue Jul 03 22:25:30 CST 2018]; root of context hierarchy
+2018-07-03 22:25:31,670 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-03 22:25:33,909 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 4.212 seconds (JVM running for 7.5)
+2018-07-03 22:25:34,208 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-07-03 22:25:35,298 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-07-03 22:25:35,467 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@3a43d133: startup date [Tue Jul 03 22:25:30 CST 2018]; root of context hierarchy
+2018-07-03 22:25:35,474 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-07-03 22:25:35,490 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-07-03 22:26:04,623 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 4164 (started by wangxin in D:\code\java\computer)
+2018-07-03 22:26:04,625 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-03 22:26:04,647 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2ca6546f: startup date [Tue Jul 03 22:26:04 CST 2018]; root of context hierarchy
+2018-07-03 22:26:06,269 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-03 22:26:09,173 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 5.522 seconds (JVM running for 8.814)
+2018-07-03 22:26:09,550 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-07-03 22:26:10,575 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-07-03 22:26:24,692 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@2ca6546f: startup date [Tue Jul 03 22:26:04 CST 2018]; root of context hierarchy
+2018-07-03 22:26:24,706 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-07-03 22:26:24,776 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-07-03 22:26:43,833 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 8636 (started by wangxin in D:\code\java\computer)
+2018-07-03 22:26:43,835 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-03 22:26:43,855 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@37095ded: startup date [Tue Jul 03 22:26:43 CST 2018]; root of context hierarchy
+2018-07-03 22:26:44,927 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-03 22:26:47,367 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 4.534 seconds (JVM running for 7.39)
+2018-07-03 22:26:47,816 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-07-03 22:26:49,059 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-07-03 22:27:11,547 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@37095ded: startup date [Tue Jul 03 22:26:43 CST 2018]; root of context hierarchy
+2018-07-03 22:27:11,563 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-07-03 22:27:11,632 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-07-03 22:32:10,298 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 1908 (started by wangxin in D:\code\java\computer)
+2018-07-03 22:32:10,300 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-03 22:32:10,323 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6ac97b84: startup date [Tue Jul 03 22:32:10 CST 2018]; root of context hierarchy
+2018-07-03 22:32:11,243 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-03 22:32:13,316 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 4.289 seconds (JVM running for 7.567)
+2018-07-03 22:32:13,718 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-07-03 22:32:14,880 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-07-03 22:32:38,622 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@6ac97b84: startup date [Tue Jul 03 22:32:10 CST 2018]; root of context hierarchy
+2018-07-03 22:32:38,647 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-07-03 22:32:38,676 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-07-03 22:33:03,292 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 9572 (started by wangxin in D:\code\java\computer)
+2018-07-03 22:33:03,294 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-03 22:33:03,314 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3a43d133: startup date [Tue Jul 03 22:33:03 CST 2018]; root of context hierarchy
+2018-07-03 22:33:04,269 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-03 22:33:06,398 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 4.193 seconds (JVM running for 7.618)
+2018-07-03 22:33:06,709 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-07-03 22:33:07,778 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-07-03 22:33:07,868 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@3a43d133: startup date [Tue Jul 03 22:33:03 CST 2018]; root of context hierarchy
+2018-07-03 22:33:07,875 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-07-03 22:33:07,885 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-07-03 22:33:55,814 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 9008 (started by wangxin in D:\code\java\computer)
+2018-07-03 22:33:55,815 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-03 22:33:55,834 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2ca6546f: startup date [Tue Jul 03 22:33:55 CST 2018]; root of context hierarchy
+2018-07-03 22:33:56,610 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-03 22:33:58,123 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 3.397 seconds (JVM running for 7.236)
+2018-07-03 22:33:58,281 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-07-03 22:33:58,745 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-07-03 22:34:19,259 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@2ca6546f: startup date [Tue Jul 03 22:33:55 CST 2018]; root of context hierarchy
+2018-07-03 22:34:19,278 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-07-03 22:34:19,413 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-07-03 22:35:27,372 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 96 (started by wangxin in D:\code\java\computer)
+2018-07-03 22:35:27,374 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-03 22:35:27,396 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3a43d133: startup date [Tue Jul 03 22:35:27 CST 2018]; root of context hierarchy
+2018-07-03 22:35:28,407 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-03 22:35:31,039 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 4.814 seconds (JVM running for 8.032)
+2018-07-03 22:35:31,244 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-07-03 22:35:32,175 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-07-03 22:35:32,295 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@3a43d133: startup date [Tue Jul 03 22:35:27 CST 2018]; root of context hierarchy
+2018-07-03 22:35:32,303 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-07-03 22:35:32,336 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-07-03 22:57:57,268 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 9452 (started by wangxin in D:\code\java\computer)
+2018-07-03 22:57:57,270 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-03 22:57:57,287 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3a43d133: startup date [Tue Jul 03 22:57:57 CST 2018]; root of context hierarchy
+2018-07-03 22:57:58,048 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-03 22:57:59,446 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 3.261 seconds (JVM running for 5.47)
+2018-07-03 22:57:59,586 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-07-03 22:58:00,284 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-07-03 22:58:00,465 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@3a43d133: startup date [Tue Jul 03 22:57:57 CST 2018]; root of context hierarchy
+2018-07-03 22:58:00,479 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-07-03 22:58:00,570 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-07-03 22:58:36,860 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 9436 (started by wangxin in D:\code\java\computer)
+2018-07-03 22:58:36,861 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-03 22:58:36,880 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@37095ded: startup date [Tue Jul 03 22:58:36 CST 2018]; root of context hierarchy
+2018-07-03 22:58:37,685 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-03 22:58:39,286 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 3.438 seconds (JVM running for 6.325)
+2018-07-03 22:58:39,463 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-07-03 22:58:39,985 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-07-03 23:02:09,621 WARN  [HikariPool.java:758] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m29s494ms757µs646ns).
+2018-07-03 23:05:03,069 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 9392 (started by wangxin in D:\code\java\computer)
+2018-07-03 23:05:03,070 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-03 23:05:03,090 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2ca6546f: startup date [Tue Jul 03 23:05:03 CST 2018]; root of context hierarchy
+2018-07-03 23:05:03,914 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-03 23:05:05,451 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 3.399 seconds (JVM running for 6.469)
+2018-07-03 23:05:05,636 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-07-03 23:05:06,150 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-07-03 23:06:31,245 WARN  [HikariPool.java:758] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=48s156ms749µs643ns).
+2018-07-03 23:06:41,499 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 1436 (started by wangxin in D:\code\java\computer)
+2018-07-03 23:06:41,501 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-03 23:06:41,520 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@37095ded: startup date [Tue Jul 03 23:06:41 CST 2018]; root of context hierarchy
+2018-07-03 23:06:42,323 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-03 23:06:43,856 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 3.316 seconds (JVM running for 5.844)
+2018-07-03 23:06:44,022 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-07-03 23:06:44,540 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-07-03 23:06:44,576 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@37095ded: startup date [Tue Jul 03 23:06:41 CST 2018]; root of context hierarchy
+2018-07-03 23:06:44,581 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-07-03 23:06:44,588 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-07-03 23:07:17,371 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 2052 (started by wangxin in D:\code\java\computer)
+2018-07-03 23:07:17,373 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-03 23:07:17,391 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@37095ded: startup date [Tue Jul 03 23:07:17 CST 2018]; root of context hierarchy
+2018-07-03 23:07:18,180 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-03 23:07:19,779 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 3.368 seconds (JVM running for 6.595)
+2018-07-03 23:07:19,977 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-07-03 23:07:20,494 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-07-03 23:07:20,546 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@37095ded: startup date [Tue Jul 03 23:07:17 CST 2018]; root of context hierarchy
+2018-07-03 23:07:20,551 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-07-03 23:07:20,558 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-07-03 23:08:52,467 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 9008 (started by wangxin in D:\code\java\computer)
+2018-07-03 23:08:52,468 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-03 23:08:52,489 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7923f5b3: startup date [Tue Jul 03 23:08:52 CST 2018]; root of context hierarchy
+2018-07-03 23:08:53,280 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-03 23:08:54,810 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 3.262 seconds (JVM running for 5.996)
+2018-07-03 23:08:54,992 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-07-03 23:08:55,528 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-07-03 23:08:55,576 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@7923f5b3: startup date [Tue Jul 03 23:08:52 CST 2018]; root of context hierarchy
+2018-07-03 23:08:55,580 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-07-03 23:08:55,586 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-07-03 23:14:35,744 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 616 (started by wangxin in D:\code\java\computer)
+2018-07-03 23:14:35,745 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-03 23:14:35,767 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7923f5b3: startup date [Tue Jul 03 23:14:35 CST 2018]; root of context hierarchy
+2018-07-03 23:14:36,576 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-03 23:14:38,104 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 3.333 seconds (JVM running for 5.588)
+2018-07-03 23:14:38,282 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-07-03 23:14:38,792 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-07-03 23:17:23,617 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 10236 (started by wangxin in D:\code\java\computer)
+2018-07-03 23:17:23,618 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-03 23:17:23,636 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7923f5b3: startup date [Tue Jul 03 23:17:23 CST 2018]; root of context hierarchy
+2018-07-03 23:17:24,416 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-03 23:17:25,921 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 3.322 seconds (JVM running for 5.471)
+2018-07-03 23:17:26,082 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-07-03 23:17:26,557 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-07-03 23:17:43,657 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@7923f5b3: startup date [Tue Jul 03 23:17:23 CST 2018]; root of context hierarchy
+2018-07-03 23:17:43,675 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-07-03 23:17:43,808 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-07-03 23:19:27,419 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 3572 (started by wangxin in D:\code\java\computer)
+2018-07-03 23:19:27,420 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-03 23:19:27,440 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@28782602: startup date [Tue Jul 03 23:19:27 CST 2018]; root of context hierarchy
+2018-07-03 23:19:28,184 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-03 23:19:29,407 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 2.925 seconds (JVM running for 5.84)
+2018-07-03 23:19:29,515 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-07-03 23:19:30,016 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-07-03 23:19:30,072 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@28782602: startup date [Tue Jul 03 23:19:27 CST 2018]; root of context hierarchy
+2018-07-03 23:19:30,076 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-07-03 23:19:30,081 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-07-03 23:19:48,193 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 8444 (started by wangxin in D:\code\java\computer)
+2018-07-03 23:19:48,194 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-03 23:19:48,214 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7923f5b3: startup date [Tue Jul 03 23:19:48 CST 2018]; root of context hierarchy
+2018-07-03 23:19:48,967 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-03 23:19:50,497 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 3.335 seconds (JVM running for 6.821)
+2018-07-03 23:19:50,672 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-07-03 23:19:51,147 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-07-03 23:20:02,086 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@7923f5b3: startup date [Tue Jul 03 23:19:48 CST 2018]; root of context hierarchy
+2018-07-03 23:20:07,167 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 10152 (started by wangxin in D:\code\java\computer)
+2018-07-03 23:20:07,169 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-03 23:20:07,188 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4917d36b: startup date [Tue Jul 03 23:20:07 CST 2018]; root of context hierarchy
+2018-07-03 23:20:08,014 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-03 23:20:09,618 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 3.493 seconds (JVM running for 6.554)
+2018-07-03 23:20:09,772 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-07-03 23:20:10,368 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-07-03 23:21:14,042 WARN  [HikariPool.java:758] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m3s523ms166µs936ns).
+2018-07-03 23:23:46,505 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 10072 (started by wangxin in D:\code\java\computer)
+2018-07-03 23:23:46,511 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-03 23:23:46,577 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7923f5b3: startup date [Tue Jul 03 23:23:46 CST 2018]; root of context hierarchy
+2018-07-03 23:23:48,879 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-03 23:23:52,398 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 145.634 seconds (JVM running for 148.015)
+2018-07-03 23:23:52,789 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-07-03 23:23:54,162 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-07-03 23:24:49,324 WARN  [HikariPool.java:758] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=55s6ms30µs736ns).
+2018-07-03 23:25:44,100 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 5584 (started by wangxin in D:\code\java\computer)
+2018-07-03 23:25:44,101 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-03 23:25:44,121 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7923f5b3: startup date [Tue Jul 03 23:25:44 CST 2018]; root of context hierarchy
+2018-07-03 23:25:44,975 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-03 23:25:47,033 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 4.04 seconds (JVM running for 6.483)
+2018-07-03 23:25:47,431 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-07-03 23:25:48,304 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-07-03 23:26:18,350 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@7923f5b3: startup date [Tue Jul 03 23:25:44 CST 2018]; root of context hierarchy
+2018-07-03 23:26:18,369 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-07-03 23:26:18,470 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-07-03 23:34:23,724 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 3472 (started by wangxin in D:\code\java\computer)
+2018-07-03 23:34:23,725 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-03 23:34:23,745 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@c96a4ea: startup date [Tue Jul 03 23:34:23 CST 2018]; root of context hierarchy
+2018-07-03 23:34:24,713 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-03 23:34:27,570 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 4.969 seconds (JVM running for 8.237)
+2018-07-03 23:34:27,873 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@c96a4ea: startup date [Tue Jul 03 23:34:23 CST 2018]; root of context hierarchy
+2018-07-03 23:35:55,593 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 8880 (started by wangxin in D:\code\java\computer)
+2018-07-03 23:35:55,595 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-03 23:35:55,615 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@c96a4ea: startup date [Tue Jul 03 23:35:55 CST 2018]; root of context hierarchy
+2018-07-03 23:35:56,344 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-03 23:35:58,640 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 4.203 seconds (JVM running for 7.599)
+2018-07-03 23:35:58,985 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@c96a4ea: startup date [Tue Jul 03 23:35:55 CST 2018]; root of context hierarchy
+2018-07-03 23:42:13,104 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 6236 (started by wangxin in D:\code\java\computer)
+2018-07-03 23:42:13,106 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-03 23:42:13,124 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7923f5b3: startup date [Tue Jul 03 23:42:13 CST 2018]; root of context hierarchy
+2018-07-03 23:42:14,780 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-03 23:42:17,338 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 5.345 seconds (JVM running for 9.079)
+2018-07-03 23:42:17,664 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-07-03 23:42:18,512 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-07-03 23:42:23,416 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@7923f5b3: startup date [Tue Jul 03 23:42:13 CST 2018]; root of context hierarchy
+2018-07-03 23:42:23,426 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-07-03 23:42:23,453 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-07-03 23:42:41,288 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 9504 (started by wangxin in D:\code\java\computer)
+2018-07-03 23:42:41,289 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-03 23:42:41,312 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7578e06a: startup date [Tue Jul 03 23:42:41 CST 2018]; root of context hierarchy
+2018-07-03 23:42:43,024 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-03 23:42:45,585 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 5.423 seconds (JVM running for 8.808)
+2018-07-03 23:42:45,849 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-07-03 23:42:46,632 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-07-03 23:42:46,715 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@7578e06a: startup date [Tue Jul 03 23:42:41 CST 2018]; root of context hierarchy
+2018-07-03 23:42:46,720 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-07-03 23:42:46,728 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-07-03 23:43:21,174 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 6900 (started by wangxin in D:\code\java\computer)
+2018-07-03 23:43:21,176 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-03 23:43:21,199 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7923f5b3: startup date [Tue Jul 03 23:43:21 CST 2018]; root of context hierarchy
+2018-07-03 23:43:23,005 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-03 23:43:25,575 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 5.528 seconds (JVM running for 8.959)
+2018-07-03 23:43:25,977 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-07-03 23:43:27,248 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-07-03 23:44:32,753 WARN  [HikariPool.java:758] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m5s184ms80µs458ns).
+2018-07-03 23:44:37,801 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 6852 (started by wangxin in D:\code\java\computer)
+2018-07-03 23:44:37,802 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-03 23:44:37,820 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7923f5b3: startup date [Tue Jul 03 23:44:37 CST 2018]; root of context hierarchy
+2018-07-03 23:44:38,621 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-03 23:44:40,136 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 3.207 seconds (JVM running for 6.253)
+2018-07-03 23:44:40,284 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-07-03 23:44:40,868 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-07-03 23:45:08,483 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 7324 (started by wangxin in D:\code\java\computer)
+2018-07-03 23:45:08,485 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-03 23:45:08,504 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6ac97b84: startup date [Tue Jul 03 23:45:08 CST 2018]; root of context hierarchy
+2018-07-03 23:45:09,304 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-03 23:45:10,704 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 3.222 seconds (JVM running for 6.731)
+2018-07-03 23:45:10,871 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-07-03 23:45:11,325 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-07-03 23:45:12,435 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@6ac97b84: startup date [Tue Jul 03 23:45:08 CST 2018]; root of context hierarchy
+2018-07-03 23:45:12,456 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-07-03 23:45:12,629 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-07-03 23:45:36,126 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 3704 (started by wangxin in D:\code\java\computer)
+2018-07-03 23:45:36,127 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-03 23:45:36,145 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@42f22995: startup date [Tue Jul 03 23:45:36 CST 2018]; root of context hierarchy
+2018-07-03 23:45:36,997 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-03 23:45:38,853 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 3.722 seconds (JVM running for 7.622)
+2018-07-03 23:45:39,226 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-07-03 23:45:40,489 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-07-03 23:45:45,104 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@42f22995: startup date [Tue Jul 03 23:45:36 CST 2018]; root of context hierarchy
+2018-07-03 23:45:45,130 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-07-03 23:45:45,276 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-07-03 23:47:08,635 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 8804 (started by wangxin in D:\code\java\computer)
+2018-07-03 23:47:08,637 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-03 23:47:08,655 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7923f5b3: startup date [Tue Jul 03 23:47:08 CST 2018]; root of context hierarchy
+2018-07-03 23:47:09,726 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-03 23:47:12,055 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 4.496 seconds (JVM running for 7.697)
+2018-07-03 23:47:12,242 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-07-03 23:47:12,793 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-07-03 23:47:18,528 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@7923f5b3: startup date [Tue Jul 03 23:47:08 CST 2018]; root of context hierarchy
+2018-07-03 23:47:18,547 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-07-03 23:47:18,674 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.

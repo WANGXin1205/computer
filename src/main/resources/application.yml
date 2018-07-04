@@ -28,6 +28,7 @@ client:
   healthcheck:
   enabled: true
 
+
 #eureka:
 #  instance:
 #    lease-renewal-interval-in-seconds: 5
