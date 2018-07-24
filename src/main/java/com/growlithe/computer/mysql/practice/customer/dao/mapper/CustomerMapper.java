@@ -28,4 +28,11 @@ public interface CustomerMapper {
      * @return
      */
     Integer saveBatch(List<CustomerDO> customerDOList);
+
+    /**
+     * 直接删除所有数据，借口谨慎操作
+     *
+     * @return
+     */
+    Integer deleteAll();
 }

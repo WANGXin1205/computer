@@ -14,12 +14,14 @@ public interface EmpMapper {
 
     /**
      * 查询所有雇员信息
+     *
      * @return
      */
     List<EmpDO> listAllEmp();
 
     /**
      * 保存雇员信息
+     *
      * @param empDOList
      * @return
      */
@@ -27,8 +29,16 @@ public interface EmpMapper {
 
     /**
      * 更新雇员年龄信息
+     *
      * @param empDOList
      * @return
      */
     Integer updateAgeByIdList(List<EmpDO> empDOList);
+
+    /**
+     * 直接删除所有数据，借口谨慎操作
+     *
+     * @return
+     */
+    Integer deleteAll();
 }

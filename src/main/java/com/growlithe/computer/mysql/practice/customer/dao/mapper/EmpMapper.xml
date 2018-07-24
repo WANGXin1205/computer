@@ -33,4 +33,10 @@
             where id = #{item.id}
         </foreach>
     </update>
+
+    <delete id="deleteAll">
+        DELETE FROM
+        practice.emp
+    </delete>
+
 </mapper>

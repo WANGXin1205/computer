@@ -47,6 +47,21 @@ public class CustomerService {
     public CandyResult saveBatch(List<CustomerDO> customerDOList) {
         CandyResult candyResult = new CandyResult();
         customerMapper.saveBatch(customerDOList);
+
+        candyResult.setSuccess(true);
+        return candyResult;
+    }
+
+    /**
+     * 一个简单的插入
+     *
+     * @param customerDOList
+     * @return
+     */
+    @Transactional(value = "mysqlTransactionManager", propagation = Propagation.REQUIRED, rollbackFor = java.lang.Exception.class)
+    public CandyResult saveBatchException(List<CustomerDO> customerDOList) {
+        CandyResult candyResult = new CandyResult();
+        customerMapper.saveBatch(customerDOList);
         try {
             Integer bug = 2 / 0;
         } catch (ArithmeticException e) {
@@ -63,7 +78,7 @@ public class CustomerService {
      * @param customerDOList
      * @return
      */
-     public CandyResult saveBatchByFuture(List<CustomerDO> customerDOList) {
+    public CandyResult saveBatchByFuture(List<CustomerDO> customerDOList) {
         CandyResult candyResult = new CandyResult();
 
         List<CustomerDO> customerDOS = new ArrayList<>();
@@ -111,6 +126,7 @@ public class CustomerService {
 
     /**
      * 多线程的回滚 by runnable
+     *
      * @param customerDOList
      * @return
      */
@@ -147,7 +163,7 @@ public class CustomerService {
         try {
             thread.join();
             thread1.join();
-        }catch (Exception e){
+        } catch (Exception e) {
 
         }
 

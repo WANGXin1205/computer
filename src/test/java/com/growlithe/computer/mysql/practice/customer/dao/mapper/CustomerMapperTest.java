@@ -28,8 +28,9 @@ import static org.junit.Assert.*;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-@Rollback(value = true)
-@Transactional(transactionManager = "mysqlTransactionManager")
+// 事务回滚
+//@Rollback(value = true)
+//@Transactional(transactionManager = "mysqlTransactionManager")
 public class CustomerMapperTest {
 
     @Autowired
@@ -42,7 +43,7 @@ public class CustomerMapperTest {
     }
 
     @Test
-    public void saveBatch(){
+    public void saveBatch() {
         CustomerDO customerDO = new CustomerDO();
         customerDO.setFirstName("candy");
         customerDO.setLastName("candy");
@@ -50,6 +51,12 @@ public class CustomerMapperTest {
         customerList.add(customerDO);
 
         Integer count = customerMapper.saveBatch(customerList);
+        Assert.assertNotNull(count);
+    }
+
+    @Test
+    public void deleteAllTest() {
+        Integer count = customerMapper.deleteAll();
         Assert.assertNotNull(count);
     }
 

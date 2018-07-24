@@ -26,4 +26,10 @@
             (#{item.firstName},#{item.lastName})
         </foreach>
     </insert>
+
+    <delete id="deleteAll">
+            DELETE FROM
+            practice.customer
+    </delete>
+
 </mapper>

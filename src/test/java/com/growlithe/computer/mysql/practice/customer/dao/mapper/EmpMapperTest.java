@@ -61,6 +61,12 @@ public class EmpMapperTest {
        System.out.println(integer);
      }
 
+     @Test
+     public void deleteAllTest(){
+        Integer integer = empMapper.deleteAll();
+        Assert.assertNotNull(integer);
+     }
+
     @Test
     public void sparkDemoTest(){
 //        SparkConf conf=new SparkConf();
