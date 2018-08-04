@@ -2,6 +2,11 @@ package com.growlithe.computer.mysql.practice.customer.dao.mapper;
 
 import com.growlithe.computer.common.math.BinaryTreeNode;
 import com.growlithe.computer.mysql.practice.customer.dao.domain.EmpDO;
+import org.apache.spark.SparkConf;
+import org.apache.spark.SparkContext;
+import org.apache.spark.api.java.JavaSparkContext;
+import org.apache.spark.sql.Dataset;
+import org.apache.spark.sql.SparkSession;
 import org.assertj.core.util.Lists;
 import org.junit.Assert;
 import org.junit.Test;
@@ -10,6 +15,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
+import javax.mail.Message;
+import javax.mail.MessagingException;
+import javax.mail.Session;
+import javax.mail.Transport;
+import javax.mail.internet.InternetAddress;
+import javax.mail.internet.MimeMessage;
 import javax.swing.plaf.basic.BasicIconFactory;
 import java.math.BigDecimal;
 import java.util.*;
@@ -29,7 +40,7 @@ public class EmpMapperTest {
     private EmpMapper empMapper;
 
     @Test
-    public void listAllEmpTest(){
+    public void listAllEmpTest() {
         var empDOList = empMapper.listAllEmp();
         Assert.assertNotNull(empDOList);
     }
@@ -37,7 +48,7 @@ public class EmpMapperTest {
     @Test
     public void saveBatchTest() {
         List<EmpDO> empDOList = new ArrayList<>();
-        for (int i = 0; i<10 ; i++){
+        for (int i = 0; i < 10; i++) {
             var empDO = new EmpDO();
             Random random = new Random();
             empDO.setAge(random.nextInt(105));
@@ -47,36 +58,59 @@ public class EmpMapperTest {
     }
 
     @Test
-    public void updateAgeByIdListTest(){
-       EmpDO empDO = new EmpDO();
-       empDO.setId(5L);
-       empDO.setAge(99);
-       EmpDO empDO1 = new EmpDO();
-       empDO1.setId(8L);
-       empDO1.setAge(103);
-       List<EmpDO> empDOList = new ArrayList<>();
-       empDOList.add(empDO);
-       empDOList.add(empDO1);
-       Integer integer = empMapper.updateAgeByIdList(empDOList);
-       System.out.println(integer);
-     }
-
-     @Test
-     public void deleteAllTest(){
-        Integer integer = empMapper.deleteAll();
-        Assert.assertNotNull(integer);
-     }
+    public void updateAgeByIdListTest() {
+        EmpDO empDO = new EmpDO();
+        empDO.setId(5L);
+        empDO.setAge(99);
+        EmpDO empDO1 = new EmpDO();
+        empDO1.setId(8L);
+        empDO1.setAge(103);
+        List<EmpDO> empDOList = new ArrayList<>();
+        empDOList.add(empDO);
+        empDOList.add(empDO1);
+        Integer integer = empMapper.updateAgeByIdList(empDOList);
+        System.out.println(integer);
+    }
 
     @Test
-    public void sparkDemoTest(){
-//        SparkConf conf=new SparkConf();
-//        conf.set("spark.testing.memory", "2147480000"); //因为jvm无法获得足够的资源
-//        conf.setAppName("mySpark");
-//        conf.setMaster("local");
+    public void deleteAllTest() {
+        Integer integer = empMapper.deleteAll();
+        Assert.assertNotNull(integer);
+    }
+
+    @Test
+    public void sparkDemoTest() {
+        SparkConf conf = new SparkConf();
+        conf.set("spark.testing.memory", "2147480000"); //因为jvm无法获得足够的资源
+        conf.setAppName("mySpark");
+        conf.setMaster("local");
+
+//        JavaSparkContext sc = new JavaSparkContext("spark://127.0.0.1:3306", "mySpark",conf);
+        JavaSparkContext sc = new JavaSparkContext(conf);
 //
-////        JavaSparkContext sc = new JavaSparkContext("spark://127.0.0.1:3306", "First Spark App",conf);
-//        JavaSparkContext sc = new JavaSparkContext(conf);
+//        String logFile = "D:\\code\\java\\computer\\src\\main\\java\\com\\growlithe\\computer\\mysql\\init\\sparkDemo.md";
+//
+//        var logData = sc.textFile(logFile, 2).cache();
+//
+//        var candyCount = logData.filter(line -> line.contains("Candy")).count();
+
+        //打印结果
+//        System.out.println("=============================" + candyCount);
+
+        var list = Lists.newArrayList(1, 2, 3, 4, 5);
+        var rdd = sc.parallelize(list);
+
+        List<Integer> listOfOne = rdd.filter(x -> x.equals(1)).collect();
+        System.out.println("=======================" + listOfOne);
+
+        List<Boolean> listOfTwo = rdd.map(x -> x.equals(2)).collect();
+        System.out.println("=======================" + listOfTwo);
+
+        sc.stop();
+
+
 //        System.out.println(sc);
+
 //
 //        var empList = empMapper.listEmp();
 
@@ -108,31 +142,29 @@ public class EmpMapperTest {
 //        System.out.println(binaryTreeNode);
 
 
-        var concurrentHashMap = new ConcurrentHashMap<>();
-
-        EmpDO empDO = new EmpDO(1L,3L);
-        var empDO1 = new EmpDO(2L,3L);
-        var empDO2 = new EmpDO(3L,4L);
-        var empDO3 = new EmpDO(4L,null);
-        var empDO4 = new EmpDO(5L,6L);
-        var empDO5 = new EmpDO(6L,null);
-        var empDO6 = new EmpDO(7L,null);
-        List<EmpDO> empDOList = Lists.newArrayList(empDO,empDO1,empDO2,empDO3,empDO4,empDO5,empDO6);
-
-        HashMap<Long,Long> empHashMap = new HashMap<>();
-        empDOList.forEach(x->empHashMap.put(x.getId(),x.getParentEmpId()));
-
-        for (EmpDO x:empDOList){
-            Long id = x.getId();
-            while (id != null){
-                System.out.print(id);
-                id = empHashMap.get(id);
-            }
-            System.out.println("\n====");
-        }
+//        var concurrentHashMap = new ConcurrentHashMap<>();
+//
+//        EmpDO empDO = new EmpDO(1L,3L);
+//        var empDO1 = new EmpDO(2L,3L);
+//        var empDO2 = new EmpDO(3L,4L);
+//        var empDO3 = new EmpDO(4L,null);
+//        var empDO4 = new EmpDO(5L,6L);
+//        var empDO5 = new EmpDO(6L,null);
+//        var empDO6 = new EmpDO(7L,null);
+//        List<EmpDO> empDOList = Lists.newArrayList(empDO,empDO1,empDO2,empDO3,empDO4,empDO5,empDO6);
+//
+//        HashMap<Long,Long> empHashMap = new HashMap<>();
+//        empDOList.forEach(x->empHashMap.put(x.getId(),x.getParentEmpId()));
+//
+//        for (EmpDO x:empDOList){
+//            Long id = x.getId();
+//            while (id != null){
+//                System.out.print(id);
+//                id = empHashMap.get(id);
+//            }
+//            System.out.println("\n====");
+//        }
 
     }
-
-
 
 }

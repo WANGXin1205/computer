@@ -385,7 +385,7 @@ public class ThreadUtilsTest {
 
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("thread test, please enter int num range 1 to 20:\n");
+        System.out.println("thread test, please enter int num range 1 to 15:\n");
         Integer runNo = 0;
         try {
             runNo = sc.nextInt();
@@ -394,7 +394,7 @@ public class ThreadUtilsTest {
             ThreadUtilsTest.main(args);
         }
         // 其实不应该出现魔数
-        if (runNo < 1 || runNo > 20) {
+        if (runNo < 1 || runNo > 15) {
             System.out.println("wrong num");
             ThreadUtilsTest.main(args);
         }
@@ -440,12 +440,9 @@ public class ThreadUtilsTest {
         if (14 == runNo){
             ThreadUtilsTest.piInvokeDemo();
         }
-        if (15 == runNo){
+        if (15 == runNo) {
             ThreadUtilsTest.piSubmitDemo();
-        }if (16 == runNo) {
-
         }
-
     }
 
 }

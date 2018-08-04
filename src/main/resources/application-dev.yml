@@ -7,6 +7,14 @@ spring:
      jdbc-url: jdbc:mysql://localhost:3306/practice?useUnicode=true&characterEncoding=utf-8&useSSL=false&useAffectedRows=true&autoReconnect=true&amp;autoReconnectForPools=true&allowMultiQueries=true
      username: growlithe
      password: growlithe
+  mail:
+    default-encoding: UTF-8
+    port: 25
+    username: growlithe1205@163.com
+    password: wangxin112358
+    host: smtp.163.com
+
+# eblxsoygkfpzbjch
 
 #  redis:
 #    host: redis-dev.idc.yst.com.cn
