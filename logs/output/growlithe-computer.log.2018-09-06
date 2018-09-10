@@ -1,0 +1,1102 @@
+2018-07-05 00:00:20,866 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 9384 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:00:20,871 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:00:20,890 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@38b972d7: startup date [Thu Jul 05 00:00:20 CST 2018]; root of context hierarchy
+2018-07-05 00:00:21,698 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-05 00:00:22,612 INFO  [StartupInfoLogger.java:50] Starting JUnitStarter on MEW with PID 9384 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:00:22,614 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:00:22,622 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1d6d1d42: startup date [Thu Jul 05 00:00:22 CST 2018]; root of context hierarchy
+2018-07-05 00:00:23,215 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-05 00:00:23,383 WARN  [AutowiredAnnotationBeanPostProcessor.java:438] Autowired annotation is not supported on static fields: private static com.growlithe.computer.mysql.practice.customer.dao.mapper.CustomerMapper com.growlithe.computer.mysql.practice.customer.service.CustomerFutureService.customerMapper
+2018-07-05 00:00:24,688 INFO  [MBeanExporter.java:433] Registering beans for JMX exposure on startup
+2018-07-05 00:00:24,690 INFO  [MBeanExporter.java:895] Bean with name 'mysqlDataSource' has been autodetected for JMX exposure
+2018-07-05 00:00:24,700 INFO  [MBeanExporter.java:668] Located MBean 'mysqlDataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=mysqlDataSource,type=HikariDataSource]
+2018-07-05 00:00:24,730 INFO  [StartupInfoLogger.java:59] Started JUnitStarter in 2.241 seconds (JVM running for 7.989)
+2018-07-05 00:00:24,737 WARN  [AutowiredAnnotationBeanPostProcessor.java:438] Autowired annotation is not supported on static fields: private static com.growlithe.computer.mysql.practice.customer.dao.mapper.CustomerMapper com.growlithe.computer.mysql.practice.customer.service.CustomerFutureService.customerMapper
+2018-07-05 00:00:25,108 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 5.237 seconds (JVM running for 8.368)
+2018-07-05 00:00:25,294 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-07-05 00:00:25,793 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-07-05 00:00:25,822 INFO  [HikariDataSource.java:110] HikariPool-2 - Starting...
+2018-07-05 00:00:25,839 INFO  [HikariDataSource.java:123] HikariPool-2 - Start completed.
+2018-07-05 00:00:26,061 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@38b972d7: startup date [Thu Jul 05 00:00:20 CST 2018]; root of context hierarchy
+2018-07-05 00:00:26,061 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@1d6d1d42: startup date [Thu Jul 05 00:00:22 CST 2018]; root of context hierarchy
+2018-07-05 00:00:26,066 INFO  [MBeanExporter.java:451] Unregistering JMX-exposed beans on shutdown
+2018-07-05 00:00:26,068 INFO  [MBeanRegistrationSupport.java:183] Unregistering JMX-exposed beans
+2018-07-05 00:00:26,068 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-07-05 00:00:26,069 INFO  [HikariDataSource.java:381] HikariPool-2 - Shutdown initiated...
+2018-07-05 00:00:26,080 INFO  [HikariDataSource.java:383] HikariPool-2 - Shutdown completed.
+2018-07-05 00:00:26,080 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-07-05 00:01:07,840 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 6720 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:01:07,841 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:01:07,858 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@38b972d7: startup date [Thu Jul 05 00:01:07 CST 2018]; root of context hierarchy
+2018-07-05 00:01:09,445 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-05 00:01:11,196 INFO  [StartupInfoLogger.java:50] Starting JUnitStarter on MEW with PID 6720 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:01:11,198 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:01:11,208 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3003e580: startup date [Thu Jul 05 00:01:11 CST 2018]; root of context hierarchy
+2018-07-05 00:01:11,839 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-05 00:01:12,082 WARN  [AutowiredAnnotationBeanPostProcessor.java:438] Autowired annotation is not supported on static fields: private static com.growlithe.computer.mysql.practice.customer.dao.mapper.CustomerMapper com.growlithe.computer.mysql.practice.customer.service.CustomerFutureService.customerMapper
+2018-07-05 00:01:13,460 INFO  [MBeanExporter.java:433] Registering beans for JMX exposure on startup
+2018-07-05 00:01:13,463 INFO  [MBeanExporter.java:895] Bean with name 'mysqlDataSource' has been autodetected for JMX exposure
+2018-07-05 00:01:13,473 INFO  [MBeanExporter.java:668] Located MBean 'mysqlDataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=mysqlDataSource,type=HikariDataSource]
+2018-07-05 00:01:13,522 INFO  [StartupInfoLogger.java:59] Started JUnitStarter in 2.446 seconds (JVM running for 9.281)
+2018-07-05 00:01:13,532 WARN  [AutowiredAnnotationBeanPostProcessor.java:438] Autowired annotation is not supported on static fields: private static com.growlithe.computer.mysql.practice.customer.dao.mapper.CustomerMapper com.growlithe.computer.mysql.practice.customer.service.CustomerFutureService.customerMapper
+2018-07-05 00:01:14,065 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 7.021 seconds (JVM running for 9.825)
+2018-07-05 00:01:14,237 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-07-05 00:01:14,770 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-07-05 00:01:14,811 INFO  [HikariDataSource.java:110] HikariPool-2 - Starting...
+2018-07-05 00:01:14,837 INFO  [HikariDataSource.java:123] HikariPool-2 - Start completed.
+2018-07-05 00:01:15,198 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@38b972d7: startup date [Thu Jul 05 00:01:07 CST 2018]; root of context hierarchy
+2018-07-05 00:01:15,200 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@3003e580: startup date [Thu Jul 05 00:01:11 CST 2018]; root of context hierarchy
+2018-07-05 00:01:15,223 INFO  [MBeanExporter.java:451] Unregistering JMX-exposed beans on shutdown
+2018-07-05 00:01:15,225 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-07-05 00:01:15,229 INFO  [MBeanRegistrationSupport.java:183] Unregistering JMX-exposed beans
+2018-07-05 00:01:15,232 INFO  [HikariDataSource.java:381] HikariPool-2 - Shutdown initiated...
+2018-07-05 00:01:15,265 INFO  [HikariDataSource.java:383] HikariPool-2 - Shutdown completed.
+2018-07-05 00:01:15,273 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-07-05 00:01:52,756 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 9680 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:01:52,757 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:01:52,778 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@511816c0: startup date [Thu Jul 05 00:01:52 CST 2018]; root of context hierarchy
+2018-07-05 00:01:53,609 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-05 00:01:54,641 INFO  [StartupInfoLogger.java:50] Starting JUnitStarter on MEW with PID 9680 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:01:54,656 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:01:54,665 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5f174dd2: startup date [Thu Jul 05 00:01:54 CST 2018]; root of context hierarchy
+2018-07-05 00:01:55,123 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-05 00:01:55,296 WARN  [AutowiredAnnotationBeanPostProcessor.java:438] Autowired annotation is not supported on static fields: private static com.growlithe.computer.mysql.practice.customer.dao.mapper.CustomerMapper com.growlithe.computer.mysql.practice.customer.service.CustomerFutureService.customerMapper
+2018-07-05 00:01:56,591 INFO  [MBeanExporter.java:433] Registering beans for JMX exposure on startup
+2018-07-05 00:01:56,594 INFO  [MBeanExporter.java:895] Bean with name 'mysqlDataSource' has been autodetected for JMX exposure
+2018-07-05 00:01:56,602 INFO  [MBeanExporter.java:668] Located MBean 'mysqlDataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=mysqlDataSource,type=HikariDataSource]
+2018-07-05 00:01:56,632 INFO  [StartupInfoLogger.java:59] Started JUnitStarter in 2.143 seconds (JVM running for 8.127)
+2018-07-05 00:01:56,640 WARN  [AutowiredAnnotationBeanPostProcessor.java:438] Autowired annotation is not supported on static fields: private static com.growlithe.computer.mysql.practice.customer.dao.mapper.CustomerMapper com.growlithe.computer.mysql.practice.customer.service.CustomerFutureService.customerMapper
+2018-07-05 00:01:56,999 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 5.324 seconds (JVM running for 8.494)
+2018-07-05 00:01:57,308 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-07-05 00:01:57,788 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-07-05 00:01:58,019 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@5f174dd2: startup date [Thu Jul 05 00:01:54 CST 2018]; root of context hierarchy
+2018-07-05 00:01:58,021 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@511816c0: startup date [Thu Jul 05 00:01:52 CST 2018]; root of context hierarchy
+2018-07-05 00:01:58,033 INFO  [MBeanExporter.java:451] Unregistering JMX-exposed beans on shutdown
+2018-07-05 00:01:58,035 INFO  [MBeanRegistrationSupport.java:183] Unregistering JMX-exposed beans
+2018-07-05 00:01:58,037 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-07-05 00:01:58,055 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-07-05 00:02:47,035 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 6220 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:02:47,037 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:02:47,060 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@511816c0: startup date [Thu Jul 05 00:02:47 CST 2018]; root of context hierarchy
+2018-07-05 00:02:47,877 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-05 00:02:48,561 INFO  [StartupInfoLogger.java:50] Starting JUnitStarter on MEW with PID 6220 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:02:48,562 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:02:48,566 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5f174dd2: startup date [Thu Jul 05 00:02:48 CST 2018]; root of context hierarchy
+2018-07-05 00:02:48,836 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-05 00:02:48,935 WARN  [AutowiredAnnotationBeanPostProcessor.java:438] Autowired annotation is not supported on static fields: private static com.growlithe.computer.mysql.practice.customer.dao.mapper.CustomerMapper com.growlithe.computer.mysql.practice.customer.service.CustomerFutureService.customerMapper
+2018-07-05 00:02:49,726 INFO  [MBeanExporter.java:433] Registering beans for JMX exposure on startup
+2018-07-05 00:02:49,727 INFO  [MBeanExporter.java:895] Bean with name 'mysqlDataSource' has been autodetected for JMX exposure
+2018-07-05 00:02:49,732 INFO  [MBeanExporter.java:668] Located MBean 'mysqlDataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=mysqlDataSource,type=HikariDataSource]
+2018-07-05 00:02:49,749 INFO  [StartupInfoLogger.java:59] Started JUnitStarter in 1.234 seconds (JVM running for 7.536)
+2018-07-05 00:02:49,753 WARN  [AutowiredAnnotationBeanPostProcessor.java:438] Autowired annotation is not supported on static fields: private static com.growlithe.computer.mysql.practice.customer.dao.mapper.CustomerMapper com.growlithe.computer.mysql.practice.customer.service.CustomerFutureService.customerMapper
+2018-07-05 00:02:49,977 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 3.995 seconds (JVM running for 7.765)
+2018-07-05 00:02:50,099 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-07-05 00:02:50,393 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-07-05 00:02:51,055 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@511816c0: startup date [Thu Jul 05 00:02:47 CST 2018]; root of context hierarchy
+2018-07-05 00:02:51,055 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@5f174dd2: startup date [Thu Jul 05 00:02:48 CST 2018]; root of context hierarchy
+2018-07-05 00:02:51,067 INFO  [MBeanExporter.java:451] Unregistering JMX-exposed beans on shutdown
+2018-07-05 00:02:51,069 INFO  [MBeanRegistrationSupport.java:183] Unregistering JMX-exposed beans
+2018-07-05 00:02:51,071 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-07-05 00:02:51,089 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-07-05 00:03:15,836 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 1712 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:03:15,837 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:03:15,856 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@511816c0: startup date [Thu Jul 05 00:03:15 CST 2018]; root of context hierarchy
+2018-07-05 00:03:16,567 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-05 00:03:17,213 INFO  [StartupInfoLogger.java:50] Starting JUnitStarter on MEW with PID 1712 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:03:17,214 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:03:17,218 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1d50a7ca: startup date [Thu Jul 05 00:03:17 CST 2018]; root of context hierarchy
+2018-07-05 00:03:17,826 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-05 00:03:18,081 WARN  [AutowiredAnnotationBeanPostProcessor.java:438] Autowired annotation is not supported on static fields: private static com.growlithe.computer.mysql.practice.customer.dao.mapper.CustomerMapper com.growlithe.computer.mysql.practice.customer.service.CustomerFutureService.customerMapper
+2018-07-05 00:03:19,999 INFO  [MBeanExporter.java:433] Registering beans for JMX exposure on startup
+2018-07-05 00:03:20,001 INFO  [MBeanExporter.java:895] Bean with name 'mysqlDataSource' has been autodetected for JMX exposure
+2018-07-05 00:03:20,014 INFO  [MBeanExporter.java:668] Located MBean 'mysqlDataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=mysqlDataSource,type=HikariDataSource]
+2018-07-05 00:03:20,056 INFO  [StartupInfoLogger.java:59] Started JUnitStarter in 2.884 seconds (JVM running for 8.518)
+2018-07-05 00:03:20,069 WARN  [AutowiredAnnotationBeanPostProcessor.java:438] Autowired annotation is not supported on static fields: private static com.growlithe.computer.mysql.practice.customer.dao.mapper.CustomerMapper com.growlithe.computer.mysql.practice.customer.service.CustomerFutureService.customerMapper
+2018-07-05 00:03:20,482 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 5.727 seconds (JVM running for 8.945)
+2018-07-05 00:03:20,689 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-07-05 00:03:21,151 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-07-05 00:03:21,422 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@1d50a7ca: startup date [Thu Jul 05 00:03:17 CST 2018]; root of context hierarchy
+2018-07-05 00:03:21,422 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@511816c0: startup date [Thu Jul 05 00:03:15 CST 2018]; root of context hierarchy
+2018-07-05 00:03:21,428 INFO  [MBeanExporter.java:451] Unregistering JMX-exposed beans on shutdown
+2018-07-05 00:03:21,431 INFO  [MBeanRegistrationSupport.java:183] Unregistering JMX-exposed beans
+2018-07-05 00:03:21,432 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-07-05 00:03:21,445 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-07-05 00:03:56,739 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 9468 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:03:56,740 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:03:56,760 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@511816c0: startup date [Thu Jul 05 00:03:56 CST 2018]; root of context hierarchy
+2018-07-05 00:03:58,171 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-05 00:03:59,165 INFO  [StartupInfoLogger.java:50] Starting JUnitStarter on MEW with PID 9468 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:03:59,166 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:03:59,172 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1945113f: startup date [Thu Jul 05 00:03:59 CST 2018]; root of context hierarchy
+2018-07-05 00:03:59,608 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-05 00:03:59,739 WARN  [AutowiredAnnotationBeanPostProcessor.java:438] Autowired annotation is not supported on static fields: private static com.growlithe.computer.mysql.practice.customer.dao.mapper.CustomerMapper com.growlithe.computer.mysql.practice.customer.service.CustomerFutureService.customerMapper
+2018-07-05 00:04:00,747 INFO  [MBeanExporter.java:433] Registering beans for JMX exposure on startup
+2018-07-05 00:04:00,749 INFO  [MBeanExporter.java:895] Bean with name 'mysqlDataSource' has been autodetected for JMX exposure
+2018-07-05 00:04:00,824 INFO  [MBeanExporter.java:668] Located MBean 'mysqlDataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=mysqlDataSource,type=HikariDataSource]
+2018-07-05 00:04:00,847 INFO  [StartupInfoLogger.java:59] Started JUnitStarter in 1.765 seconds (JVM running for 8.537)
+2018-07-05 00:04:00,852 WARN  [AutowiredAnnotationBeanPostProcessor.java:438] Autowired annotation is not supported on static fields: private static com.growlithe.computer.mysql.practice.customer.dao.mapper.CustomerMapper com.growlithe.computer.mysql.practice.customer.service.CustomerFutureService.customerMapper
+2018-07-05 00:04:01,145 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 5.522 seconds (JVM running for 8.836)
+2018-07-05 00:04:01,398 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-07-05 00:04:01,814 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-07-05 00:04:02,104 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@511816c0: startup date [Thu Jul 05 00:03:56 CST 2018]; root of context hierarchy
+2018-07-05 00:04:02,104 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@1945113f: startup date [Thu Jul 05 00:03:59 CST 2018]; root of context hierarchy
+2018-07-05 00:04:02,113 INFO  [MBeanExporter.java:451] Unregistering JMX-exposed beans on shutdown
+2018-07-05 00:04:02,114 INFO  [MBeanRegistrationSupport.java:183] Unregistering JMX-exposed beans
+2018-07-05 00:04:02,115 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-07-05 00:04:02,127 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-07-05 00:04:28,768 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 5844 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:04:28,770 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:04:28,790 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@511816c0: startup date [Thu Jul 05 00:04:28 CST 2018]; root of context hierarchy
+2018-07-05 00:04:29,802 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-05 00:04:31,528 INFO  [StartupInfoLogger.java:50] Starting JUnitStarter on MEW with PID 5844 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:04:31,529 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:04:31,538 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@138aa3cc: startup date [Thu Jul 05 00:04:31 CST 2018]; root of context hierarchy
+2018-07-05 00:04:31,993 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-05 00:04:32,150 WARN  [AutowiredAnnotationBeanPostProcessor.java:438] Autowired annotation is not supported on static fields: private static com.growlithe.computer.mysql.practice.customer.dao.mapper.CustomerMapper com.growlithe.computer.mysql.practice.customer.service.CustomerFutureService.customerMapper
+2018-07-05 00:04:33,205 INFO  [MBeanExporter.java:433] Registering beans for JMX exposure on startup
+2018-07-05 00:04:33,208 INFO  [MBeanExporter.java:895] Bean with name 'mysqlDataSource' has been autodetected for JMX exposure
+2018-07-05 00:04:33,217 INFO  [MBeanExporter.java:668] Located MBean 'mysqlDataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=mysqlDataSource,type=HikariDataSource]
+2018-07-05 00:04:33,246 INFO  [StartupInfoLogger.java:59] Started JUnitStarter in 1.849 seconds (JVM running for 8.756)
+2018-07-05 00:04:33,254 WARN  [AutowiredAnnotationBeanPostProcessor.java:438] Autowired annotation is not supported on static fields: private static com.growlithe.computer.mysql.practice.customer.dao.mapper.CustomerMapper com.growlithe.computer.mysql.practice.customer.service.CustomerFutureService.customerMapper
+2018-07-05 00:04:33,605 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 5.952 seconds (JVM running for 9.116)
+2018-07-05 00:04:33,781 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@511816c0: startup date [Thu Jul 05 00:04:28 CST 2018]; root of context hierarchy
+2018-07-05 00:04:33,781 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@138aa3cc: startup date [Thu Jul 05 00:04:31 CST 2018]; root of context hierarchy
+2018-07-05 00:04:33,795 INFO  [MBeanExporter.java:451] Unregistering JMX-exposed beans on shutdown
+2018-07-05 00:04:33,797 INFO  [MBeanRegistrationSupport.java:183] Unregistering JMX-exposed beans
+2018-07-05 00:04:51,495 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 5428 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:04:51,497 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:04:51,521 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@511816c0: startup date [Thu Jul 05 00:04:51 CST 2018]; root of context hierarchy
+2018-07-05 00:04:52,728 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-05 00:04:54,075 INFO  [StartupInfoLogger.java:50] Starting JUnitStarter on MEW with PID 5428 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:04:54,076 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:04:54,085 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@138aa3cc: startup date [Thu Jul 05 00:04:54 CST 2018]; root of context hierarchy
+2018-07-05 00:04:54,532 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-05 00:04:54,682 WARN  [AutowiredAnnotationBeanPostProcessor.java:438] Autowired annotation is not supported on static fields: private static com.growlithe.computer.mysql.practice.customer.dao.mapper.CustomerMapper com.growlithe.computer.mysql.practice.customer.service.CustomerFutureService.customerMapper
+2018-07-05 00:04:55,937 INFO  [MBeanExporter.java:433] Registering beans for JMX exposure on startup
+2018-07-05 00:04:55,940 INFO  [MBeanExporter.java:895] Bean with name 'mysqlDataSource' has been autodetected for JMX exposure
+2018-07-05 00:04:55,954 INFO  [MBeanExporter.java:668] Located MBean 'mysqlDataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=mysqlDataSource,type=HikariDataSource]
+2018-07-05 00:04:56,005 INFO  [StartupInfoLogger.java:59] Started JUnitStarter in 2.033 seconds (JVM running for 8.694)
+2018-07-05 00:04:56,020 WARN  [AutowiredAnnotationBeanPostProcessor.java:438] Autowired annotation is not supported on static fields: private static com.growlithe.computer.mysql.practice.customer.dao.mapper.CustomerMapper com.growlithe.computer.mysql.practice.customer.service.CustomerFutureService.customerMapper
+2018-07-05 00:04:56,496 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 6.031 seconds (JVM running for 9.191)
+2018-07-05 00:04:56,728 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@511816c0: startup date [Thu Jul 05 00:04:51 CST 2018]; root of context hierarchy
+2018-07-05 00:04:56,729 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@138aa3cc: startup date [Thu Jul 05 00:04:54 CST 2018]; root of context hierarchy
+2018-07-05 00:04:56,737 INFO  [MBeanExporter.java:451] Unregistering JMX-exposed beans on shutdown
+2018-07-05 00:04:56,738 INFO  [MBeanRegistrationSupport.java:183] Unregistering JMX-exposed beans
+2018-07-05 00:07:00,402 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 7164 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:07:00,404 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:07:00,428 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@511816c0: startup date [Thu Jul 05 00:07:00 CST 2018]; root of context hierarchy
+2018-07-05 00:07:01,156 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-05 00:07:02,094 INFO  [StartupInfoLogger.java:50] Starting JUnitStarter on MEW with PID 7164 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:07:02,095 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:07:02,105 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@28757abd: startup date [Thu Jul 05 00:07:02 CST 2018]; root of context hierarchy
+2018-07-05 00:07:02,662 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-05 00:07:02,821 WARN  [AutowiredAnnotationBeanPostProcessor.java:438] Autowired annotation is not supported on static fields: private static com.growlithe.computer.mysql.practice.customer.dao.mapper.CustomerMapper com.growlithe.computer.mysql.practice.customer.service.CustomerFutureService.customerMapper
+2018-07-05 00:07:04,261 INFO  [MBeanExporter.java:433] Registering beans for JMX exposure on startup
+2018-07-05 00:07:04,265 INFO  [MBeanExporter.java:895] Bean with name 'mysqlDataSource' has been autodetected for JMX exposure
+2018-07-05 00:07:04,291 INFO  [MBeanExporter.java:668] Located MBean 'mysqlDataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=mysqlDataSource,type=HikariDataSource]
+2018-07-05 00:07:04,408 INFO  [StartupInfoLogger.java:59] Started JUnitStarter in 2.452 seconds (JVM running for 8.296)
+2018-07-05 00:07:04,420 WARN  [AutowiredAnnotationBeanPostProcessor.java:438] Autowired annotation is not supported on static fields: private static com.growlithe.computer.mysql.practice.customer.dao.mapper.CustomerMapper com.growlithe.computer.mysql.practice.customer.service.CustomerFutureService.customerMapper
+2018-07-05 00:07:04,767 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 5.494 seconds (JVM running for 8.659)
+2018-07-05 00:07:04,984 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@28757abd: startup date [Thu Jul 05 00:07:02 CST 2018]; root of context hierarchy
+2018-07-05 00:07:04,984 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@511816c0: startup date [Thu Jul 05 00:07:00 CST 2018]; root of context hierarchy
+2018-07-05 00:07:04,992 INFO  [MBeanExporter.java:451] Unregistering JMX-exposed beans on shutdown
+2018-07-05 00:07:04,993 INFO  [MBeanRegistrationSupport.java:183] Unregistering JMX-exposed beans
+2018-07-05 00:07:48,232 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 8932 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:07:48,234 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:07:48,254 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@511816c0: startup date [Thu Jul 05 00:07:48 CST 2018]; root of context hierarchy
+2018-07-05 00:07:48,977 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-05 00:07:49,631 INFO  [StartupInfoLogger.java:50] Starting JUnitStarter on MEW with PID 8932 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:07:49,632 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:07:49,643 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1d50a7ca: startup date [Thu Jul 05 00:07:49 CST 2018]; root of context hierarchy
+2018-07-05 00:07:50,513 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-05 00:07:50,685 WARN  [AutowiredAnnotationBeanPostProcessor.java:438] Autowired annotation is not supported on static fields: private static com.growlithe.computer.mysql.practice.customer.dao.mapper.CustomerMapper com.growlithe.computer.mysql.practice.customer.service.CustomerFutureService.customerMapper
+2018-07-05 00:07:51,789 INFO  [MBeanExporter.java:433] Registering beans for JMX exposure on startup
+2018-07-05 00:07:51,791 INFO  [MBeanExporter.java:895] Bean with name 'mysqlDataSource' has been autodetected for JMX exposure
+2018-07-05 00:07:51,798 INFO  [MBeanExporter.java:668] Located MBean 'mysqlDataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=mysqlDataSource,type=HikariDataSource]
+2018-07-05 00:07:51,821 INFO  [StartupInfoLogger.java:59] Started JUnitStarter in 2.236 seconds (JVM running for 7.888)
+2018-07-05 00:07:51,826 WARN  [AutowiredAnnotationBeanPostProcessor.java:438] Autowired annotation is not supported on static fields: private static com.growlithe.computer.mysql.practice.customer.dao.mapper.CustomerMapper com.growlithe.computer.mysql.practice.customer.service.CustomerFutureService.customerMapper
+2018-07-05 00:07:52,210 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 5.13 seconds (JVM running for 8.278)
+2018-07-05 00:07:52,438 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@511816c0: startup date [Thu Jul 05 00:07:48 CST 2018]; root of context hierarchy
+2018-07-05 00:07:52,439 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@1d50a7ca: startup date [Thu Jul 05 00:07:49 CST 2018]; root of context hierarchy
+2018-07-05 00:07:52,444 INFO  [MBeanExporter.java:451] Unregistering JMX-exposed beans on shutdown
+2018-07-05 00:07:52,445 INFO  [MBeanRegistrationSupport.java:183] Unregistering JMX-exposed beans
+2018-07-05 00:08:10,964 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 9452 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:08:10,966 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:08:10,985 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@511816c0: startup date [Thu Jul 05 00:08:10 CST 2018]; root of context hierarchy
+2018-07-05 00:08:11,744 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-05 00:08:12,492 INFO  [StartupInfoLogger.java:50] Starting JUnitStarter on MEW with PID 9452 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:08:12,494 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:08:12,505 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@ceddaf8: startup date [Thu Jul 05 00:08:12 CST 2018]; root of context hierarchy
+2018-07-05 00:08:13,107 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-05 00:08:13,280 WARN  [AutowiredAnnotationBeanPostProcessor.java:438] Autowired annotation is not supported on static fields: private static com.growlithe.computer.mysql.practice.customer.dao.mapper.CustomerMapper com.growlithe.computer.mysql.practice.customer.service.CustomerFutureService.customerMapper
+2018-07-05 00:08:14,434 INFO  [MBeanExporter.java:433] Registering beans for JMX exposure on startup
+2018-07-05 00:08:14,437 INFO  [MBeanExporter.java:895] Bean with name 'mysqlDataSource' has been autodetected for JMX exposure
+2018-07-05 00:08:14,445 INFO  [MBeanExporter.java:668] Located MBean 'mysqlDataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=mysqlDataSource,type=HikariDataSource]
+2018-07-05 00:08:14,471 INFO  [StartupInfoLogger.java:59] Started JUnitStarter in 2.063 seconds (JVM running for 7.149)
+2018-07-05 00:08:14,479 WARN  [AutowiredAnnotationBeanPostProcessor.java:438] Autowired annotation is not supported on static fields: private static com.growlithe.computer.mysql.practice.customer.dao.mapper.CustomerMapper com.growlithe.computer.mysql.practice.customer.service.CustomerFutureService.customerMapper
+2018-07-05 00:08:14,826 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 4.81 seconds (JVM running for 7.505)
+2018-07-05 00:08:15,056 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@511816c0: startup date [Thu Jul 05 00:08:10 CST 2018]; root of context hierarchy
+2018-07-05 00:08:15,056 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@ceddaf8: startup date [Thu Jul 05 00:08:12 CST 2018]; root of context hierarchy
+2018-07-05 00:08:15,061 INFO  [MBeanExporter.java:451] Unregistering JMX-exposed beans on shutdown
+2018-07-05 00:08:15,063 INFO  [MBeanRegistrationSupport.java:183] Unregistering JMX-exposed beans
+2018-07-05 00:10:06,251 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 7456 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:10:06,252 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:10:06,273 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@68105edc: startup date [Thu Jul 05 00:10:06 CST 2018]; root of context hierarchy
+2018-07-05 00:10:06,989 INFO  [StartupInfoLogger.java:50] Starting JUnitStarter on MEW with PID 7456 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:10:06,989 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:10:06,993 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6fd12c5: startup date [Thu Jul 05 00:10:06 CST 2018]; root of context hierarchy
+2018-07-05 00:13:47,069 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 9668 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:13:47,071 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:13:47,089 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@511816c0: startup date [Thu Jul 05 00:13:47 CST 2018]; root of context hierarchy
+2018-07-05 00:13:48,537 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-05 00:13:49,827 INFO  [StartupInfoLogger.java:50] Starting JUnitStarter on MEW with PID 9668 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:13:49,828 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:13:49,838 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@51ab1ee3: startup date [Thu Jul 05 00:13:49 CST 2018]; root of context hierarchy
+2018-07-05 00:13:50,396 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-05 00:13:50,559 WARN  [AutowiredAnnotationBeanPostProcessor.java:438] Autowired annotation is not supported on static fields: private static com.growlithe.computer.mysql.practice.customer.dao.mapper.CustomerMapper com.growlithe.computer.mysql.practice.customer.service.CustomerFutureService.customerMapper
+2018-07-05 00:13:51,842 INFO  [MBeanExporter.java:433] Registering beans for JMX exposure on startup
+2018-07-05 00:13:51,844 INFO  [MBeanExporter.java:895] Bean with name 'mysqlDataSource' has been autodetected for JMX exposure
+2018-07-05 00:13:51,853 INFO  [MBeanExporter.java:668] Located MBean 'mysqlDataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=mysqlDataSource,type=HikariDataSource]
+2018-07-05 00:13:51,884 INFO  [StartupInfoLogger.java:59] Started JUnitStarter in 2.187 seconds (JVM running for 7.96)
+2018-07-05 00:13:51,895 WARN  [AutowiredAnnotationBeanPostProcessor.java:438] Autowired annotation is not supported on static fields: private static com.growlithe.computer.mysql.practice.customer.dao.mapper.CustomerMapper com.growlithe.computer.mysql.practice.customer.service.CustomerFutureService.customerMapper
+2018-07-05 00:13:52,256 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 6.161 seconds (JVM running for 8.333)
+2018-07-05 00:13:52,466 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@511816c0: startup date [Thu Jul 05 00:13:47 CST 2018]; root of context hierarchy
+2018-07-05 00:13:52,466 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@51ab1ee3: startup date [Thu Jul 05 00:13:49 CST 2018]; root of context hierarchy
+2018-07-05 00:13:52,471 INFO  [MBeanExporter.java:451] Unregistering JMX-exposed beans on shutdown
+2018-07-05 00:13:52,473 INFO  [MBeanRegistrationSupport.java:183] Unregistering JMX-exposed beans
+2018-07-05 00:14:54,128 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 8576 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:14:54,130 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:14:54,149 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@511816c0: startup date [Thu Jul 05 00:14:54 CST 2018]; root of context hierarchy
+2018-07-05 00:14:55,100 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-05 00:14:55,949 INFO  [StartupInfoLogger.java:50] Starting JUnitStarter on MEW with PID 8576 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:14:55,950 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:14:55,955 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@21a02556: startup date [Thu Jul 05 00:14:55 CST 2018]; root of context hierarchy
+2018-07-05 00:14:56,279 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-05 00:14:56,377 WARN  [AutowiredAnnotationBeanPostProcessor.java:438] Autowired annotation is not supported on static fields: private static com.growlithe.computer.mysql.practice.customer.dao.mapper.CustomerMapper com.growlithe.computer.mysql.practice.customer.service.CustomerFutureService.customerMapper
+2018-07-05 00:14:57,156 INFO  [MBeanExporter.java:433] Registering beans for JMX exposure on startup
+2018-07-05 00:14:57,158 INFO  [MBeanExporter.java:895] Bean with name 'mysqlDataSource' has been autodetected for JMX exposure
+2018-07-05 00:14:57,163 INFO  [MBeanExporter.java:668] Located MBean 'mysqlDataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=mysqlDataSource,type=HikariDataSource]
+2018-07-05 00:14:57,182 INFO  [StartupInfoLogger.java:59] Started JUnitStarter in 1.288 seconds (JVM running for 7.54)
+2018-07-05 00:14:57,187 WARN  [AutowiredAnnotationBeanPostProcessor.java:438] Autowired annotation is not supported on static fields: private static com.growlithe.computer.mysql.practice.customer.dao.mapper.CustomerMapper com.growlithe.computer.mysql.practice.customer.service.CustomerFutureService.customerMapper
+2018-07-05 00:14:57,431 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 4.442 seconds (JVM running for 7.789)
+2018-07-05 00:14:57,570 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@21a02556: startup date [Thu Jul 05 00:14:55 CST 2018]; root of context hierarchy
+2018-07-05 00:14:57,571 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@511816c0: startup date [Thu Jul 05 00:14:54 CST 2018]; root of context hierarchy
+2018-07-05 00:14:57,575 INFO  [MBeanExporter.java:451] Unregistering JMX-exposed beans on shutdown
+2018-07-05 00:14:57,576 INFO  [MBeanRegistrationSupport.java:183] Unregistering JMX-exposed beans
+2018-07-05 00:15:46,825 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 8540 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:15:46,827 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:15:46,847 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@511816c0: startup date [Thu Jul 05 00:15:46 CST 2018]; root of context hierarchy
+2018-07-05 00:15:47,843 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-05 00:15:48,930 INFO  [StartupInfoLogger.java:50] Starting JUnitStarter on MEW with PID 8540 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:15:48,931 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:15:48,942 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2b38b1f: startup date [Thu Jul 05 00:15:48 CST 2018]; root of context hierarchy
+2018-07-05 00:15:49,479 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-05 00:15:49,652 WARN  [AutowiredAnnotationBeanPostProcessor.java:438] Autowired annotation is not supported on static fields: private static com.growlithe.computer.mysql.practice.customer.dao.mapper.CustomerMapper com.growlithe.computer.mysql.practice.customer.service.CustomerFutureService.customerMapper
+2018-07-05 00:15:50,733 INFO  [MBeanExporter.java:433] Registering beans for JMX exposure on startup
+2018-07-05 00:15:50,735 INFO  [MBeanExporter.java:895] Bean with name 'mysqlDataSource' has been autodetected for JMX exposure
+2018-07-05 00:15:50,742 INFO  [MBeanExporter.java:668] Located MBean 'mysqlDataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=mysqlDataSource,type=HikariDataSource]
+2018-07-05 00:15:50,765 INFO  [StartupInfoLogger.java:59] Started JUnitStarter in 1.965 seconds (JVM running for 8.203)
+2018-07-05 00:15:50,771 WARN  [AutowiredAnnotationBeanPostProcessor.java:438] Autowired annotation is not supported on static fields: private static com.growlithe.computer.mysql.practice.customer.dao.mapper.CustomerMapper com.growlithe.computer.mysql.practice.customer.service.CustomerFutureService.customerMapper
+2018-07-05 00:15:51,053 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 5.34 seconds (JVM running for 8.492)
+2018-07-05 00:15:51,230 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@2b38b1f: startup date [Thu Jul 05 00:15:48 CST 2018]; root of context hierarchy
+2018-07-05 00:15:51,228 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@511816c0: startup date [Thu Jul 05 00:15:46 CST 2018]; root of context hierarchy
+2018-07-05 00:15:51,234 INFO  [MBeanExporter.java:451] Unregistering JMX-exposed beans on shutdown
+2018-07-05 00:15:51,250 INFO  [MBeanRegistrationSupport.java:183] Unregistering JMX-exposed beans
+2018-07-05 00:16:07,502 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 9416 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:16:07,503 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:16:07,520 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@511816c0: startup date [Thu Jul 05 00:16:07 CST 2018]; root of context hierarchy
+2018-07-05 00:16:09,102 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-05 00:16:10,041 INFO  [StartupInfoLogger.java:50] Starting JUnitStarter on MEW with PID 9416 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:16:10,041 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:16:10,046 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3d90eeb3: startup date [Thu Jul 05 00:16:10 CST 2018]; root of context hierarchy
+2018-07-05 00:16:10,428 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-05 00:16:10,549 WARN  [AutowiredAnnotationBeanPostProcessor.java:438] Autowired annotation is not supported on static fields: private static com.growlithe.computer.mysql.practice.customer.dao.mapper.CustomerMapper com.growlithe.computer.mysql.practice.customer.service.CustomerFutureService.customerMapper
+2018-07-05 00:16:11,449 INFO  [MBeanExporter.java:433] Registering beans for JMX exposure on startup
+2018-07-05 00:16:11,451 INFO  [MBeanExporter.java:895] Bean with name 'mysqlDataSource' has been autodetected for JMX exposure
+2018-07-05 00:16:11,457 INFO  [MBeanExporter.java:668] Located MBean 'mysqlDataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=mysqlDataSource,type=HikariDataSource]
+2018-07-05 00:16:11,474 INFO  [StartupInfoLogger.java:59] Started JUnitStarter in 1.494 seconds (JVM running for 8.529)
+2018-07-05 00:16:11,480 WARN  [AutowiredAnnotationBeanPostProcessor.java:438] Autowired annotation is not supported on static fields: private static com.growlithe.computer.mysql.practice.customer.dao.mapper.CustomerMapper com.growlithe.computer.mysql.practice.customer.service.CustomerFutureService.customerMapper
+2018-07-05 00:16:11,757 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 5.295 seconds (JVM running for 8.813)
+2018-07-05 00:16:11,936 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@3d90eeb3: startup date [Thu Jul 05 00:16:10 CST 2018]; root of context hierarchy
+2018-07-05 00:16:11,936 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@511816c0: startup date [Thu Jul 05 00:16:07 CST 2018]; root of context hierarchy
+2018-07-05 00:16:11,940 INFO  [MBeanExporter.java:451] Unregistering JMX-exposed beans on shutdown
+2018-07-05 00:16:11,942 INFO  [MBeanRegistrationSupport.java:183] Unregistering JMX-exposed beans
+2018-07-05 00:18:16,086 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 9612 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:18:16,087 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:18:16,107 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@511816c0: startup date [Thu Jul 05 00:18:16 CST 2018]; root of context hierarchy
+2018-07-05 00:18:17,682 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-05 00:18:19,375 INFO  [StartupInfoLogger.java:50] Starting JUnitStarter on MEW with PID 9612 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:18:19,377 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:18:19,387 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1945113f: startup date [Thu Jul 05 00:18:19 CST 2018]; root of context hierarchy
+2018-07-05 00:18:19,817 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-05 00:18:19,970 WARN  [AutowiredAnnotationBeanPostProcessor.java:438] Autowired annotation is not supported on static fields: private static com.growlithe.computer.mysql.practice.customer.dao.mapper.CustomerMapper com.growlithe.computer.mysql.practice.customer.service.CustomerFutureService.customerMapper
+2018-07-05 00:18:21,166 INFO  [MBeanExporter.java:433] Registering beans for JMX exposure on startup
+2018-07-05 00:18:21,169 INFO  [MBeanExporter.java:895] Bean with name 'mysqlDataSource' has been autodetected for JMX exposure
+2018-07-05 00:18:21,182 INFO  [MBeanExporter.java:668] Located MBean 'mysqlDataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=mysqlDataSource,type=HikariDataSource]
+2018-07-05 00:18:21,230 INFO  [StartupInfoLogger.java:59] Started JUnitStarter in 1.974 seconds (JVM running for 9.35)
+2018-07-05 00:18:21,242 WARN  [AutowiredAnnotationBeanPostProcessor.java:438] Autowired annotation is not supported on static fields: private static com.growlithe.computer.mysql.practice.customer.dao.mapper.CustomerMapper com.growlithe.computer.mysql.practice.customer.service.CustomerFutureService.customerMapper
+2018-07-05 00:18:21,782 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 6.824 seconds (JVM running for 9.903)
+2018-07-05 00:18:22,015 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@511816c0: startup date [Thu Jul 05 00:18:16 CST 2018]; root of context hierarchy
+2018-07-05 00:18:22,016 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@1945113f: startup date [Thu Jul 05 00:18:19 CST 2018]; root of context hierarchy
+2018-07-05 00:18:22,021 INFO  [MBeanExporter.java:451] Unregistering JMX-exposed beans on shutdown
+2018-07-05 00:18:22,023 INFO  [MBeanRegistrationSupport.java:183] Unregistering JMX-exposed beans
+2018-07-05 00:18:57,794 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 8320 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:18:57,796 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:18:57,818 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@511816c0: startup date [Thu Jul 05 00:18:57 CST 2018]; root of context hierarchy
+2018-07-05 00:18:58,794 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-05 00:18:59,647 INFO  [StartupInfoLogger.java:50] Starting JUnitStarter on MEW with PID 8320 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:18:59,647 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:18:59,651 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@493ac8d3: startup date [Thu Jul 05 00:18:59 CST 2018]; root of context hierarchy
+2018-07-05 00:18:59,972 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-05 00:19:00,098 WARN  [AutowiredAnnotationBeanPostProcessor.java:438] Autowired annotation is not supported on static fields: private static com.growlithe.computer.mysql.practice.customer.dao.mapper.CustomerMapper com.growlithe.computer.mysql.practice.customer.service.CustomerFutureService.customerMapper
+2018-07-05 00:19:01,083 INFO  [MBeanExporter.java:433] Registering beans for JMX exposure on startup
+2018-07-05 00:19:01,084 INFO  [MBeanExporter.java:895] Bean with name 'mysqlDataSource' has been autodetected for JMX exposure
+2018-07-05 00:19:01,091 INFO  [MBeanExporter.java:668] Located MBean 'mysqlDataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=mysqlDataSource,type=HikariDataSource]
+2018-07-05 00:19:01,113 INFO  [StartupInfoLogger.java:59] Started JUnitStarter in 1.522 seconds (JVM running for 8.169)
+2018-07-05 00:19:01,119 WARN  [AutowiredAnnotationBeanPostProcessor.java:438] Autowired annotation is not supported on static fields: private static com.growlithe.computer.mysql.practice.customer.dao.mapper.CustomerMapper com.growlithe.computer.mysql.practice.customer.service.CustomerFutureService.customerMapper
+2018-07-05 00:19:01,407 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 4.679 seconds (JVM running for 8.464)
+2018-07-05 00:19:01,645 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-07-05 00:19:01,983 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-07-05 00:19:02,249 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@493ac8d3: startup date [Thu Jul 05 00:18:59 CST 2018]; root of context hierarchy
+2018-07-05 00:19:02,249 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@511816c0: startup date [Thu Jul 05 00:18:57 CST 2018]; root of context hierarchy
+2018-07-05 00:19:02,254 INFO  [MBeanExporter.java:451] Unregistering JMX-exposed beans on shutdown
+2018-07-05 00:19:02,255 INFO  [MBeanRegistrationSupport.java:183] Unregistering JMX-exposed beans
+2018-07-05 00:19:02,256 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-07-05 00:19:02,266 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-07-05 00:20:09,217 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 9464 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:20:09,219 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:20:09,240 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@511816c0: startup date [Thu Jul 05 00:20:09 CST 2018]; root of context hierarchy
+2018-07-05 00:20:10,104 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-05 00:20:10,784 INFO  [StartupInfoLogger.java:50] Starting JUnitStarter on MEW with PID 9464 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:20:10,786 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:20:10,790 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@21a02556: startup date [Thu Jul 05 00:20:10 CST 2018]; root of context hierarchy
+2018-07-05 00:20:11,043 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-05 00:20:11,133 WARN  [AutowiredAnnotationBeanPostProcessor.java:438] Autowired annotation is not supported on static fields: private static com.growlithe.computer.mysql.practice.customer.dao.mapper.CustomerMapper com.growlithe.computer.mysql.practice.customer.service.CustomerFutureService.customerMapper
+2018-07-05 00:20:11,929 INFO  [MBeanExporter.java:433] Registering beans for JMX exposure on startup
+2018-07-05 00:20:11,931 INFO  [MBeanExporter.java:895] Bean with name 'mysqlDataSource' has been autodetected for JMX exposure
+2018-07-05 00:20:11,935 INFO  [MBeanExporter.java:668] Located MBean 'mysqlDataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=mysqlDataSource,type=HikariDataSource]
+2018-07-05 00:20:11,952 INFO  [StartupInfoLogger.java:59] Started JUnitStarter in 1.23 seconds (JVM running for 7.443)
+2018-07-05 00:20:11,991 WARN  [AutowiredAnnotationBeanPostProcessor.java:438] Autowired annotation is not supported on static fields: private static com.growlithe.computer.mysql.practice.customer.dao.mapper.CustomerMapper com.growlithe.computer.mysql.practice.customer.service.CustomerFutureService.customerMapper
+2018-07-05 00:20:12,300 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 4.365 seconds (JVM running for 7.791)
+2018-07-05 00:20:12,554 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-07-05 00:20:12,860 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-07-05 00:20:13,093 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@21a02556: startup date [Thu Jul 05 00:20:10 CST 2018]; root of context hierarchy
+2018-07-05 00:20:13,093 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@511816c0: startup date [Thu Jul 05 00:20:09 CST 2018]; root of context hierarchy
+2018-07-05 00:20:13,096 INFO  [MBeanExporter.java:451] Unregistering JMX-exposed beans on shutdown
+2018-07-05 00:20:13,098 INFO  [MBeanRegistrationSupport.java:183] Unregistering JMX-exposed beans
+2018-07-05 00:20:13,099 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-07-05 00:20:13,106 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-07-05 00:22:33,315 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 3604 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:22:33,317 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:22:33,336 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@511816c0: startup date [Thu Jul 05 00:22:33 CST 2018]; root of context hierarchy
+2018-07-05 00:22:34,038 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-05 00:22:36,411 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 4.01 seconds (JVM running for 6.328)
+2018-07-05 00:22:37,316 INFO  [StartupInfoLogger.java:50] Starting application on MEW with PID 3604 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:22:37,318 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:22:37,322 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7050016e: startup date [Thu Jul 05 00:22:37 CST 2018]; root of context hierarchy
+2018-07-05 00:22:37,734 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-05 00:22:38,504 INFO  [MBeanExporter.java:433] Registering beans for JMX exposure on startup
+2018-07-05 00:22:38,506 INFO  [MBeanExporter.java:895] Bean with name 'mysqlDataSource' has been autodetected for JMX exposure
+2018-07-05 00:22:38,515 INFO  [MBeanExporter.java:668] Located MBean 'mysqlDataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=mysqlDataSource,type=HikariDataSource]
+2018-07-05 00:22:38,525 INFO  [StartupInfoLogger.java:59] Started application in 1.819 seconds (JVM running for 8.443)
+2018-07-05 00:22:38,644 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-07-05 00:22:39,080 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-07-05 00:22:39,259 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@7050016e: startup date [Thu Jul 05 00:22:37 CST 2018]; root of context hierarchy
+2018-07-05 00:22:39,260 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@511816c0: startup date [Thu Jul 05 00:22:33 CST 2018]; root of context hierarchy
+2018-07-05 00:22:39,268 INFO  [MBeanExporter.java:451] Unregistering JMX-exposed beans on shutdown
+2018-07-05 00:22:39,271 INFO  [MBeanRegistrationSupport.java:183] Unregistering JMX-exposed beans
+2018-07-05 00:22:39,274 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-07-05 00:22:39,296 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-07-05 00:22:53,475 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 9620 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:22:53,476 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:22:53,496 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@511816c0: startup date [Thu Jul 05 00:22:53 CST 2018]; root of context hierarchy
+2018-07-05 00:22:54,297 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-05 00:22:55,825 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 3.459 seconds (JVM running for 7.067)
+2018-07-05 00:22:56,887 INFO  [StartupInfoLogger.java:50] Starting application on MEW with PID 9620 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:22:56,889 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:22:56,894 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@608cd03a: startup date [Thu Jul 05 00:22:56 CST 2018]; root of context hierarchy
+2018-07-05 00:22:57,328 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-05 00:22:58,105 INFO  [MBeanExporter.java:433] Registering beans for JMX exposure on startup
+2018-07-05 00:22:58,107 INFO  [MBeanExporter.java:895] Bean with name 'mysqlDataSource' has been autodetected for JMX exposure
+2018-07-05 00:22:58,115 INFO  [MBeanExporter.java:668] Located MBean 'mysqlDataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=mysqlDataSource,type=HikariDataSource]
+2018-07-05 00:22:58,141 INFO  [StartupInfoLogger.java:59] Started application in 1.976 seconds (JVM running for 9.384)
+2018-07-05 00:22:58,258 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-07-05 00:22:58,734 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-07-05 00:22:59,059 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@608cd03a: startup date [Thu Jul 05 00:22:56 CST 2018]; root of context hierarchy
+2018-07-05 00:22:59,058 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@511816c0: startup date [Thu Jul 05 00:22:53 CST 2018]; root of context hierarchy
+2018-07-05 00:22:59,068 INFO  [MBeanExporter.java:451] Unregistering JMX-exposed beans on shutdown
+2018-07-05 00:22:59,070 INFO  [MBeanRegistrationSupport.java:183] Unregistering JMX-exposed beans
+2018-07-05 00:22:59,072 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-07-05 00:22:59,092 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-07-05 00:23:28,974 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 8308 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:23:28,975 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:23:28,993 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@511816c0: startup date [Thu Jul 05 00:23:28 CST 2018]; root of context hierarchy
+2018-07-05 00:23:29,679 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-05 00:23:30,965 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 3.079 seconds (JVM running for 5.933)
+2018-07-05 00:23:31,438 INFO  [StartupInfoLogger.java:50] Starting application on MEW with PID 8308 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:23:31,439 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:23:31,443 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@13489ddc: startup date [Thu Jul 05 00:23:31 CST 2018]; root of context hierarchy
+2018-07-05 00:23:31,727 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-05 00:23:32,273 INFO  [MBeanExporter.java:433] Registering beans for JMX exposure on startup
+2018-07-05 00:23:32,275 INFO  [MBeanExporter.java:895] Bean with name 'mysqlDataSource' has been autodetected for JMX exposure
+2018-07-05 00:23:32,280 INFO  [MBeanExporter.java:668] Located MBean 'mysqlDataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=mysqlDataSource,type=HikariDataSource]
+2018-07-05 00:23:32,285 INFO  [StartupInfoLogger.java:59] Started application in 1.208 seconds (JVM running for 7.254)
+2018-07-05 00:23:32,367 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-07-05 00:23:32,687 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-07-05 00:23:32,974 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@511816c0: startup date [Thu Jul 05 00:23:28 CST 2018]; root of context hierarchy
+2018-07-05 00:23:32,975 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@13489ddc: startup date [Thu Jul 05 00:23:31 CST 2018]; root of context hierarchy
+2018-07-05 00:23:32,977 INFO  [MBeanExporter.java:451] Unregistering JMX-exposed beans on shutdown
+2018-07-05 00:23:32,978 INFO  [MBeanRegistrationSupport.java:183] Unregistering JMX-exposed beans
+2018-07-05 00:23:32,979 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-07-05 00:23:32,987 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-07-05 00:24:02,228 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 10132 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:24:02,230 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:24:02,250 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@511816c0: startup date [Thu Jul 05 00:24:02 CST 2018]; root of context hierarchy
+2018-07-05 00:24:03,703 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-05 00:24:06,017 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 4.87 seconds (JVM running for 7.903)
+2018-07-05 00:24:06,961 INFO  [StartupInfoLogger.java:50] Starting application on MEW with PID 10132 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:24:06,963 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:24:06,968 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6012c8f1: startup date [Thu Jul 05 00:24:06 CST 2018]; root of context hierarchy
+2018-07-05 00:24:07,332 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-05 00:24:07,925 INFO  [MBeanExporter.java:433] Registering beans for JMX exposure on startup
+2018-07-05 00:24:07,927 INFO  [MBeanExporter.java:895] Bean with name 'mysqlDataSource' has been autodetected for JMX exposure
+2018-07-05 00:24:07,933 INFO  [MBeanExporter.java:668] Located MBean 'mysqlDataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=mysqlDataSource,type=HikariDataSource]
+2018-07-05 00:24:07,939 INFO  [StartupInfoLogger.java:59] Started application in 1.609 seconds (JVM running for 9.827)
+2018-07-05 00:24:08,027 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-07-05 00:24:08,342 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-07-05 00:24:08,555 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@6012c8f1: startup date [Thu Jul 05 00:24:06 CST 2018]; root of context hierarchy
+2018-07-05 00:24:08,555 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@511816c0: startup date [Thu Jul 05 00:24:02 CST 2018]; root of context hierarchy
+2018-07-05 00:24:08,558 INFO  [MBeanExporter.java:451] Unregistering JMX-exposed beans on shutdown
+2018-07-05 00:24:08,559 INFO  [MBeanRegistrationSupport.java:183] Unregistering JMX-exposed beans
+2018-07-05 00:24:08,560 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-07-05 00:24:08,567 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-07-05 00:24:36,750 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 8812 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:24:36,751 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:24:36,772 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@511816c0: startup date [Thu Jul 05 00:24:36 CST 2018]; root of context hierarchy
+2018-07-05 00:24:37,736 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-05 00:24:40,249 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 4.543 seconds (JVM running for 7.345)
+2018-07-05 00:24:41,256 INFO  [StartupInfoLogger.java:50] Starting application on MEW with PID 8812 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:24:41,258 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:24:41,263 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@423efbbf: startup date [Thu Jul 05 00:24:41 CST 2018]; root of context hierarchy
+2018-07-05 00:24:41,737 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-05 00:24:42,547 INFO  [MBeanExporter.java:433] Registering beans for JMX exposure on startup
+2018-07-05 00:24:42,549 INFO  [MBeanExporter.java:895] Bean with name 'mysqlDataSource' has been autodetected for JMX exposure
+2018-07-05 00:24:42,557 INFO  [MBeanExporter.java:668] Located MBean 'mysqlDataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=mysqlDataSource,type=HikariDataSource]
+2018-07-05 00:24:42,565 INFO  [StartupInfoLogger.java:59] Started application in 2.011 seconds (JVM running for 9.663)
+2018-07-05 00:24:42,576 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-07-05 00:24:43,020 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-07-05 00:24:43,672 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@511816c0: startup date [Thu Jul 05 00:24:36 CST 2018]; root of context hierarchy
+2018-07-05 00:24:43,673 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@423efbbf: startup date [Thu Jul 05 00:24:41 CST 2018]; root of context hierarchy
+2018-07-05 00:24:43,680 INFO  [MBeanExporter.java:451] Unregistering JMX-exposed beans on shutdown
+2018-07-05 00:24:43,682 INFO  [MBeanRegistrationSupport.java:183] Unregistering JMX-exposed beans
+2018-07-05 00:24:43,686 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-07-05 00:24:43,704 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-07-05 00:25:13,560 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 8252 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:25:13,561 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:25:13,585 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@511816c0: startup date [Thu Jul 05 00:25:13 CST 2018]; root of context hierarchy
+2018-07-05 00:25:15,165 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-05 00:25:16,456 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 3.898 seconds (JVM running for 5.764)
+2018-07-05 00:25:16,921 INFO  [StartupInfoLogger.java:50] Starting application on MEW with PID 8252 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:25:16,921 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:25:16,924 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@47e1e8d0: startup date [Thu Jul 05 00:25:16 CST 2018]; root of context hierarchy
+2018-07-05 00:25:17,187 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-05 00:25:17,713 INFO  [MBeanExporter.java:433] Registering beans for JMX exposure on startup
+2018-07-05 00:25:17,714 INFO  [MBeanExporter.java:895] Bean with name 'mysqlDataSource' has been autodetected for JMX exposure
+2018-07-05 00:25:17,721 INFO  [MBeanExporter.java:668] Located MBean 'mysqlDataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=mysqlDataSource,type=HikariDataSource]
+2018-07-05 00:25:17,726 INFO  [StartupInfoLogger.java:59] Started application in 1.15 seconds (JVM running for 7.035)
+2018-07-05 00:25:17,806 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-07-05 00:25:18,110 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-07-05 00:25:18,440 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@47e1e8d0: startup date [Thu Jul 05 00:25:16 CST 2018]; root of context hierarchy
+2018-07-05 00:25:18,440 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@511816c0: startup date [Thu Jul 05 00:25:13 CST 2018]; root of context hierarchy
+2018-07-05 00:25:18,442 INFO  [MBeanExporter.java:451] Unregistering JMX-exposed beans on shutdown
+2018-07-05 00:25:18,443 INFO  [MBeanRegistrationSupport.java:183] Unregistering JMX-exposed beans
+2018-07-05 00:25:18,444 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-07-05 00:25:18,450 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-07-05 00:25:49,262 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 9840 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:25:49,264 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:25:49,284 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@511816c0: startup date [Thu Jul 05 00:25:49 CST 2018]; root of context hierarchy
+2018-07-05 00:25:50,119 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-05 00:25:51,647 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 3.564 seconds (JVM running for 7.47)
+2018-07-05 00:25:52,669 INFO  [StartupInfoLogger.java:50] Starting application on MEW with PID 9840 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:25:52,670 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:25:52,675 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@79cc7618: startup date [Thu Jul 05 00:25:52 CST 2018]; root of context hierarchy
+2018-07-05 00:25:53,095 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-05 00:25:53,721 INFO  [MBeanExporter.java:433] Registering beans for JMX exposure on startup
+2018-07-05 00:25:53,723 INFO  [MBeanExporter.java:895] Bean with name 'mysqlDataSource' has been autodetected for JMX exposure
+2018-07-05 00:25:53,731 INFO  [MBeanExporter.java:668] Located MBean 'mysqlDataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=mysqlDataSource,type=HikariDataSource]
+2018-07-05 00:25:53,737 INFO  [StartupInfoLogger.java:59] Started application in 1.777 seconds (JVM running for 9.563)
+2018-07-05 00:25:53,763 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@79cc7618: startup date [Thu Jul 05 00:25:52 CST 2018]; root of context hierarchy
+2018-07-05 00:25:53,763 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@511816c0: startup date [Thu Jul 05 00:25:49 CST 2018]; root of context hierarchy
+2018-07-05 00:25:53,768 INFO  [MBeanExporter.java:451] Unregistering JMX-exposed beans on shutdown
+2018-07-05 00:25:53,769 INFO  [MBeanRegistrationSupport.java:183] Unregistering JMX-exposed beans
+2018-07-05 00:26:22,072 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 2096 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:26:22,073 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:26:22,094 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@511816c0: startup date [Thu Jul 05 00:26:22 CST 2018]; root of context hierarchy
+2018-07-05 00:26:23,255 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-05 00:26:25,018 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 4.032 seconds (JVM running for 7.309)
+2018-07-05 00:26:26,017 INFO  [StartupInfoLogger.java:50] Starting application on MEW with PID 2096 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:26:26,019 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:26:26,025 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@426395f5: startup date [Thu Jul 05 00:26:26 CST 2018]; root of context hierarchy
+2018-07-05 00:26:26,468 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-05 00:26:27,256 INFO  [MBeanExporter.java:433] Registering beans for JMX exposure on startup
+2018-07-05 00:26:27,258 INFO  [MBeanExporter.java:895] Bean with name 'mysqlDataSource' has been autodetected for JMX exposure
+2018-07-05 00:26:27,266 INFO  [MBeanExporter.java:668] Located MBean 'mysqlDataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=mysqlDataSource,type=HikariDataSource]
+2018-07-05 00:26:27,274 INFO  [StartupInfoLogger.java:59] Started application in 1.952 seconds (JVM running for 9.567)
+2018-07-05 00:26:27,286 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-07-05 00:26:27,713 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-07-05 00:26:28,057 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@511816c0: startup date [Thu Jul 05 00:26:22 CST 2018]; root of context hierarchy
+2018-07-05 00:26:28,057 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@426395f5: startup date [Thu Jul 05 00:26:26 CST 2018]; root of context hierarchy
+2018-07-05 00:26:28,060 INFO  [MBeanExporter.java:451] Unregistering JMX-exposed beans on shutdown
+2018-07-05 00:26:28,061 INFO  [MBeanRegistrationSupport.java:183] Unregistering JMX-exposed beans
+2018-07-05 00:26:28,063 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-07-05 00:26:28,071 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-07-05 00:27:08,834 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 9056 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:27:08,835 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:27:08,852 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@38b972d7: startup date [Thu Jul 05 00:27:08 CST 2018]; root of context hierarchy
+2018-07-05 00:27:09,572 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-05 00:27:11,135 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 3.358 seconds (JVM running for 6.208)
+2018-07-05 00:27:11,451 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@38b972d7: startup date [Thu Jul 05 00:27:08 CST 2018]; root of context hierarchy
+2018-07-05 00:27:42,825 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 9180 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:27:42,827 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:27:42,849 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@38b972d7: startup date [Thu Jul 05 00:27:42 CST 2018]; root of context hierarchy
+2018-07-05 00:27:43,696 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-05 00:27:45,224 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 3.667 seconds (JVM running for 7.432)
+2018-07-05 00:27:45,493 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-07-05 00:27:46,126 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-07-05 00:27:46,945 INFO  [StartupInfoLogger.java:50] Starting application on MEW with PID 9180 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:27:46,947 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:27:46,952 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@28f83a25: startup date [Thu Jul 05 00:27:46 CST 2018]; root of context hierarchy
+2018-07-05 00:27:47,352 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-05 00:27:47,967 INFO  [MBeanExporter.java:433] Registering beans for JMX exposure on startup
+2018-07-05 00:27:47,969 INFO  [MBeanExporter.java:895] Bean with name 'mysqlDataSource' has been autodetected for JMX exposure
+2018-07-05 00:27:47,976 INFO  [MBeanExporter.java:668] Located MBean 'mysqlDataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=mysqlDataSource,type=HikariDataSource]
+2018-07-05 00:27:47,983 INFO  [StartupInfoLogger.java:59] Started application in 1.81 seconds (JVM running for 10.193)
+2018-07-05 00:27:47,985 INFO  [HikariDataSource.java:110] HikariPool-2 - Starting...
+2018-07-05 00:27:47,996 INFO  [HikariDataSource.java:123] HikariPool-2 - Start completed.
+2018-07-05 00:27:48,446 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@38b972d7: startup date [Thu Jul 05 00:27:42 CST 2018]; root of context hierarchy
+2018-07-05 00:27:48,446 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@28f83a25: startup date [Thu Jul 05 00:27:46 CST 2018]; root of context hierarchy
+2018-07-05 00:27:48,450 INFO  [MBeanExporter.java:451] Unregistering JMX-exposed beans on shutdown
+2018-07-05 00:27:48,450 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-07-05 00:27:48,451 INFO  [MBeanRegistrationSupport.java:183] Unregistering JMX-exposed beans
+2018-07-05 00:27:48,452 INFO  [HikariDataSource.java:381] HikariPool-2 - Shutdown initiated...
+2018-07-05 00:27:48,463 INFO  [HikariDataSource.java:383] HikariPool-2 - Shutdown completed.
+2018-07-05 00:27:48,463 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-07-05 00:28:19,405 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 9012 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:28:19,406 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:28:19,426 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@30b2b76f: startup date [Thu Jul 05 00:28:19 CST 2018]; root of context hierarchy
+2018-07-05 00:28:21,017 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-05 00:28:22,949 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 4.561 seconds (JVM running for 6.895)
+2018-07-05 00:28:26,544 INFO  [StartupInfoLogger.java:50] Starting application on MEW with PID 9012 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:28:26,546 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:28:26,556 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2b8f1c5: startup date [Thu Jul 05 00:28:26 CST 2018]; root of context hierarchy
+2018-07-05 00:28:27,088 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-05 00:28:28,366 INFO  [MBeanExporter.java:433] Registering beans for JMX exposure on startup
+2018-07-05 00:28:28,369 INFO  [MBeanExporter.java:895] Bean with name 'mysqlDataSource' has been autodetected for JMX exposure
+2018-07-05 00:28:28,386 INFO  [MBeanExporter.java:668] Located MBean 'mysqlDataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=mysqlDataSource,type=HikariDataSource]
+2018-07-05 00:28:28,398 INFO  [StartupInfoLogger.java:59] Started application in 3.057 seconds (JVM running for 12.346)
+2018-07-05 00:28:28,409 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-07-05 00:28:28,865 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-07-05 00:28:37,693 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@30b2b76f: startup date [Thu Jul 05 00:28:19 CST 2018]; root of context hierarchy
+2018-07-05 00:28:37,693 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@2b8f1c5: startup date [Thu Jul 05 00:28:26 CST 2018]; root of context hierarchy
+2018-07-05 00:28:37,712 INFO  [MBeanExporter.java:451] Unregistering JMX-exposed beans on shutdown
+2018-07-05 00:28:37,716 INFO  [MBeanRegistrationSupport.java:183] Unregistering JMX-exposed beans
+2018-07-05 00:28:37,722 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-07-05 00:28:37,744 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-07-05 00:29:27,453 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 8444 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:29:27,455 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:29:27,473 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@30b2b76f: startup date [Thu Jul 05 00:29:27 CST 2018]; root of context hierarchy
+2018-07-05 00:29:28,903 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-05 00:29:31,897 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 5.559 seconds (JVM running for 8.962)
+2018-07-05 00:29:33,166 INFO  [StartupInfoLogger.java:50] Starting application on MEW with PID 8444 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:29:33,168 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:29:33,177 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1ea07b16: startup date [Thu Jul 05 00:29:33 CST 2018]; root of context hierarchy
+2018-07-05 00:29:33,732 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-05 00:29:34,643 INFO  [MBeanExporter.java:433] Registering beans for JMX exposure on startup
+2018-07-05 00:29:34,646 INFO  [MBeanExporter.java:895] Bean with name 'mysqlDataSource' has been autodetected for JMX exposure
+2018-07-05 00:29:34,655 INFO  [MBeanExporter.java:668] Located MBean 'mysqlDataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=mysqlDataSource,type=HikariDataSource]
+2018-07-05 00:29:34,663 INFO  [StartupInfoLogger.java:59] Started application in 2.375 seconds (JVM running for 11.73)
+2018-07-05 00:29:34,674 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-07-05 00:29:35,290 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-07-05 00:29:35,714 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@1ea07b16: startup date [Thu Jul 05 00:29:33 CST 2018]; root of context hierarchy
+2018-07-05 00:29:35,715 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@30b2b76f: startup date [Thu Jul 05 00:29:27 CST 2018]; root of context hierarchy
+2018-07-05 00:29:35,723 INFO  [MBeanExporter.java:451] Unregistering JMX-exposed beans on shutdown
+2018-07-05 00:29:35,724 INFO  [MBeanRegistrationSupport.java:183] Unregistering JMX-exposed beans
+2018-07-05 00:29:35,727 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-07-05 00:29:35,742 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-07-05 00:30:03,384 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 9796 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:30:03,386 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:30:03,410 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@30b2b76f: startup date [Thu Jul 05 00:30:03 CST 2018]; root of context hierarchy
+2018-07-05 00:30:05,060 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-05 00:30:07,527 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 5.198 seconds (JVM running for 8.573)
+2018-07-05 00:30:08,202 INFO  [StartupInfoLogger.java:50] Starting application on MEW with PID 9796 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:30:08,203 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:30:08,208 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@301c6ef3: startup date [Thu Jul 05 00:30:08 CST 2018]; root of context hierarchy
+2018-07-05 00:30:08,569 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-05 00:30:09,315 INFO  [MBeanExporter.java:433] Registering beans for JMX exposure on startup
+2018-07-05 00:30:09,317 INFO  [MBeanExporter.java:895] Bean with name 'mysqlDataSource' has been autodetected for JMX exposure
+2018-07-05 00:30:09,325 INFO  [MBeanExporter.java:668] Located MBean 'mysqlDataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=mysqlDataSource,type=HikariDataSource]
+2018-07-05 00:30:09,332 INFO  [StartupInfoLogger.java:59] Started application in 1.581 seconds (JVM running for 10.378)
+2018-07-05 00:30:09,342 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-07-05 00:30:09,717 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-07-05 00:30:09,996 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@30b2b76f: startup date [Thu Jul 05 00:30:03 CST 2018]; root of context hierarchy
+2018-07-05 00:30:09,996 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@301c6ef3: startup date [Thu Jul 05 00:30:08 CST 2018]; root of context hierarchy
+2018-07-05 00:30:10,000 INFO  [MBeanExporter.java:451] Unregistering JMX-exposed beans on shutdown
+2018-07-05 00:30:10,001 INFO  [MBeanRegistrationSupport.java:183] Unregistering JMX-exposed beans
+2018-07-05 00:30:10,002 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-07-05 00:30:10,012 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-07-05 00:33:34,714 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 5400 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:33:34,716 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:33:34,733 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@38b972d7: startup date [Thu Jul 05 00:33:34 CST 2018]; root of context hierarchy
+2018-07-05 00:33:34,880 WARN  [AbstractApplicationContext.java:558] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.growlithe.computer.ComputerApplication]; nested exception is org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'customerFutureService' for bean class [com.growlithe.computer.mysql.practice.customer.service.CustomerRunnableService] conflicts with existing, non-compatible bean definition of same name and class [com.growlithe.computer.mysql.practice.customer.service.CustomerFutureService]
+2018-07-05 00:33:34,890 ERROR [SpringApplication.java:842] Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.growlithe.computer.ComputerApplication]; nested exception is org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'customerFutureService' for bean class [com.growlithe.computer.mysql.practice.customer.service.CustomerRunnableService] conflicts with existing, non-compatible bean definition of same name and class [com.growlithe.computer.mysql.practice.customer.service.CustomerFutureService]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:184)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:316)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:233)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:273)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:93)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:694)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:532)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:395)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:139)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:44)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'customerFutureService' for bean class [com.growlithe.computer.mysql.practice.customer.service.CustomerRunnableService] conflicts with existing, non-compatible bean definition of same name and class [com.growlithe.computer.mysql.practice.customer.service.CustomerFutureService]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:348)
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:286)
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:132)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:288)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:245)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:202)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:170)
+	... 37 common frames omitted
+2018-07-05 00:33:34,980 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 5400 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:33:34,981 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:33:34,984 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@15fb7a32: startup date [Thu Jul 05 00:33:34 CST 2018]; root of context hierarchy
+2018-07-05 00:33:35,130 WARN  [AbstractApplicationContext.java:558] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.growlithe.computer.ComputerApplication]; nested exception is org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'customerFutureService' for bean class [com.growlithe.computer.mysql.practice.customer.service.CustomerRunnableService] conflicts with existing, non-compatible bean definition of same name and class [com.growlithe.computer.mysql.practice.customer.service.CustomerFutureService]
+2018-07-05 00:33:35,145 ERROR [SpringApplication.java:842] Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.growlithe.computer.ComputerApplication]; nested exception is org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'customerFutureService' for bean class [com.growlithe.computer.mysql.practice.customer.service.CustomerRunnableService] conflicts with existing, non-compatible bean definition of same name and class [com.growlithe.computer.mysql.practice.customer.service.CustomerFutureService]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:184)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:316)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:233)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:273)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:93)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:694)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:532)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:395)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:139)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108)
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.outputConditionEvaluationReport(SpringBootDependencyInjectionTestExecutionListener.java:54)
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:47)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'customerFutureService' for bean class [com.growlithe.computer.mysql.practice.customer.service.CustomerRunnableService] conflicts with existing, non-compatible bean definition of same name and class [com.growlithe.computer.mysql.practice.customer.service.CustomerFutureService]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:348)
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:286)
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:132)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:288)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:245)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:202)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:170)
+	... 36 common frames omitted
+2018-07-05 00:33:35,155 ERROR [TestContextManager.java:250] Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@7d1cfb8b] to prepare test instance [com.growlithe.computer.mysql.practice.customer.service.CustomerServiceTest@6aa3a905]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:125)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:44)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.growlithe.computer.ComputerApplication]; nested exception is org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'customerFutureService' for bean class [com.growlithe.computer.mysql.practice.customer.service.CustomerRunnableService] conflicts with existing, non-compatible bean definition of same name and class [com.growlithe.computer.mysql.practice.customer.service.CustomerFutureService]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:184)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:316)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:233)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:273)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:93)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:694)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:532)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:395)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:139)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117)
+	... 25 common frames omitted
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'customerFutureService' for bean class [com.growlithe.computer.mysql.practice.customer.service.CustomerRunnableService] conflicts with existing, non-compatible bean definition of same name and class [com.growlithe.computer.mysql.practice.customer.service.CustomerFutureService]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:348)
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:286)
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:132)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:288)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:245)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:202)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:170)
+	... 37 common frames omitted
+2018-07-05 00:34:13,073 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 3812 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:34:13,075 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:34:13,095 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@38b972d7: startup date [Thu Jul 05 00:34:13 CST 2018]; root of context hierarchy
+2018-07-05 00:34:14,541 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-05 00:34:17,354 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 5.442 seconds (JVM running for 9.429)
+2018-07-05 00:34:17,714 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@38b972d7: startup date [Thu Jul 05 00:34:13 CST 2018]; root of context hierarchy
+2018-07-05 00:34:46,715 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 8304 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:34:46,716 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:34:46,737 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@38b972d7: startup date [Thu Jul 05 00:34:46 CST 2018]; root of context hierarchy
+2018-07-05 00:34:47,691 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-05 00:34:49,917 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 4.242 seconds (JVM running for 7.246)
+2018-07-05 00:34:50,128 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@38b972d7: startup date [Thu Jul 05 00:34:46 CST 2018]; root of context hierarchy
+2018-07-05 00:35:24,395 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 10208 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:35:24,397 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:35:24,420 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@38b972d7: startup date [Thu Jul 05 00:35:24 CST 2018]; root of context hierarchy
+2018-07-05 00:35:25,269 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-05 00:35:28,243 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 4.977 seconds (JVM running for 8.867)
+2018-07-05 00:35:28,542 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@38b972d7: startup date [Thu Jul 05 00:35:24 CST 2018]; root of context hierarchy
+2018-07-05 00:36:13,323 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 2928 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:36:13,324 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:36:13,341 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@38b972d7: startup date [Thu Jul 05 00:36:13 CST 2018]; root of context hierarchy
+2018-07-05 00:36:14,083 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-05 00:36:15,302 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 2.972 seconds (JVM running for 5.941)
+2018-07-05 00:36:15,447 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@38b972d7: startup date [Thu Jul 05 00:36:13 CST 2018]; root of context hierarchy
+2018-07-05 00:36:41,525 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 9180 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:36:41,526 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:36:41,546 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@38b972d7: startup date [Thu Jul 05 00:36:41 CST 2018]; root of context hierarchy
+2018-07-05 00:36:43,044 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-05 00:36:45,443 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 5.156 seconds (JVM running for 9.159)
+2018-07-05 00:36:45,796 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@38b972d7: startup date [Thu Jul 05 00:36:41 CST 2018]; root of context hierarchy
+2018-07-05 00:37:14,837 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 1436 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:37:14,839 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:37:14,862 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@38b972d7: startup date [Thu Jul 05 00:37:14 CST 2018]; root of context hierarchy
+2018-07-05 00:37:15,681 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-05 00:37:17,090 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 3.408 seconds (JVM running for 6.865)
+2018-07-05 00:37:17,257 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@38b972d7: startup date [Thu Jul 05 00:37:14 CST 2018]; root of context hierarchy
+2018-07-05 00:37:47,423 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 3808 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:37:47,425 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:37:47,445 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@38b972d7: startup date [Thu Jul 05 00:37:47 CST 2018]; root of context hierarchy
+2018-07-05 00:37:48,930 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-05 00:37:52,061 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 5.76 seconds (JVM running for 8.552)
+2018-07-05 00:37:52,983 INFO  [StartupInfoLogger.java:50] Starting application on MEW with PID 3808 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:37:52,984 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:37:52,989 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@65a270c8: startup date [Thu Jul 05 00:37:52 CST 2018]; root of context hierarchy
+2018-07-05 00:37:53,417 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-05 00:37:54,166 INFO  [MBeanExporter.java:433] Registering beans for JMX exposure on startup
+2018-07-05 00:37:54,168 INFO  [MBeanExporter.java:895] Bean with name 'mysqlDataSource' has been autodetected for JMX exposure
+2018-07-05 00:37:54,175 INFO  [MBeanExporter.java:668] Located MBean 'mysqlDataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=mysqlDataSource,type=HikariDataSource]
+2018-07-05 00:37:54,182 INFO  [StartupInfoLogger.java:59] Started application in 1.789 seconds (JVM running for 10.675)
+2018-07-05 00:37:54,195 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-07-05 00:37:54,707 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-07-05 00:37:55,081 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@65a270c8: startup date [Thu Jul 05 00:37:52 CST 2018]; root of context hierarchy
+2018-07-05 00:37:55,082 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@38b972d7: startup date [Thu Jul 05 00:37:47 CST 2018]; root of context hierarchy
+2018-07-05 00:37:55,089 INFO  [MBeanExporter.java:451] Unregistering JMX-exposed beans on shutdown
+2018-07-05 00:37:55,091 INFO  [MBeanRegistrationSupport.java:183] Unregistering JMX-exposed beans
+2018-07-05 00:37:55,094 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-07-05 00:37:55,111 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-07-05 00:38:46,560 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 2716 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:38:46,561 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:38:46,583 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@11a7ba62: startup date [Thu Jul 05 00:38:46 CST 2018]; root of context hierarchy
+2018-07-05 00:38:48,285 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-05 00:38:50,894 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 5.459 seconds (JVM running for 9.131)
+2018-07-05 00:38:51,572 INFO  [StartupInfoLogger.java:50] Starting application on MEW with PID 2716 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:38:51,574 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:38:51,578 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6fadf3d3: startup date [Thu Jul 05 00:38:51 CST 2018]; root of context hierarchy
+2018-07-05 00:38:51,976 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-05 00:38:52,778 INFO  [MBeanExporter.java:433] Registering beans for JMX exposure on startup
+2018-07-05 00:38:52,793 INFO  [MBeanExporter.java:895] Bean with name 'mysqlDataSource' has been autodetected for JMX exposure
+2018-07-05 00:38:52,802 INFO  [MBeanExporter.java:668] Located MBean 'mysqlDataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=mysqlDataSource,type=HikariDataSource]
+2018-07-05 00:38:52,811 INFO  [StartupInfoLogger.java:59] Started application in 1.684 seconds (JVM running for 11.05)
+2018-07-05 00:38:52,823 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-07-05 00:38:53,254 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-07-05 00:38:53,524 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@6fadf3d3: startup date [Thu Jul 05 00:38:51 CST 2018]; root of context hierarchy
+2018-07-05 00:38:53,525 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@11a7ba62: startup date [Thu Jul 05 00:38:46 CST 2018]; root of context hierarchy
+2018-07-05 00:38:53,530 INFO  [MBeanExporter.java:451] Unregistering JMX-exposed beans on shutdown
+2018-07-05 00:38:53,531 INFO  [MBeanRegistrationSupport.java:183] Unregistering JMX-exposed beans
+2018-07-05 00:38:53,532 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-07-05 00:38:53,547 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-07-05 00:39:21,404 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 8888 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:39:21,406 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:39:21,424 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@38b972d7: startup date [Thu Jul 05 00:39:21 CST 2018]; root of context hierarchy
+2018-07-05 00:39:22,294 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-05 00:39:24,615 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 4.195 seconds (JVM running for 7.237)
+2018-07-05 00:39:24,817 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@38b972d7: startup date [Thu Jul 05 00:39:21 CST 2018]; root of context hierarchy
+2018-07-05 00:39:42,497 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 6500 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:39:42,499 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:39:42,525 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@56da52a7: startup date [Thu Jul 05 00:39:42 CST 2018]; root of context hierarchy
+2018-07-05 00:39:44,083 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-05 00:39:46,283 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 4.858 seconds (JVM running for 8.054)
+2018-07-05 00:40:06,686 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@56da52a7: startup date [Thu Jul 05 00:39:42 CST 2018]; root of context hierarchy
+2018-07-05 00:41:25,475 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 8428 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:41:25,477 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:41:25,500 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1136b469: startup date [Thu Jul 05 00:41:25 CST 2018]; root of context hierarchy
+2018-07-05 00:41:26,781 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-05 00:41:28,918 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 4.531 seconds (JVM running for 8.224)
+2018-07-05 00:41:29,149 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@1136b469: startup date [Thu Jul 05 00:41:25 CST 2018]; root of context hierarchy
+2018-07-05 00:42:34,202 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 8232 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:42:34,203 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:42:34,222 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@56da52a7: startup date [Thu Jul 05 00:42:34 CST 2018]; root of context hierarchy
+2018-07-05 00:42:36,015 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-05 00:42:39,137 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 5.981 seconds (JVM running for 9.604)
+2018-07-05 00:42:39,412 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@56da52a7: startup date [Thu Jul 05 00:42:34 CST 2018]; root of context hierarchy
+2018-07-05 00:43:58,377 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 10132 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:43:58,378 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:43:58,397 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@56da52a7: startup date [Thu Jul 05 00:43:58 CST 2018]; root of context hierarchy
+2018-07-05 00:43:59,278 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-05 00:44:00,841 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 3.5 seconds (JVM running for 7.17)
+2018-07-05 00:44:07,939 INFO  [StartupInfoLogger.java:50] Starting application on MEW with PID 10132 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:44:07,942 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:44:07,956 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1707e70b: startup date [Thu Jul 05 00:44:07 CST 2018]; root of context hierarchy
+2018-07-05 00:44:08,733 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-05 00:44:09,996 INFO  [MBeanExporter.java:433] Registering beans for JMX exposure on startup
+2018-07-05 00:44:10,015 INFO  [MBeanExporter.java:895] Bean with name 'mysqlDataSource' has been autodetected for JMX exposure
+2018-07-05 00:44:10,029 INFO  [MBeanExporter.java:668] Located MBean 'mysqlDataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=mysqlDataSource,type=HikariDataSource]
+2018-07-05 00:44:10,042 INFO  [StartupInfoLogger.java:59] Started application in 3.399 seconds (JVM running for 16.372)
+2018-07-05 00:44:10,053 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-07-05 00:44:10,574 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-07-05 00:44:18,454 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@1707e70b: startup date [Thu Jul 05 00:44:07 CST 2018]; root of context hierarchy
+2018-07-05 00:44:18,459 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@56da52a7: startup date [Thu Jul 05 00:43:58 CST 2018]; root of context hierarchy
+2018-07-05 00:44:18,470 INFO  [MBeanExporter.java:451] Unregistering JMX-exposed beans on shutdown
+2018-07-05 00:44:18,476 INFO  [MBeanRegistrationSupport.java:183] Unregistering JMX-exposed beans
+2018-07-05 00:44:18,482 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-07-05 00:44:18,502 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-07-05 00:46:08,177 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 8908 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:46:08,178 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:46:08,199 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@38b972d7: startup date [Thu Jul 05 00:46:08 CST 2018]; root of context hierarchy
+2018-07-05 00:46:09,050 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-05 00:46:10,481 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 3.358 seconds (JVM running for 7.142)
+2018-07-05 00:46:11,027 INFO  [StartupInfoLogger.java:50] Starting application on MEW with PID 8908 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:46:11,029 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:46:11,033 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7050016e: startup date [Thu Jul 05 00:46:11 CST 2018]; root of context hierarchy
+2018-07-05 00:46:11,271 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-05 00:46:11,799 INFO  [MBeanExporter.java:433] Registering beans for JMX exposure on startup
+2018-07-05 00:46:11,801 INFO  [MBeanExporter.java:895] Bean with name 'mysqlDataSource' has been autodetected for JMX exposure
+2018-07-05 00:46:11,808 INFO  [MBeanExporter.java:668] Located MBean 'mysqlDataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=mysqlDataSource,type=HikariDataSource]
+2018-07-05 00:46:11,813 INFO  [StartupInfoLogger.java:59] Started application in 1.174 seconds (JVM running for 8.476)
+2018-07-05 00:46:11,823 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-07-05 00:46:12,123 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-07-05 00:46:12,717 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@7050016e: startup date [Thu Jul 05 00:46:11 CST 2018]; root of context hierarchy
+2018-07-05 00:46:12,719 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@38b972d7: startup date [Thu Jul 05 00:46:08 CST 2018]; root of context hierarchy
+2018-07-05 00:46:12,723 INFO  [MBeanExporter.java:451] Unregistering JMX-exposed beans on shutdown
+2018-07-05 00:46:12,725 INFO  [MBeanRegistrationSupport.java:183] Unregistering JMX-exposed beans
+2018-07-05 00:46:12,732 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-07-05 00:46:12,758 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-07-05 00:47:31,051 INFO  [StartupInfoLogger.java:50] Starting CustomerServiceTest on MEW with PID 10044 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:47:31,052 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:47:31,073 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@38b972d7: startup date [Thu Jul 05 00:47:31 CST 2018]; root of context hierarchy
+2018-07-05 00:47:31,819 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-05 00:47:33,058 INFO  [StartupInfoLogger.java:59] Started CustomerServiceTest in 3.155 seconds (JVM running for 6.84)
+2018-07-05 00:47:33,539 INFO  [StartupInfoLogger.java:50] Starting application on MEW with PID 10044 (started by wangxin in D:\code\java\computer)
+2018-07-05 00:47:33,540 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-05 00:47:33,543 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6ae22d84: startup date [Thu Jul 05 00:47:33 CST 2018]; root of context hierarchy
+2018-07-05 00:47:33,804 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-05 00:47:34,330 INFO  [MBeanExporter.java:433] Registering beans for JMX exposure on startup
+2018-07-05 00:47:34,331 INFO  [MBeanExporter.java:895] Bean with name 'mysqlDataSource' has been autodetected for JMX exposure
+2018-07-05 00:47:34,337 INFO  [MBeanExporter.java:668] Located MBean 'mysqlDataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=mysqlDataSource,type=HikariDataSource]
+2018-07-05 00:47:34,343 INFO  [StartupInfoLogger.java:59] Started application in 1.146 seconds (JVM running for 8.126)
+2018-07-05 00:47:34,352 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-07-05 00:47:34,644 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-07-05 00:47:34,921 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@38b972d7: startup date [Thu Jul 05 00:47:31 CST 2018]; root of context hierarchy
+2018-07-05 00:47:34,921 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@6ae22d84: startup date [Thu Jul 05 00:47:33 CST 2018]; root of context hierarchy
+2018-07-05 00:47:34,923 INFO  [MBeanExporter.java:451] Unregistering JMX-exposed beans on shutdown
+2018-07-05 00:47:34,924 INFO  [MBeanRegistrationSupport.java:183] Unregistering JMX-exposed beans
+2018-07-05 00:47:34,925 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-07-05 00:47:34,932 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-07-24 14:28:16,764 INFO  [StartupInfoLogger.java:50] Starting EmpMapperTest on MEW with PID 7644 (started by wangxin in D:\code\java\computer)
+2018-07-24 14:28:16,766 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-24 14:28:16,789 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@68105edc: startup date [Tue Jul 24 14:28:16 CST 2018]; root of context hierarchy
+2018-07-24 14:28:17,595 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-24 14:28:18,809 INFO  [StartupInfoLogger.java:59] Started EmpMapperTest in 3.134 seconds (JVM running for 6.522)
+2018-07-24 14:28:18,947 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-07-24 14:28:19,764 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-07-24 14:28:34,803 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@68105edc: startup date [Tue Jul 24 14:28:16 CST 2018]; root of context hierarchy
+2018-07-24 14:28:34,820 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-07-24 14:28:34,843 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-07-24 14:32:26,446 INFO  [StartupInfoLogger.java:50] Starting CustomerMapperTest on MEW with PID 2300 (started by wangxin in D:\code\java\computer)
+2018-07-24 14:32:26,448 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-24 14:32:26,474 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@53b98ff6: startup date [Tue Jul 24 14:32:26 CST 2018]; root of context hierarchy
+2018-07-24 14:32:27,502 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-24 14:32:30,231 INFO  [StartupInfoLogger.java:59] Started CustomerMapperTest in 5.072 seconds (JVM running for 7.508)
+2018-07-24 14:32:30,295 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-07-24 14:32:30,892 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-07-24 14:32:30,904 INFO  [TransactionContext.java:107] Began transaction (1) for test context [DefaultTestContext@512535ff testClass = CustomerMapperTest, testInstance = com.growlithe.computer.mysql.practice.customer.dao.mapper.CustomerMapperTest@63798ca7, testMethod = deleteAllTest@CustomerMapperTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@71529963 testClass = CustomerMapperTest, locations = '{}', classes = '{class com.growlithe.computer.ComputerApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@618425b5, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@f5acb9d, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@593aaf41, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@67f639d3], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]]; transaction manager [org.springframework.jdbc.datasource.DataSourceTransactionManager@6babffb5]; rollback [true]
+2018-07-24 14:32:31,264 INFO  [TransactionContext.java:139] Rolled back transaction for test: [DefaultTestContext@512535ff testClass = CustomerMapperTest, testInstance = com.growlithe.computer.mysql.practice.customer.dao.mapper.CustomerMapperTest@63798ca7, testMethod = deleteAllTest@CustomerMapperTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@71529963 testClass = CustomerMapperTest, locations = '{}', classes = '{class com.growlithe.computer.ComputerApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@618425b5, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@f5acb9d, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@593aaf41, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@67f639d3], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]]
+2018-07-24 14:32:31,270 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@53b98ff6: startup date [Tue Jul 24 14:32:26 CST 2018]; root of context hierarchy
+2018-07-24 14:32:31,283 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-07-24 14:32:31,300 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-07-24 14:34:05,923 INFO  [StartupInfoLogger.java:50] Starting CustomerMapperTest on MEW with PID 4012 (started by wangxin in D:\code\java\computer)
+2018-07-24 14:34:05,924 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-24 14:34:05,941 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@53b98ff6: startup date [Tue Jul 24 14:34:05 CST 2018]; root of context hierarchy
+2018-07-24 14:34:06,850 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-24 14:34:09,104 INFO  [StartupInfoLogger.java:59] Started CustomerMapperTest in 4.441 seconds (JVM running for 7.474)
+2018-07-24 14:34:09,166 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-07-24 14:34:09,738 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-07-24 14:34:09,749 INFO  [TransactionContext.java:107] Began transaction (1) for test context [DefaultTestContext@512535ff testClass = CustomerMapperTest, testInstance = com.growlithe.computer.mysql.practice.customer.dao.mapper.CustomerMapperTest@63798ca7, testMethod = deleteAllTest@CustomerMapperTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@71529963 testClass = CustomerMapperTest, locations = '{}', classes = '{class com.growlithe.computer.ComputerApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@618425b5, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@f5acb9d, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@593aaf41, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@67f639d3], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]]; transaction manager [org.springframework.jdbc.datasource.DataSourceTransactionManager@6ecc02bb]; rollback [true]
+2018-07-24 14:34:10,160 INFO  [TransactionContext.java:139] Rolled back transaction for test: [DefaultTestContext@512535ff testClass = CustomerMapperTest, testInstance = com.growlithe.computer.mysql.practice.customer.dao.mapper.CustomerMapperTest@63798ca7, testMethod = deleteAllTest@CustomerMapperTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@71529963 testClass = CustomerMapperTest, locations = '{}', classes = '{class com.growlithe.computer.ComputerApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@618425b5, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@f5acb9d, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@593aaf41, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@67f639d3], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]]
+2018-07-24 14:34:10,168 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@53b98ff6: startup date [Tue Jul 24 14:34:05 CST 2018]; root of context hierarchy
+2018-07-24 14:34:10,176 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-07-24 14:34:10,214 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-07-24 14:34:24,766 INFO  [StartupInfoLogger.java:50] Starting CustomerMapperTest on MEW with PID 6720 (started by wangxin in D:\code\java\computer)
+2018-07-24 14:34:24,769 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-24 14:34:24,804 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@64040287: startup date [Tue Jul 24 14:34:24 CST 2018]; root of context hierarchy
+2018-07-24 14:34:25,530 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-24 14:34:27,423 INFO  [StartupInfoLogger.java:59] Started CustomerMapperTest in 3.831 seconds (JVM running for 6.533)
+2018-07-24 14:34:27,633 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-07-24 14:34:28,471 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-07-24 14:34:28,769 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@64040287: startup date [Tue Jul 24 14:34:24 CST 2018]; root of context hierarchy
+2018-07-24 14:34:28,775 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-07-24 14:34:28,794 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-07-24 15:42:18,317 INFO  [StartupInfoLogger.java:50] Starting SpringTransactionalServiceTest on MEW with PID 7328 (started by wangxin in D:\code\java\computer)
+2018-07-24 15:42:18,319 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-24 15:42:18,339 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@53b98ff6: startup date [Tue Jul 24 15:42:18 CST 2018]; root of context hierarchy
+2018-07-24 15:42:19,191 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-24 15:42:20,665 INFO  [StartupInfoLogger.java:59] Started SpringTransactionalServiceTest in 3.387 seconds (JVM running for 6.214)
+2018-07-24 15:42:20,793 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-07-24 15:42:21,109 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-07-24 15:42:21,434 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@53b98ff6: startup date [Tue Jul 24 15:42:18 CST 2018]; root of context hierarchy
+2018-07-24 15:42:21,438 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-07-24 15:42:21,446 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-07-24 15:43:24,964 INFO  [StartupInfoLogger.java:50] Starting SpringTransactionalServiceTest on MEW with PID 8096 (started by wangxin in D:\code\java\computer)
+2018-07-24 15:43:24,966 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-24 15:43:24,985 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@53b98ff6: startup date [Tue Jul 24 15:43:24 CST 2018]; root of context hierarchy
+2018-07-24 15:43:25,935 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-24 15:43:27,454 INFO  [StartupInfoLogger.java:59] Started SpringTransactionalServiceTest in 3.564 seconds (JVM running for 6.947)
+2018-07-24 15:43:27,584 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-07-24 15:43:27,920 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-07-24 15:43:28,215 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@53b98ff6: startup date [Tue Jul 24 15:43:24 CST 2018]; root of context hierarchy
+2018-07-24 15:43:28,218 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-07-24 15:43:28,226 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-07-24 16:04:18,140 INFO  [StartupInfoLogger.java:50] Starting SpringTransactionalServiceTest on MEW with PID 5608 (started by wangxin in D:\code\java\computer)
+2018-07-24 16:04:18,142 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-24 16:04:18,162 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7fcff1b9: startup date [Tue Jul 24 16:04:18 CST 2018]; root of context hierarchy
+2018-07-24 16:04:19,108 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-24 16:04:21,297 INFO  [StartupInfoLogger.java:59] Started SpringTransactionalServiceTest in 4.199 seconds (JVM running for 7.233)
+2018-07-24 16:04:21,447 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-07-24 16:04:21,874 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-07-24 16:04:22,274 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@7fcff1b9: startup date [Tue Jul 24 16:04:18 CST 2018]; root of context hierarchy
+2018-07-24 16:04:22,278 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-07-24 16:04:22,291 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-07-24 16:05:03,908 INFO  [StartupInfoLogger.java:50] Starting SpringTransactionalServiceTest on MEW with PID 10812 (started by wangxin in D:\code\java\computer)
+2018-07-24 16:05:03,910 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-24 16:05:03,932 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3e6fd0b9: startup date [Tue Jul 24 16:05:03 CST 2018]; root of context hierarchy
+2018-07-24 16:05:04,751 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-24 16:05:06,159 INFO  [StartupInfoLogger.java:59] Started SpringTransactionalServiceTest in 3.303 seconds (JVM running for 6.48)
+2018-07-24 16:05:06,272 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-07-24 16:05:06,630 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-07-24 16:05:07,152 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@3e6fd0b9: startup date [Tue Jul 24 16:05:03 CST 2018]; root of context hierarchy
+2018-07-24 16:05:07,162 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-07-24 16:05:07,195 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-07-24 16:31:27,202 INFO  [StartupInfoLogger.java:50] Starting SpringTransactionalServiceTest on MEW with PID 5644 (started by wangxin in D:\code\java\computer)
+2018-07-24 16:31:27,203 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-24 16:31:27,224 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3e6fd0b9: startup date [Tue Jul 24 16:31:27 CST 2018]; root of context hierarchy
+2018-07-24 16:31:28,808 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-24 16:31:31,010 INFO  [StartupInfoLogger.java:59] Started SpringTransactionalServiceTest in 4.868 seconds (JVM running for 7.884)
+2018-07-24 16:31:31,474 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-07-24 16:31:32,148 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-07-24 16:31:32,580 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@3e6fd0b9: startup date [Tue Jul 24 16:31:27 CST 2018]; root of context hierarchy
+2018-07-24 16:31:32,588 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-07-24 16:31:32,607 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-07-24 16:32:46,031 INFO  [StartupInfoLogger.java:50] Starting SpringTransactionalServiceTest on MEW with PID 9920 (started by wangxin in D:\code\java\computer)
+2018-07-24 16:32:46,033 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-24 16:32:46,053 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3e6fd0b9: startup date [Tue Jul 24 16:32:46 CST 2018]; root of context hierarchy
+2018-07-24 16:32:47,318 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-24 16:32:49,815 INFO  [StartupInfoLogger.java:59] Started SpringTransactionalServiceTest in 4.745 seconds (JVM running for 7.336)
+2018-07-24 16:32:50,294 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-07-24 16:32:50,957 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-07-24 16:32:51,399 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@3e6fd0b9: startup date [Tue Jul 24 16:32:46 CST 2018]; root of context hierarchy
+2018-07-24 16:32:51,405 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-07-24 16:32:51,417 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-07-24 16:33:28,797 INFO  [StartupInfoLogger.java:50] Starting SpringTransactionalServiceTest on MEW with PID 5544 (started by wangxin in D:\code\java\computer)
+2018-07-24 16:33:28,798 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-24 16:33:28,819 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3e6fd0b9: startup date [Tue Jul 24 16:33:28 CST 2018]; root of context hierarchy
+2018-07-24 16:33:30,321 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-24 16:33:33,065 INFO  [StartupInfoLogger.java:59] Started SpringTransactionalServiceTest in 5.334 seconds (JVM running for 8.555)
+2018-07-24 16:33:33,529 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-07-24 16:33:34,082 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-07-24 16:33:34,546 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@3e6fd0b9: startup date [Tue Jul 24 16:33:28 CST 2018]; root of context hierarchy
+2018-07-24 16:33:34,610 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-07-24 16:33:34,627 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-07-24 16:36:50,659 INFO  [StartupInfoLogger.java:50] Starting SpringTransactionalServiceTest on MEW with PID 3252 (started by wangxin in D:\code\java\computer)
+2018-07-24 16:36:50,661 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-24 16:36:50,681 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3e6fd0b9: startup date [Tue Jul 24 16:36:50 CST 2018]; root of context hierarchy
+2018-07-24 16:36:51,502 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-24 16:36:53,838 INFO  [StartupInfoLogger.java:59] Started SpringTransactionalServiceTest in 4.334 seconds (JVM running for 8.218)
+2018-07-24 16:36:54,220 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-07-24 16:36:54,827 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-07-24 16:36:55,267 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@3e6fd0b9: startup date [Tue Jul 24 16:36:50 CST 2018]; root of context hierarchy
+2018-07-24 16:36:55,273 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-07-24 16:36:55,286 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.
+2018-07-24 16:41:07,515 INFO  [StartupInfoLogger.java:50] Starting SpringTransactionalServiceTest on MEW with PID 7980 (started by wangxin in D:\code\java\computer)
+2018-07-24 16:41:07,517 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-07-24 16:41:07,538 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3e6fd0b9: startup date [Tue Jul 24 16:41:07 CST 2018]; root of context hierarchy
+2018-07-24 16:41:08,592 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-24 16:41:09,991 INFO  [StartupInfoLogger.java:59] Started SpringTransactionalServiceTest in 3.542 seconds (JVM running for 6.225)
+2018-07-24 16:41:10,124 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-07-24 16:41:10,440 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-07-24 16:41:10,744 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@3e6fd0b9: startup date [Tue Jul 24 16:41:07 CST 2018]; root of context hierarchy
+2018-07-24 16:41:10,748 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-07-24 16:41:10,758 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.

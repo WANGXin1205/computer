@@ -119,11 +119,11 @@ public class MathUtils {
      */
     public static Integer getGreatestCommonDivisor(List<Integer> list) {
         Integer greatestCommonDivisor = MathUtils.checkListInGetGreatestCommonDivisor(list);
-        if (greatestCommonDivisor == null){
+        if (greatestCommonDivisor == null) {
             // 如果最大公约数为空，则进行最大公约数的计算
             greatestCommonDivisor = list.get(0);
-            for (Integer x:list){
-                greatestCommonDivisor = MathUtils.getGreatestCommonDivisor(greatestCommonDivisor,x);
+            for (Integer x : list) {
+                greatestCommonDivisor = MathUtils.getGreatestCommonDivisor(greatestCommonDivisor, x);
             }
         }
 
@@ -131,26 +131,39 @@ public class MathUtils {
     }
 
     /**
-     * 参数检查
+     * 参数检查 求列表中数字的最大公约数
+     *
      * @param list
      */
-    private static Integer checkListInGetGreatestCommonDivisor(List<Integer> list){
-        Integer greatestCommonDivisor = null;
+    private static Integer checkListInGetGreatestCommonDivisor(List<Integer> list) {
+        Integer greatestCommonDivisor = MathUtils.checkListInCommonStep(list);
+        if (list.size() == LIST_SIZE_IS_TWO) {
+            greatestCommonDivisor = MathUtils.getGreatestCommonDivisor(list.get(0), list.get(1));
+        }
+
+        return greatestCommonDivisor;
+    }
+
+    /**
+     * 参数检查 求最大公约数 和 最小公倍数 的共同步骤
+     *
+     * @param list
+     * @return
+     */
+    private static Integer checkListInCommonStep(List<Integer> list) {
+        Integer integer = null;
         if (CollectionUtils.isEmpty(list)) {
             throw new TransactionException("list must be not null");
         }
         boolean zeroFlag = list.stream().anyMatch(ZERO::equals);
-        if (zeroFlag){
+        if (zeroFlag) {
             throw new TransactionException("list cannot contain 0");
         }
         if (list.size() == 1) {
-            greatestCommonDivisor = list.get(ZERO);
-        }
-        if (list.size() == LIST_SIZE_IS_TWO){
-            greatestCommonDivisor = MathUtils.getGreatestCommonDivisor(list.get(0),list.get(1));
+            integer = list.get(ZERO);
         }
 
-        return greatestCommonDivisor;
+        return integer;
     }
 
     /**
@@ -163,6 +176,38 @@ public class MathUtils {
     public static Integer getLeastCommonMultiple(Integer a, Integer b) {
         Integer greatestCommonDivisor = MathUtils.getGreatestCommonDivisor(a, b);
         return a * b / greatestCommonDivisor;
+    }
+
+    /**
+     * 求列表中数字的最大公约数
+     *
+     * @param list
+     * @return
+     */
+    public static Integer getLeastCommonMultiple(List<Integer> list) {
+        Integer leastCommonMultiple = MathUtils.checkListInGetLeastCommonMultiple(list);
+        if (leastCommonMultiple == null) {
+            // 如果最大公约数为空，则进行最大公约数的计算
+            leastCommonMultiple = list.get(0);
+            for (Integer x : list) {
+                leastCommonMultiple = MathUtils.getLeastCommonMultiple(leastCommonMultiple, x);
+            }
+        }
+        return leastCommonMultiple;
+    }
+
+    /**
+     * 参数检查 求列表中数字的最大公约数
+     *
+     * @param list
+     */
+    private static Integer checkListInGetLeastCommonMultiple(List<Integer> list) {
+        Integer leastCommonMultiple = MathUtils.checkListInCommonStep(list);
+        if (list.size() == LIST_SIZE_IS_TWO) {
+            leastCommonMultiple = MathUtils.getLeastCommonMultiple(list.get(0), list.get(1));
+        }
+
+        return leastCommonMultiple;
     }
 
 }

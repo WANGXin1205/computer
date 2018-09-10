@@ -65,4 +65,13 @@ public class MathUtilsTest {
         Assert.assertEquals(4,leastCommonMultiple.intValue());
     }
 
+    @Test
+    public void getLeastCommonMultipleTest1(){
+        var list = Lists.newArrayList(1,2,3,5);
+        Integer leastCommonMultiple = MathUtils.getLeastCommonMultiple(list);
+        Assert.assertEquals(30,leastCommonMultiple.intValue());
+        list = Lists.newArrayList(2,2,4,4,8);
+        leastCommonMultiple = MathUtils.getLeastCommonMultiple(list);
+        Assert.assertEquals(8,leastCommonMultiple.intValue());
+    }
 }
