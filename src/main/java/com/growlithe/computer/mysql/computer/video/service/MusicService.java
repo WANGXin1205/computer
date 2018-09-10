@@ -15,6 +15,7 @@ import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.util.CollectionUtils;
 
+import javax.annotation.Resource;
 import java.math.BigDecimal;
 import java.util.List;
 
@@ -28,7 +29,7 @@ public class MusicService {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(MusicService.class);
 
-    @Autowired
+    @Resource
     private MusicMapper musicMapper;
 
     @Transactional(value = "mysqlTransactionManager", propagation = Propagation.REQUIRED, rollbackFor = java.lang.Exception.class)

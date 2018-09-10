@@ -29,7 +29,7 @@ public class MailServiceImplTest {
     @Test
     public void sendSimpleMail() {
         String fromEmail = "growlithe1205@163.com";
-        String toEmail = "growlithe1205@outlook.com";
+        String toEmail = "2831485277@qq.com";
         String title = "纪念卡蒂狗";
         String content = "卡蒂狗，我回来了";
         List<String> toEmails = new ArrayList<>();

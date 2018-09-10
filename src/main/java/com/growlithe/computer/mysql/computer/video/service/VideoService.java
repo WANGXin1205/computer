@@ -11,6 +11,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.CollectionUtils;
 
+import javax.annotation.Resource;
 import java.math.BigDecimal;
 
 /**
@@ -23,7 +24,7 @@ public class VideoService {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(VideoService.class);
 
-    @Autowired
+    @Resource
     private VideoMapper videoMapper;
 
     /**
