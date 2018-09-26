@@ -1,34 +1,12 @@
-2018-09-07 17:00:47,223 INFO  [StartupInfoLogger.java:50] Starting MailServiceImplTest on wangxindeMBP with PID 9967 (started by wangxin in /Users/wangxin/code/java/computer)
-2018-09-07 17:00:47,227 INFO  [SpringApplication.java:663] The following profiles are active: dev
-2018-09-07 17:00:47,244 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@24e8de5c: startup date [Fri Sep 07 17:00:47 CST 2018]; root of context hierarchy
-2018-09-07 17:00:47,982 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
-2018-09-07 17:00:49,016 INFO  [StartupInfoLogger.java:59] Started MailServiceImplTest in 2.632 seconds (JVM running for 4.427)
-2018-09-07 17:00:59,870 INFO  [MailServiceImpl.java:106] 简单邮件已经发送
-2018-09-07 17:01:10,167 INFO  [MailServiceImpl.java:106] 简单邮件已经发送
-2018-09-07 17:01:20,322 INFO  [MailServiceImpl.java:106] 简单邮件已经发送
-2018-09-07 17:01:20,326 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@24e8de5c: startup date [Fri Sep 07 17:00:47 CST 2018]; root of context hierarchy
-2018-09-07 17:03:13,336 INFO  [StartupInfoLogger.java:50] Starting MailServiceImplTest on wangxindeMBP with PID 9982 (started by wangxin in /Users/wangxin/code/java/computer)
-2018-09-07 17:03:13,338 INFO  [SpringApplication.java:663] The following profiles are active: dev
-2018-09-07 17:03:13,358 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@24e8de5c: startup date [Fri Sep 07 17:03:13 CST 2018]; root of context hierarchy
-2018-09-07 17:03:14,165 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
-2018-09-07 17:03:15,214 INFO  [StartupInfoLogger.java:59] Started MailServiceImplTest in 2.813 seconds (JVM running for 4.12)
-2018-09-07 17:03:26,428 INFO  [MailServiceImpl.java:106] 简单邮件已经发送
-2018-09-07 17:03:38,415 INFO  [MailServiceImpl.java:106] 简单邮件已经发送
-2018-09-07 17:03:48,192 INFO  [MailServiceImpl.java:106] 简单邮件已经发送
-2018-09-07 17:03:48,196 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@24e8de5c: startup date [Fri Sep 07 17:03:13 CST 2018]; root of context hierarchy
-2018-09-07 17:04:35,473 INFO  [StartupInfoLogger.java:50] Starting MailServiceImplTest on wangxindeMBP with PID 9992 (started by wangxin in /Users/wangxin/code/java/computer)
-2018-09-07 17:04:35,474 INFO  [SpringApplication.java:663] The following profiles are active: dev
-2018-09-07 17:04:35,501 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@24e8de5c: startup date [Fri Sep 07 17:04:35 CST 2018]; root of context hierarchy
-2018-09-07 17:04:36,309 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
-2018-09-07 17:04:37,696 INFO  [StartupInfoLogger.java:59] Started MailServiceImplTest in 3.141 seconds (JVM running for 4.422)
-2018-09-07 17:04:38,685 INFO  [MailServiceImpl.java:106] 简单邮件已经发送
-2018-09-07 17:04:39,423 INFO  [MailServiceImpl.java:106] 简单邮件已经发送
-2018-09-07 17:04:40,084 INFO  [MailServiceImpl.java:106] 简单邮件已经发送
-2018-09-07 17:04:40,089 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@24e8de5c: startup date [Fri Sep 07 17:04:35 CST 2018]; root of context hierarchy
-2018-09-07 17:06:42,208 INFO  [StartupInfoLogger.java:50] Starting MailServiceImplTest on wangxindeMBP with PID 9997 (started by wangxin in /Users/wangxin/code/java/computer)
-2018-09-07 17:06:42,209 INFO  [SpringApplication.java:663] The following profiles are active: dev
-2018-09-07 17:06:42,226 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@24e8de5c: startup date [Fri Sep 07 17:06:42 CST 2018]; root of context hierarchy
-2018-09-07 17:06:42,959 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
-2018-09-07 17:06:44,000 INFO  [StartupInfoLogger.java:59] Started MailServiceImplTest in 2.662 seconds (JVM running for 4.013)
-2018-09-07 17:06:46,563 INFO  [MailServiceImpl.java:106] 简单邮件已经发送
-2018-09-07 17:06:46,569 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@24e8de5c: startup date [Fri Sep 07 17:06:42 CST 2018]; root of context hierarchy
+2018-09-26 17:54:59,447 INFO  [StartupInfoLogger.java:50] Starting VideoServiceTest on wangxindeMBP with PID 6883 (started by wangxin in /Users/wangxin/code/java/computer)
+2018-09-26 17:54:59,450 INFO  [SpringApplication.java:663] The following profiles are active: dev
+2018-09-26 17:54:59,472 INFO  [AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@27068a50: startup date [Wed Sep 26 17:54:59 CST 2018]; root of context hierarchy
+2018-09-26 17:55:00,361 INFO  [AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-09-26 17:55:01,711 INFO  [StartupInfoLogger.java:59] Started VideoServiceTest in 3.855 seconds (JVM running for 7.985)
+2018-09-26 17:55:01,750 INFO  [HikariDataSource.java:110] HikariPool-1 - Starting...
+2018-09-26 17:55:02,094 INFO  [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2018-09-26 17:55:02,100 INFO  [TransactionContext.java:107] Began transaction (1) for test context [DefaultTestContext@a43ce46 testClass = VideoServiceTest, testInstance = com.growlithe.computer.mysql.computer.video.service.VideoServiceTest@5cdd09b1, testMethod = getAllCapacity@VideoServiceTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@340da44c testClass = VideoServiceTest, locations = '{}', classes = '{class com.growlithe.computer.ComputerApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3a7442c7, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@4b013c76, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@909217e, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@5890e879], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]]; transaction manager [org.springframework.jdbc.datasource.DataSourceTransactionManager@2afdf6b7]; rollback [true]
+2018-09-26 17:55:07,160 INFO  [TransactionContext.java:139] Rolled back transaction for test: [DefaultTestContext@a43ce46 testClass = VideoServiceTest, testInstance = com.growlithe.computer.mysql.computer.video.service.VideoServiceTest@5cdd09b1, testMethod = getAllCapacity@VideoServiceTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@340da44c testClass = VideoServiceTest, locations = '{}', classes = '{class com.growlithe.computer.ComputerApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3a7442c7, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@4b013c76, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@909217e, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@5890e879], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]]
+2018-09-26 17:55:07,162 INFO  [AbstractApplicationContext.java:993] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@27068a50: startup date [Wed Sep 26 17:54:59 CST 2018]; root of context hierarchy
+2018-09-26 17:55:07,164 INFO  [HikariDataSource.java:381] HikariPool-1 - Shutdown initiated...
+2018-09-26 17:55:07,171 INFO  [HikariDataSource.java:383] HikariPool-1 - Shutdown completed.

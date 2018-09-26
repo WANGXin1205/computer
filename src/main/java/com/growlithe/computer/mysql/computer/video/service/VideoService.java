@@ -29,27 +29,40 @@ public class VideoService {
 
     /**
      * 计算目前统计的视频占用磁盘空间大小
+     *
      * @return
      */
-    public CandyResult<BigDecimal> getAllCapacity(){
+    public CandyResult<BigDecimal> getAllCapacity() {
         CandyResult<BigDecimal> candyResult = new CandyResult<>();
 
         var allVideoList = videoMapper.listAllVideoDO();
 
-        if (CollectionUtils.isEmpty(allVideoList)){
+        if (CollectionUtils.isEmpty(allVideoList)) {
             candyResult.setData(BigDecimal.ZERO);
             candyResult.setSuccess(true);
             return candyResult;
         }
 
-        BigDecimal kbCapacity = allVideoList.stream().filter(x-> x.getCapacityUnit().equals(CapacityUnitEnum.KB.getCode()))
-                .map(VideoDO::getCapacity).reduce(BigDecimal::add).orElse(BigDecimal.ZERO);
-        BigDecimal mbCapacity = allVideoList.stream().filter(x-> x.getCapacityUnit().equals(CapacityUnitEnum.MB.getCode()))
-                .map(VideoDO::getCapacity).reduce(BigDecimal::add).orElse(BigDecimal.ZERO);
-        BigDecimal gbCapacity = allVideoList.stream().filter(x-> x.getCapacityUnit().equals(CapacityUnitEnum.GB.getCode()))
-                .map(VideoDO::getCapacity).reduce(BigDecimal::add).orElse(BigDecimal.ZERO);
-        BigDecimal tbCapacity = allVideoList.stream().filter(x-> x.getCapacityUnit().equals(CapacityUnitEnum.TB.getCode()))
-                .map(VideoDO::getCapacity).reduce(BigDecimal::add).orElse(BigDecimal.ZERO);
+        BigDecimal kbCapacity = BigDecimal.ZERO;
+        BigDecimal mbCapacity = BigDecimal.ZERO;
+        BigDecimal gbCapacity = BigDecimal.ZERO;
+        BigDecimal tbCapacity = BigDecimal.ZERO;
+
+        for (VideoDO x : allVideoList) {
+            BigDecimal tempCapacity = x.getCapacity() != null ? x.getCapacity() : BigDecimal.ZERO;
+            if (x.getCapacityUnit().equals(CapacityUnitEnum.KB.getCode())) {
+                kbCapacity = kbCapacity.add(tempCapacity);
+            }
+            if (x.getCapacityUnit().equals(CapacityUnitEnum.MB.getCode())) {
+                mbCapacity = mbCapacity.add(tempCapacity);
+            }
+            if (x.getCapacityUnit().equals(CapacityUnitEnum.GB.getCode())) {
+                gbCapacity = mbCapacity.add(tempCapacity);
+            }
+            if (x.getCapacityUnit().equals(CapacityUnitEnum.TB.getCode())) {
+                tbCapacity = mbCapacity.add(tempCapacity);
+            }
+        }
 
         BigDecimal gbFromKB = StorageUnitUtils.convertKBToGB(kbCapacity);
         BigDecimal gbFromMB = StorageUnitUtils.convertMBToGB(mbCapacity);

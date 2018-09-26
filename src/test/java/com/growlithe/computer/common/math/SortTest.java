@@ -37,4 +37,11 @@ public class SortTest {
         Sort.insertionSort(list);
         Stream.of(list).forEach(System.out::println);
     }
+
+    @Test
+    public void countSorttest(){
+        var list = new Integer[]{7,7,7,4,9,2,1,4,1,3};
+        Sort.countSort(list);
+        Stream.of(list).forEach(System.out::println);
+    }
 }

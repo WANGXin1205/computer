@@ -1,10 +1,10 @@
 package com.growlithe.computer.common.math;
 
 import com.growlithe.computer.excepetion.TransactionException;
+import org.apache.spark.sql.sources.In;
 import org.springframework.util.CollectionUtils;
 
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
 /**
  * @Author : Growlithe
@@ -21,13 +21,6 @@ public class Sort {
      * one
      */
     private static final Integer ONE = 1;
-
-    public static Boolean checkSingle(Integer[] array) {
-        if (array.length == ONE) {
-            return Boolean.TRUE;
-        }
-        return Boolean.FALSE;
-    }
 
     /**
      * 冒泡排序 时间复杂度O(n^2)
@@ -98,13 +91,57 @@ public class Sort {
 
     /**
      * 快速排序 时间复杂度O(n log2(N))
+     *
      * @param array
      */
-    public static void quickSort(Integer[] array){
+    public static void quickSort(Integer[] array) {
         MathUtils.checkIntegerArray(array);
         if (Sort.checkSingle(array)) {
             return;
         }
 
+    }
+
+    /**
+     * 计数排序 时间复杂度
+     * @param array
+     */
+    public static void countSort(Integer[] array){
+        MathUtils.checkIntegerArray(array);
+        if (Sort.checkSingle(array)) {
+            return;
+        }
+
+        TreeMap<Integer,Integer> countTreeMap = new TreeMap<>();
+        Arrays.stream(array).forEach(x->{
+            if (!countTreeMap.containsKey(x)){
+                countTreeMap.put(x,ONE);
+            }else {
+                countTreeMap.put(x,countTreeMap.get(x) + ONE);
+            }
+        });
+
+        Integer i = 0;
+        for (Integer x: countTreeMap.keySet()){
+             while (!DEFAULT_ARRAY_START.equals(countTreeMap.get(x))){
+                 array[i] = x;
+                 countTreeMap.put(x,countTreeMap.get(x)-ONE);
+                 i++;
+             }
+        }
+
+    }
+
+    /**
+     * 单数检查
+     *
+     * @param array
+     * @return
+     */
+    private static Boolean checkSingle(Integer[] array) {
+        if (array.length == ONE) {
+            return Boolean.TRUE;
+        }
+        return Boolean.FALSE;
     }
 }
