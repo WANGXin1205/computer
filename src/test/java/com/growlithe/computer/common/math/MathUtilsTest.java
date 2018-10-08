@@ -5,6 +5,8 @@ import org.assertj.core.util.Lists;
 import org.junit.Assert;
 import org.junit.Test;
 
+import java.math.BigDecimal;
+
 import static org.junit.Assert.*;
 
 /**
@@ -20,6 +22,17 @@ public class MathUtilsTest {
         Boolean primeFlag = MathUtils.isPrimeNumber(num);
         Assert.assertTrue(primeFlag);
     }
+
+    @Test
+    public void isIntegerNumberTest() {
+        BigDecimal bigDecimal = new BigDecimal("29.00");
+        Boolean flag = MathUtils.isIntegerNumber(bigDecimal);
+        Assert.assertTrue(flag);
+        bigDecimal = new BigDecimal("29.10");
+        flag = MathUtils.isIntegerNumber(bigDecimal);
+        Assert.assertTrue(!flag);
+    }
+
 
     @Test
     public void getGreatestCommonDivisorTest(){

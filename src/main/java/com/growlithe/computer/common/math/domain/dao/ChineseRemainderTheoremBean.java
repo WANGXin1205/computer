@@ -7,6 +7,10 @@ package com.growlithe.computer.common.math.domain.dao;
  */
 public class ChineseRemainderTheoremBean {
     /**
+     * 系数
+     */
+    private Integer coefficient;
+    /**
      * 除数
      */
     private Integer divisor;
@@ -15,9 +19,12 @@ public class ChineseRemainderTheoremBean {
      */
     private Integer remainder;
 
-    public ChineseRemainderTheoremBean(Integer divisor, Integer remainder) {
-        this.divisor = divisor;
-        this.remainder = remainder;
+    public Integer getCoefficient() {
+        return coefficient;
+    }
+
+    public void setCoefficient(Integer coefficient) {
+        this.coefficient = coefficient;
     }
 
     public Integer getDivisor() {
@@ -36,10 +43,22 @@ public class ChineseRemainderTheoremBean {
         this.remainder = remainder;
     }
 
+    public ChineseRemainderTheoremBean(Integer divisor, Integer remainder) {
+        this.divisor = divisor;
+        this.remainder = remainder;
+    }
+
+    public ChineseRemainderTheoremBean(Integer coefficient, Integer divisor, Integer remainder) {
+        this.coefficient = coefficient;
+        this.divisor = divisor;
+        this.remainder = remainder;
+    }
+
     @Override
     public String toString() {
         return "ChineseRemainderTheoremBean{" +
-                "divisor=" + divisor +
+                "coefficient=" + coefficient +
+                ", divisor=" + divisor +
                 ", remainder=" + remainder +
                 '}';
     }

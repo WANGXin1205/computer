@@ -71,6 +71,24 @@ public class MathUtils {
     }
 
     /**
+     * 检查一个数是不是整数
+     * @param bigDecimal
+     */
+    public static Boolean isIntegerNumber(BigDecimal bigDecimal){
+        if (bigDecimal == null){
+            return false;
+        }
+
+        Integer integerFlag = bigDecimal.subtract(bigDecimal.setScale(0,RoundingMode.DOWN)).compareTo(BigDecimal.ZERO);
+
+        if (integerFlag == 0){
+            return true;
+        }
+
+        return false;
+    }
+
+    /**
      * 获取数组中最小的数
      *
      * @param array
