@@ -24,6 +24,8 @@ import java.util.stream.Collectors;
  */
 public class ChineseRemainderTheoremUtils {
 
+    private static Integer DEFAULT_POINT = 10;
+
     /**
      * 根据孙子定理（中国余数定理）解方程
      *
@@ -133,8 +135,9 @@ public class ChineseRemainderTheoremUtils {
         Integer i = 1;
         BigDecimal bigDecimal = new BigDecimal("0.1");
         while (!MathUtils.isIntegerNumber(bigDecimal)){
+
             bigDecimal = BigDecimal.valueOf(chineseRemainderTheoremBean.getDivisor() * i + chineseRemainderTheoremBean.getRemainder())
-                    .divide(BigDecimal.valueOf(chineseRemainderTheoremBean.getCoefficient())).setScale(1, RoundingMode.DOWN);
+                    .divide(BigDecimal.valueOf(chineseRemainderTheoremBean.getCoefficient()),DEFAULT_POINT,RoundingMode.DOWN);
             i++;
         }
 

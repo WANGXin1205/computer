@@ -20,10 +20,10 @@ public class ChineseRemainderTheoremUtilsTest {
     public void solveTest() {
         var chineseRemainderTheoremBean0 = new ChineseRemainderTheoremBean(3, 1);
         var chineseRemainderTheoremBean1 = new ChineseRemainderTheoremBean(5, 3);
-//        var chineseRemainderTheoremBean2 = new ChineseRemainderTheoremBean(7, 5);
-//        var chineseRemainderTheoremBean3 = new ChineseRemainderTheoremBean(9, 7);
+        var chineseRemainderTheoremBean2 = new ChineseRemainderTheoremBean(7, 5);
+        var chineseRemainderTheoremBean3 = new ChineseRemainderTheoremBean(9, 7);
         List<ChineseRemainderTheoremBean> list = Lists.newArrayList(chineseRemainderTheoremBean0,
-                chineseRemainderTheoremBean1);
+                chineseRemainderTheoremBean1,chineseRemainderTheoremBean2,chineseRemainderTheoremBean3);
         ChineseRemainderTheoremUtils.solve(list);
     }
 
