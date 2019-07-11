@@ -4,6 +4,7 @@ package com.growlithe.computer.mysql.computer.video.dao.mapper;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import com.growlithe.computer.mysql.computer.video.dao.domain.VideoDO;
+import com.growlithe.computer.mysql.computer.video.service.emuns.VideoClassEnum;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -26,7 +27,7 @@ public class VideoMapperTest {
     private VideoMapper videoMapper;
 
     @Test
-    public void listAllVideoDO() {
+    public void listAllVideoDOTest() {
         var videoList = videoMapper.listAllVideoDO();
         Assert.assertNotNull(videoList);
 
@@ -36,6 +37,12 @@ public class VideoMapperTest {
 //        String jsonArray = "[\"Android\",\"Java\",\"PHP\"]";
 //        String[] strings = gson.fromJson(jsonArray, String[].class);
 //        List<String> stringList = gson.fromJson(jsonArray, new TypeToken<List<String>>() {}.getType());
+    }
+
+    @Test
+    public void listVideoDOTest(){
+        var videoList = videoMapper.listVideoDO(VideoClassEnum.CARTOON.getCode());
+        Assert.assertNotNull(videoList);
     }
 
     @Test

@@ -37,6 +37,13 @@
         where status = 1
     </select>
 
+    <select id="listVideoDO" resultMap="BaseResultMap" parameterType="java.lang.String">
+        select
+        <include refid="base_property"/>
+        from computer.video
+        where status = 1 and video_class = #{videoClass}
+    </select>
+
     <insert id="saveBatch" parameterType="java.util.List"  useGeneratedKeys="true" keyProperty="id">
         insert into
         computer.video(<include refid="save_property"/>)

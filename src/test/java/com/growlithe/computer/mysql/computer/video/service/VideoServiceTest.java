@@ -1,6 +1,9 @@
 package com.growlithe.computer.mysql.computer.video.service;
 
+import com.google.common.collect.Lists;
 import com.growlithe.computer.common.CandyResult;
+import com.growlithe.computer.mysql.computer.video.service.emuns.VideoClassEnum;
+import org.apache.spark.sql.catalyst.expressions.aggregate.Collect;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -11,6 +14,8 @@ import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.math.BigDecimal;
+import java.util.*;
+import java.util.stream.Collectors;
 
 /**
  * @Author : Growlithe
@@ -27,8 +32,21 @@ public class VideoServiceTest {
     private VideoService videoService;
 
     @Test
+    public void listAllVideoTest(){
+        var candyResult = videoService.listAllVideo();
+        Assert.assertTrue(candyResult.isSuccess());
+    }
+
+    @Test
     public void getAllCapacity() {
         CandyResult<BigDecimal> candyResult = videoService.getAllCapacity();
-        Assert.assertEquals(true,candyResult.isSuccess());
+        Assert.assertTrue(candyResult.isSuccess());
     }
+
+    @Test
+    public void getCapacityTest(){
+        CandyResult<BigDecimal> candyResult = videoService.getCapacity(VideoClassEnum.CARTOON);
+        Assert.assertTrue(candyResult.isSuccess());
+    }
+
 }

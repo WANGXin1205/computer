@@ -13,29 +13,53 @@ import java.math.RoundingMode;
  */
 public class StorageUnitUtils {
 
+    /**
+     * 默认进制单位
+     */
     private static final BigDecimal STANDARD_UNIT = new BigDecimal("1024");
-
+    /**
+     * 默认保留小数位数
+     */
     private static final Integer DIGIT = 4;
 
+    /**
+     * KB 转换为 MB
+     * @param kbCapacity
+     * @return
+     */
     public static BigDecimal convertKBToMB(BigDecimal kbCapacity) {
        return StorageUnitUtils.upNextUnit(kbCapacity);
     }
 
+    /**
+     * MB 转换为 GB
+     * @param mbCapacity
+     * @return
+     */
     public static BigDecimal convertMBToGB(BigDecimal mbCapacity) {
         return StorageUnitUtils.upNextUnit(mbCapacity);
     }
 
+    /**
+     * KB 转换为 MB
+     * @param kbCapacity
+     * @return
+     */
     public static BigDecimal convertKBToGB(BigDecimal kbCapacity) {
         return StorageUnitUtils.upNextUnit(StorageUnitUtils.upNextUnit(kbCapacity));
     }
 
-
+    /**
+     * TB 转换为 GB
+     * @param tbCapacity
+     * @return
+     */
     public static BigDecimal convertTBToGB(BigDecimal tbCapacity) {
         return StorageUnitUtils.downNextUnit(StorageUnitUtils.upNextUnit(tbCapacity));
     }
 
     /**
-     *
+     * 转换为上一级单位
      * @param capacity
      * @return
      */
@@ -44,7 +68,7 @@ public class StorageUnitUtils {
     }
 
     /**
-     *
+     * 转换为下一级单位
      * @param capacity
      * @return
      */
